@@ -1,4 +1,4 @@
-This wiki page contains a full list of commands and their explanation.
+This wiki page contains a list of commands and their explanation.
 
 # Commands for everyone
 
