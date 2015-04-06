@@ -28,6 +28,7 @@ These commands require privileges.
  - `!!/errorlogs <N>` - Shows the last *N* lines of the error logs.
  - `!!/block <N>` - Blocks SmokeDetector for *N* seconds; no alerts will be posted.
  - `!!/unblock` - Unblock SmokeDetector manually.
+ - `!!/so2015` - Displays information about the [2015 Stack Overflow Election](http://stackoverflow.com/election/6).
 
 # Privileged commands as reply
 
