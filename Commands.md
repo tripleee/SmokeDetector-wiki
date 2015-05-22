@@ -41,4 +41,4 @@ These commands require privileges, and have to be posted as a reply to a message
  - `fp` or `false` - Marks a reported post as false positive.
  - `fpu` or `falseu` - Marks a reported post as false positive and adds the poster to the whitelist.
  - `ignore` - Makes SmokeDetector ignore a reported post.
- - `delete`, `remove` or `gone` - Deleted a message of SmokeDetector.
+ - `delete`, `remove` or `gone` - Deletes a message of SmokeDetector.
