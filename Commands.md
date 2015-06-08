@@ -47,3 +47,12 @@ These commands require privileges, and have to be posted as a reply to a message
 # Silent mode
 
 If you want that SmokeDetector does not reply when executing a command, add a `-` sign at the end, for example `fp-`.
+
+# Shortcut commands
+
+You can use the following commands as shortcut commands to perform the given action on the latest SmokeDetector report (with or without silent mode):
+
+ - `sd tp`
+ - `sd tpu`
+ - `sd fp`
+ - `sd fpu`
