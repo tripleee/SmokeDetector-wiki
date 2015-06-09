@@ -32,6 +32,7 @@ These commands require privileges.
  - `!!/errorlogs <N>` - Shows the last *N* lines of the error logs.
  - `!!/block <N>` - Blocks SmokeDetector for *N* seconds; no alerts will be posted.
  - `!!/unblock` - Unblock SmokeDetector manually.
+ - `!!/report <post_URL>` - Makes SmokeDetector report a specific post in Charcoal HQ and Tavern on the Meta. This post can also be FP/TP'd afterwards.
 
 # Privileged commands as reply
 
