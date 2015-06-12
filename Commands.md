@@ -51,9 +51,4 @@ If you want that SmokeDetector does not reply when executing a command, add a `-
 
 # Shortcut commands
 
-You can use the following commands as shortcut commands to perform the given action on the latest SmokeDetector report (with or without silent mode):
-
- - `sd tp`
- - `sd tpu`
- - `sd fp`
- - `sd fpu`
+You can start any message in Tavern on the Meta and Charcoal HQ with `sd ` and then SmokeDetector treats it as a reply to its latest message.
