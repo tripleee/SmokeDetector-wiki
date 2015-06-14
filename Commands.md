@@ -51,4 +51,24 @@ If you want that SmokeDetector does not reply when executing a command, add a `-
 
 # Shortcut commands
 
-You can start any message in Tavern on the Meta and Charcoal HQ with `sd ` and then SmokeDetector treats it as a reply to its latest message.
+You can now use a shortcut to post a reply to one, two or three messages
+at the same time, in this shape:
+
+sd cmd1
+sd cmd1 cmd2
+sd cmd1 cmd2 cmd3
+
+cmd1 will be invoked in the most recent message, cmd2 on the message
+before that and cmd3 on the message before that.
+
+It's also possible to skip a message. Replace a command by a - to skip a
+message. For example, `sd - delete` skips the most recent message and
+deletes the message before that one.
+
+Smokey will reply to your shortcut command, unless all commands have quiet
+mode (like tp-) or just don't reply by default (like delete).
+
+A few examples:
+
+- `sd - delete` keeps the most recent message and deletes the one before that.
+- `sd tp fp delete` marks the most recent message as tp, the one before that as fp, and deletes the one before that.
