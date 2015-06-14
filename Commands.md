@@ -54,9 +54,9 @@ If you want that SmokeDetector does not reply when executing a command, add a `-
 You can now use a shortcut to post a reply to one, two or three messages
 at the same time, in this shape:
 
-sd cmd1
-sd cmd1 cmd2
-sd cmd1 cmd2 cmd3
+    sd cmd1
+    sd cmd1 cmd2
+    sd cmd1 cmd2 cmd3
 
 cmd1 will be invoked in the most recent message, cmd2 on the message
 before that and cmd3 on the message before that.
