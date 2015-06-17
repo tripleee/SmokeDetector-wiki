@@ -57,9 +57,11 @@ at the same time, in this shape:
     sd cmd1
     sd cmd1 cmd2
     sd cmd1 cmd2 cmd3
+    sd cmd1 cmd2 cmd3 cmd4
+    sd cmd1 cmd2 cmd3 cmd4 cmd5
 
 cmd1 will be invoked in the most recent message, cmd2 on the message
-before that and cmd3 on the message before that.
+before that and cmd3 on the message before that, and so on.
 
 It's also possible to skip a message. Replace a command by a - to skip a
 message. For example, `sd - delete` skips the most recent message and
