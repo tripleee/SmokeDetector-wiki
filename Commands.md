@@ -74,3 +74,9 @@ A few examples:
 
 - `sd - delete` keeps the most recent message and deletes the one before that.
 - `sd tp fp delete` marks the most recent message as tp, the one before that as fp, and deletes the one before that.
+
+You can also put a digit in front of a command so the command will apply as many times as the digit. A few examples:
+
+- `sd 2tpu` == `sd tpu tpu`
+- `sd 2tpu 3fpu` == `sd tpu tpu fpu fpu fpu`
+- `sd 2- fp` == `sd - - fp`
