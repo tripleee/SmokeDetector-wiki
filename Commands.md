@@ -10,7 +10,6 @@ These command can be executed by everyone.
  - `!!/help` - Shows a small help message about SmokeDetector.
  - `!!/apiquota` - Shows the remaining API quota of SmokeDetector.
  - `!!/queuestatus` - Shows the queue status of BodyFetcher.
- - `!!/so2015` - Displays information about the [2015 Stack Overflow Election](http://stackoverflow.com/election/6).
  - `!!/blame` - Only active in [The Tavern](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta), chooses randomly from a list of people who have talked recently in the room.
  - `!!/lick` - better version of `!!/alive`
  - `!!/wut` - another better version of `!!/alive`
