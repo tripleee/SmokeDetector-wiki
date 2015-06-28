@@ -2,7 +2,7 @@ This wiki page contains a list of commands and their explanation.
 
 # Commands for everyone
 
-These command can be executed by everyone.
+These commands can be executed by everyone.
 
  - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.
  - `!!/status` - Shows the UTC date when SmokeDetector started running.
@@ -11,8 +11,9 @@ These command can be executed by everyone.
  - `!!/apiquota` - Shows the remaining API quota of SmokeDetector.
  - `!!/queuestatus` - Shows the queue status of BodyFetcher.
  - `!!/blame` - Only active in [The Tavern](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta), chooses randomly from a list of people who have talked recently in the room.
- - `!!/lick` - better version of `!!/alive`
- - `!!/wut` - another better version of `!!/alive`
+ - `!!/lick` - Better version of `!!/alive`
+ - `!!/wut` - Another better version of `!!/alive`
+ - `!!/coffee` - Yet another better version of `!!/alive` 
  - `!!/location` - Replies with the current location, as set in the `config` file
 
 # Privileged commands
