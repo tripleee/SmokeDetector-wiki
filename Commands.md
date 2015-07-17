@@ -15,6 +15,7 @@ These commands can be executed by everyone.
  - `!!/wut` - Another better version of `!!/alive`
  - `!!/coffee` - Yet another better version of `!!/alive` 
  - `!!/location` - Replies with the current location, as set in the `config` file
+ - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
 
 # Privileged commands
 
