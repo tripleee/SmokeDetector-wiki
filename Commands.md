@@ -17,6 +17,10 @@ These commands can be executed by everyone.
  - `!!/location` - Replies with the current location, as set in the `config` file
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
 
+# Commands as reply for everyone
+
+- `why` - Shows the keywords that SmokeDetector caught.
+
 # Privileged commands
 
 These commands require privileges.
