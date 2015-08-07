@@ -16,6 +16,7 @@ These commands can be executed by everyone.
  - `!!/coffee` - Yet another better version of `!!/alive` 
  - `!!/location` - Replies with the current location, as set in the `config` file
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
+ - `!!/whoami` - Replies with the bot's user id for that site
 
 # Commands as reply for everyone
 
