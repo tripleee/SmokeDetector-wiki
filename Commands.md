@@ -14,6 +14,7 @@ These commands can be executed by everyone.
  - `!!/lick` - Better version of `!!/alive`
  - `!!/wut` - Another better version of `!!/alive`
  - `!!/coffee` - Yet another better version of `!!/alive` 
+ - `!!/tea` - Same as above, but for tea.  
  - `!!/tea` - There weren't enough versions of `!!/alive`, so we added another.
  - `!!/location` - Replies with the current location, as set in the `config` file
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
