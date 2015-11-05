@@ -43,7 +43,7 @@ These commands require privileges.
  - `!!/errorlogs <N>` - Shows the last *N* lines of the error logs.
  - `!!/block <N>` - Blocks SmokeDetector for *N* seconds; no alerts will be posted.
  - `!!/unblock` - Unblock SmokeDetector manually.
- - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a a post is reported on the given site.  Example:  `!!/notify 89 parenting.stackexchange.com`
+ - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  Example:  `!!/notify 89 parenting.stackexchange.com`
  - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.
 
 # Privileged commands as reply
