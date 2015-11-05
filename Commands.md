@@ -28,7 +28,9 @@ These commands can be executed by everyone.
 # Privileged commands
 
 These commands require privileges.
+<!-- These were not in any order. Recommend most-used/useful up top. -->
 
+ - `!!/report <post_URL>` - Makes SmokeDetector report a specific post in Charcoal HQ and Tavern on the Meta. This post will be auto-TPU'd.
  - `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` - Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
  - `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` - Removes a user from the whitelist.
  - `!!/addblu` (same syntax as `!!/addwlu`) - Adds a user to the blacklist (this means that any post of this user will be reported).
@@ -41,7 +43,8 @@ These commands require privileges.
  - `!!/errorlogs <N>` - Shows the last *N* lines of the error logs.
  - `!!/block <N>` - Blocks SmokeDetector for *N* seconds; no alerts will be posted.
  - `!!/unblock` - Unblock SmokeDetector manually.
- - `!!/report <post_URL>` - Makes SmokeDetector report a specific post in Charcoal HQ and Tavern on the Meta. This post will be auto-TPU'd.
+ - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a a post is reported on the given site.  Example:  `!!/notify 89 parenting.stackexchange.com`
+ - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.
 
 # Privileged commands as reply
 
