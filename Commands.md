@@ -44,8 +44,9 @@ These commands require privileges.
  - `!!/block <N>` - Blocks SmokeDetector for *N* seconds; no alerts will be posted.
  - `!!/unblock` - Unblock SmokeDetector manually.
  - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
-  Example:  `!!/notify 89 parenting.stackexchange.com`
- - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.
+  Example:  `!!/notify 89 parenting.stackexchange.com-`  
+  Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
+ - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.  Also accepts the silent mode suffix&nbsp;(`-`).
 
 # Privileged commands as reply
 
