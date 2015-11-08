@@ -23,7 +23,8 @@ These commands can be executed by everyone.
 
 # Commands as reply for everyone
 
-- `why` - Shows the keywords that SmokeDetector caught.
+- `why` - Shows the reason that SmokeDetector caught a post.  
+  Note that `why` data is only kept for the last 50 reports and is reset every time SmokeDetector restarts.
 
 # Privileged commands
 
