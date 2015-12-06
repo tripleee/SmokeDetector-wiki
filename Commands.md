@@ -6,16 +6,12 @@ These commands can be executed by everyone.
 
  - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.
  - `!!/status` - Shows the UTC date when SmokeDetector started running.
- - `!!/rev` - Shows the running Git revision.
+ - `!!/rev` or `!!/ver` - Shows the running Git revision.
  - `!!/help` - Shows a small help message about SmokeDetector.
  - `!!/apiquota` - Shows the remaining API quota of SmokeDetector.
  - `!!/queuestatus` - Shows the queue status of BodyFetcher.
  - `!!/blame` - Only active in [The Tavern](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta), chooses randomly from a list of people who have talked recently in the room.
- - `!!/lick` - Better version of `!!/alive`
- - `!!/wut` - Another better version of `!!/alive`
- - `!!/coffee` - Yet another better version of `!!/alive` 
- - `!!/tea` - There weren't enough versions of `!!/alive`, so we added another.
- - `!!/brownie` - And then another.
+ - `!!/lick`, `!!/wut`, `!!/coffee`, `!!/tea`, and `!!/brownie` - better versions of `!!/alive`.
  - `!!/location` - Replies with the current location, as set in the `config` file
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
  - `!!/whoami` - Replies with the bot's user id for that site
@@ -58,11 +54,14 @@ These commands require privileges, and have to be posted as a reply to a message
  - `fp` or `false` - Marks a reported post as false positive.
  - `fpu` or `falseu` - Marks a reported post as false positive and adds the poster to the whitelist.
  - `ignore` - Makes SmokeDetector ignore a reported post.
- - `delete`, `remove` or `gone` - Deletes a message of SmokeDetector.
+ - `delete`, `del`, `remove` or `gone` - Deletes a message of SmokeDetector.
 
 # Silent mode
 
-If you want that SmokeDetector does not reply when executing a command, add a `-` sign at the end, for example `fp-`.
+If you want that SmokeDetector does not reply when executing a command, add a `-` sign at the end, for example `fp-`. Two frequently used silent mode commands have one-letter aliases:
+
+ - `f` - Same as fp-
+ - `k` - Same as tpu-
 
 # Shortcut commands
 
