@@ -20,7 +20,7 @@ These commands can be executed by everyone.
 # Commands as reply for everyone
 
 - `why` - Shows the reason that SmokeDetector caught a post.  
-  Note that `why` data is only kept for the last 50 reports and is reset every time SmokeDetector restarts.
+  Note that `why` data is only kept for the last 50 reports.
 
 # Privileged commands
 
@@ -58,10 +58,12 @@ These commands require privileges, and have to be posted as a reply to a message
 
 # Silent mode
 
-If you want that SmokeDetector does not reply when executing a command, add a `-` sign at the end, for example `fp-`. Two frequently used silent mode commands have one-letter aliases:
+If you don't want SmokeDetector to reply when executing a command, add a `-` sign at the end, for example `fp-`. This is a good practice to cut down on chatroom clutter.  Note that SmokeDetector will always report any errors, even if the `-` is present.
 
- - `f` - Same as fp-
- - `k` - Same as tpu-
+Also, two frequently used silent mode commands have one-letter aliases:
+
+ - `f` is the same as `fp-`
+ - `k` is the same as `tpu-`
 
 # Shortcut commands
 
