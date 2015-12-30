@@ -28,7 +28,7 @@ These commands require privileges.
 <!-- These were not in any order. Recommend most-used/useful up top. -->
 
  - `!!/report <post URL 1> [<post URL 2> [...]]` - Makes SmokeDetector report a specific post/multiple specific posts in Charcoal HQ and Tavern on the Meta. These posts will be auto-TPU'd. Maximally 5 at a time.
- - `!!/allspam <user URL>` - To be used if a spammer has many posts so you don't have to use `!!/report`. This command posts a message about the user in all applicable rooms.
+ - `!!/allspam <user URL>` - To be used if a spammer has many posts so you don't have to use `!!/report`. This command posts a message about the user in all applicable rooms.  Note that this command does NOT auto-TPU anything, for various reasons.
  - `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` - Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
  - `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` - Removes a user from the whitelist.
  - `!!/addblu` (same syntax as `!!/addwlu`) - Adds a user to the blacklist (this means that any post of this user will be reported).
@@ -45,6 +45,8 @@ These commands require privileges.
   Example:  `!!/notify 89 parenting.stackexchange.com-`  
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
  - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.  Also accepts the silent mode suffix&nbsp;(`-`).
+ - `!!/willibenotified <chatroom_ID_number> <site_domain>` - Reports whether you will be pinged, in the given room, about spam on the given site.
+
 
 # Privileged commands as reply
 
