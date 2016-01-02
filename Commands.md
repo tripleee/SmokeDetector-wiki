@@ -57,7 +57,7 @@ These commands require privileges, and have to be posted as a reply to a message
  - `fp` or `false` - Marks a reported post as false positive.
  - `fpu` or `falseu` - Marks a reported post as false positive and adds the poster to the whitelist.
  - `ignore` - Makes SmokeDetector ignore a reported post.
- - `delete`, `del`, `remove` or `gone` - Deletes a message of SmokeDetector.
+ - `delete`, `del`, `remove` or `gone` - Deletes a message of SmokeDetector. If this is called on a report, use it only if both the user and the post are gone. If only the post is gone, use `postgone`, then the user link is kept and if moderators scan through the reports, they could still find users to destroy.
  - `postgone` - If a reported post is gone, but the user is still there, use this command. `postgone` edits out the post link.
 
 # Silent mode
