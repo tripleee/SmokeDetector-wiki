@@ -9,5 +9,6 @@ Find a list of **chatrooms that SmokeDetector interacts with** on [the Chat Room
 ***
 ###Glossary:
 
-- **Blacklist** - list of users for which every post of theirs will be posted to chatrooms. Usually used for spammers.
+- **Blacklist** - list of users whose every question or answer will be posted to the appropriate chatrooms. This should be used **only for spammers or** for users whose posts merit **abusive/offensive flags.**
+
 - **Whitelist** - list of users which are free from username checks on their posts. Title and body will still be checked.
