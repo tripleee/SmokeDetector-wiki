@@ -46,6 +46,7 @@ These commands require privileges.
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
  - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.  Also accepts the silent mode suffix&nbsp;(`-`).
  - `!!/willibenotified <chatroom_ID_number> <site_domain>` - Reports whether you will be pinged, in the given room, about spam on the given site.
+ - `!!/allnotificationsites <chatroom_ID_number>` - Shows all sites that you will be pinged for in the given room.
 
 
 # Privileged commands as reply
