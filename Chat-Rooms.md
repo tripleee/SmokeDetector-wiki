@@ -4,7 +4,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
 
  - **Bitcoin:** [mempool](http://chat.stackexchange.com/rooms/8089/mempool)
  - **English:** [English Language & Usage](http://chat.stackexchange.com/rooms/95/english-language-usage)
- - **Mathematics:** [Reopen? Undelete? Close? Delete?](http://chat.stackexchange.com/rooms/2165/reopen-undelete-close-delete)
+ - **Mathematics:** [C.R.U.D.E.](http://chat.stackexchange.com/rooms/2165/c-r-u-d-e)
  - **Money:** [_Smoke Detector_](http://chat.stackexchange.com/rooms/35068/smoke-detector)
  - **Parenting:** [_{Private chat}_](http://chat.stackexchange.com/rooms/21625)
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
