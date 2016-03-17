@@ -57,7 +57,7 @@ These commands require privileges, and have to be posted as a reply to a message
  - `tpu` or `trueu` - Marks a reported post as true positive and adds the poster to the blacklist.
  - `fp` or `false` - Marks a reported post as false positive.
  - `fpu` or `falseu` - Marks a reported post as false positive and adds the poster to the whitelist.
- - `naa` - If the reported post is an answer, This command recordeds it as NAA (Not an answer) in metasmoke.
+ - `naa` - If the reported post is an answer, this command records it as NAA (Not an answer) in metasmoke.
  - `ignore` - Makes SmokeDetector ignore a reported post.
  - `delete`, `del`, `remove` or `gone` - Deletes a message of SmokeDetector.
  - `postgone` - Edits out the post link of a SmokeDetector report.
