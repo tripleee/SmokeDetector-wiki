@@ -13,7 +13,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
 ### Universal, cross site reports are sent to:
 
  - [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq)
- - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta)
+ - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta) (with a 5-minute delay, and excluding Stack Overflow reports). 
 
 ### Commands are accepted from:
 
