@@ -39,8 +39,10 @@ These commands require privileges.
  - `!!/pull` - Pulls new revisions from GitHub.
  - `!!/master` - When SmokeDetector enters reverted mode, use this command to go back to the `master` branch.
  - `!!/errorlogs <N>` - Shows the last *N* lines of the error logs.
- - `!!/block <N>` - Blocks SmokeDetector for *N* seconds; no alerts will be posted.
- - `!!/unblock` - Unblock SmokeDetector manually.
+ - `!!/block <N>` - Blocks SmokeDetector globally for *N* seconds; no alerts will be posted. Example: `!!/block 600` blocks globally for 10 minutes.
+ - `!!/block <N> <room_id>` - Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
+ - `!!/unblock` - Unblock SmokeDetector manually, resetting global block only.
+ - `!!/unblock <room_id>` - Unblock SmokeDetector manually in the specific room.
  - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
   Example:  `!!/notify 89 parenting.stackexchange.com-`  
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
