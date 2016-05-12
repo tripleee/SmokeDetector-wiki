@@ -55,6 +55,15 @@ These commands require privileges.
 
 These commands require privileges, and have to be posted as a reply to a message of SmokeDetector.
 
+User-friendly syntax: 
+
+- use `spam` or `rude` or `abusive` or `offensive` for posts that should be flagged as such 
+- use `notspam` if the post should not be flagged
+
+These commands are equivalent to `tpu-` and `fp-`, respectively: see below.
+
+Complete list:
+
  - `tp` or `true` - Marks a reported post as true positive.
  - `tpu` or `trueu` - Marks a reported post as true positive and adds the poster to the blacklist.
  - `fp` or `false` - Marks a reported post as false positive.
@@ -64,15 +73,17 @@ These commands require privileges, and have to be posted as a reply to a message
  - `delete`, `del`, `remove` or `gone` - Deletes a message of SmokeDetector.
  - `postgone` - Edits out the post link of a SmokeDetector report.
 
-# Silent mode
+# Silent mode and aliases
 
 If you don't want SmokeDetector to reply when executing a command, add a `-` sign at the end, for example `fp-`. This is a good practice to cut down on chatroom clutter.  Note that SmokeDetector will always report any errors, even if the `-` is present.
 
-Also, some frequently used silent-mode commands have one-letter aliases:
+Also, some frequently used commands have one-letter aliases:
 
  - `f` is the same as `fp-`
  - `k` is the same as `tpu-`
  - `n` is the same as `naa-`
+
+Finally 
 
 # Shortcut commands
 
