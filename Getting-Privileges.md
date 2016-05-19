@@ -20,7 +20,7 @@ If you're a Stack Exchange network moderator, **you're automatically privileged*
 ## Standard of Behaviour
 Stack Exchange has a [Be Nice policy](http://meta.stackexchange.com/help/be-nice) - if you're not familiar with it, you should go and read it now. Go on - I'll wait.
 
-As a SmokeDetector user, we expect everyone to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting on with the users and administrators of SmokeDetector. The chatrooms are a professional environment - we're friendly and laughing and joking are fine, but keep it professional.
+As a SmokeDetector user, we expect everyone to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting on with the users and administrators of SmokeDetector. Remember - *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment - we're friendly and laughing and joking are fine, but keep it professional.
 
 The [unofficial standard](http://chat.stackexchange.com/transcript/message/29760077#29760077) is this:
 
