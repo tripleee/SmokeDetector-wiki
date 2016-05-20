@@ -5,7 +5,7 @@ You can find a list of **SmokeDetector's commands** on [the Commands wiki page](
 
 Find a list of **chatrooms that SmokeDetector interacts with** on [the Chat Rooms wiki page](https://github.com/Charcoal-SE/SmokeDetector/wiki/Chat-Rooms).
 
-If you're thinking about **asking for privileges**, take a look at the [Getting Privileges](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges) page.
+If you're thinking about **asking for privileges**, take a look at the [Privileges](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges) page.
 
 
 ***
