@@ -20,6 +20,8 @@ Plagiarism - copying without attribution from another source such as someone els
 
 If you get to a post before it's deleted, an easy way to spot plagiarism is to check the other posts on the same page for similar content.
 
+However, while plagiarism should be marked as `k`, the `!!/report` command shouldn't be used to report plagiarism - catching plagiarism is a bonus if we do, but we're not aiming to catch it.
+
 ### NAA feedback
 NAA feedback has sometimes been a little confusing. Using `n` as your feedback should, in general, be done if:
 
