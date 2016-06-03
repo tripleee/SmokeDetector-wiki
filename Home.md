@@ -7,6 +7,8 @@ Find a list of **chatrooms that SmokeDetector interacts with** on [the Chat Room
 
 If you're thinking about **asking for privileges**, take a look at the [Privileges](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges) page.
 
+If you're looking for **guidance on feeding back to SmokeDetector**, read [Feedback Guidance](https://github.com/Charcoal-SE/SmokeDetector/wiki/Feedback-Guidance).
+
 
 ***
 ###Glossary:
