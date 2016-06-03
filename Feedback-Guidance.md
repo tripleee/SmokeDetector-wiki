@@ -19,3 +19,9 @@ Treat these as you would an English post. If it's spam, offensive, etc., then ma
 Plagiarism - copying without attribution from another source such as someone else's answer or another website - is not always easy to spot. If you do spot it in an answer, then mark it as `k` - you may wish to explain to other users in the chatroom why you've done that, to avoid arguments about what the feedback should be.
 
 If you get to a post before it's deleted, an easy way to spot plagiarism is to check the other posts on the same page for similar content.
+
+### NAA feedback
+NAA feedback has sometimes been a little confusing. Using `n` as your feedback should, in general, be done if:
+
+- the post is not spam, abusive, offensive etc. (use `k`)
+- you would flag the post as Not An Answer on the site itself
