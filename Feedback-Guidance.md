@@ -13,7 +13,7 @@ Self-vandalism is where a user vandalises their own post by replacing all its us
 If the incident becomes a repeated thing, feel free to blacklist the user - but try to remember to take them off the blacklist again when the incident is dealt with.
 
 ### Foreign-language posts on English sites (or vice versa)
-Treat these as you would an English post. If it's spam, offensive, etc., then mark it as `k`; otherwise use `f`. Being in the wrong language for the site *alone* doesn't make a post `k`-able.
+Treat these as you would an English post. If it's spam, offensive, etc., then mark it as `k`; otherwise use `f` or `n`. Particularly, answers in the wrong language for the target site are NAA, so `n`. Being in the wrong language for the site *alone* doesn't make a post `k`-able.
 
 ### Plagiarism
 Plagiarism - copying without attribution from another source such as someone else's answer or another website - is not always easy to spot. If you do spot it in an answer, then mark it as `k` - you may wish to explain to other users in the chatroom why you've done that, to avoid arguments about what the feedback should be.
