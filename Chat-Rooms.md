@@ -6,7 +6,8 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **English:** [English Language & Usage](http://chat.stackexchange.com/rooms/95/english-language-usage)
  - **Mathematics:** [C.R.U.D.E.](http://chat.stackexchange.com/rooms/2165/c-r-u-d-e)
  - **Mi Yodeya:** [V'dibarta Bam](http://chat.stackexchange.com/rooms/468/vdibarta-bam)
- - **Money:** [_Smoke Detector_](http://chat.stackexchange.com/rooms/35068/smoke-detector)
+ - **Money:** [Smoke Detector](http://chat.stackexchange.com/rooms/35068/smoke-detector)
+ - **Movies:** [Movies & TV Moderation and Maintenance](http://chat.stackexchange.com/rooms/40705/movies-tv-moderation-and-maintenance)
  - **Parenting:** [_{Private chat}_](http://chat.stackexchange.com/rooms/21625)
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
  - **Ubuntu:** [Ask Ubuntu General Room](http://chat.stackexchange.com/rooms/201/ask-ubuntu-general-room) But only select reports are sent.
