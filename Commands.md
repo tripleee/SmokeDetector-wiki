@@ -16,6 +16,12 @@ These commands can be executed by everyone.
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
  - `!!/whoami` - Replies with the bot's user id for that site
  - `!!/amiprivileged` - Lets you know if you are in the list of privileged users
+ - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
+  Example:  `!!/notify 89 parenting.stackexchange.com-`  
+  Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
+ - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.  Also accepts the silent mode suffix&nbsp;(`-`).
+ - `!!/willibenotified <chatroom_ID_number> <site_domain>` - Reports whether you will be pinged, in the given room, about spam on the given site.
+ - `!!/allnotificationsites <chatroom_ID_number>` - Shows all sites that you will be pinged for in the given room.
 
 # Commands as reply for everyone
 
@@ -43,12 +49,6 @@ These commands require privileges.
  - `!!/block <N> <room_id>` - Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
  - `!!/unblock` - Unblock SmokeDetector manually, resetting global block only.
  - `!!/unblock <room_id>` - Unblock SmokeDetector manually in the specific room.
- - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
-  Example:  `!!/notify 89 parenting.stackexchange.com-`  
-  Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
- - `!!/unnotify <chatroom_ID_number> <site_domain>` - Cancels the previously set notification.  Also accepts the silent mode suffix&nbsp;(`-`).
- - `!!/willibenotified <chatroom_ID_number> <site_domain>` - Reports whether you will be pinged, in the given room, about spam on the given site.
- - `!!/allnotificationsites <chatroom_ID_number>` - Shows all sites that you will be pinged for in the given room.
 
 
 # Privileged commands as reply
