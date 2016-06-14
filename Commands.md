@@ -7,7 +7,7 @@ These commands can be executed by everyone.
  - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.
  - `!!/status` - Shows the UTC date when SmokeDetector started running.
  - `!!/rev` or `!!/ver` - Shows the running Git revision.
- - `!!/help` - Shows a small help message about SmokeDetector.
+ - `!!/help`, `!!/info`, `!!/commands` - Shows a small help message about SmokeDetector.
  - `!!/apiquota` - Shows the remaining API quota of SmokeDetector.
  - `!!/queuestatus` - Shows the queue status of BodyFetcher.
  - `!!/blame` - Chooses randomly from a list of people who have talked recently in the room.
