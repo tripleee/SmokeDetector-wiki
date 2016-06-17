@@ -10,8 +10,6 @@ If the answer to that question is *yes*, you should mark the post `k`. There are
 ### Self-vandalism
 Self-vandalism is where a user vandalises their own post by replacing all its useful content with something like "xxxxxxxxxxxxxxxxxxxxxxxx", or "deleted deleted deleted". For self-vandalism, use [`tp-`](https://github.com/Charcoal-SE/SmokeDetector/wiki/Commands#privileged-commands-as-reply). At a system level, we'd want to catch and block people doing this, but it's not worth blacklisting the user because it's usually a one-time incident. Most users, when warned, don't do it again.
 
-If the incident becomes a repeated thing, feel free to blacklist the user - but try to remember to take them off the blacklist again when the incident is dealt with.
-
 ### Foreign-language posts on English sites (or vice versa)
 Treat these as you would an English post. If it's spam, offensive, etc., then mark it as `k`; otherwise use `f` or `n`. Particularly, answers in the wrong language for the target site are NAA, so `n`. Being in the wrong language for the site *alone* doesn't make a post `k`-able.
 
