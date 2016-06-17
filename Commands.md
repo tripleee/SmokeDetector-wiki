@@ -14,6 +14,7 @@ These commands can be executed by everyone.
  - `!!/lick`, `!!/wut`, `!!/coffee`, `!!/tea`, and `!!/brownie` - better versions of `!!/alive`.
  - `!!/location` - Replies with the current location, as set in the `config` file
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
+ - `!!/isblu`, `!!/iswlu` - Checks if a user is blacklisted/whitelisted. Two formats are accepted: `<profile_URL>` or `<user_ID> <site_name>`
  - `!!/whoami` - Replies with the bot's user id for that site
  - `!!/amiprivileged` - Lets you know if you are in the list of privileged users
  - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
