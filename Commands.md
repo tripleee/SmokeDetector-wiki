@@ -40,7 +40,6 @@ These commands require privileges.
  - `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` - Removes a user from the whitelist.
  - `!!/addblu` (same syntax as `!!/addwlu`) - Adds a user to the blacklist (this means that any post of this user will be reported).
  - `!!/rmblu` (same syntax as `!!/rmwlu`) - Removes a user from the blacklist.
- - `!!/clearbl` - Removes all users from the blacklist.
  - `!!/reboot` - Reboots SmokeDetector.
  - `!!/stappit` - Stops SmokeDetector.
  - `!!/pull` - Pulls new revisions from GitHub.
