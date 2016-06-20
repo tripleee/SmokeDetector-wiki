@@ -66,7 +66,7 @@ Complete list:
 
  - `tp` or `true` - Marks a reported post as true positive.
  - `tpu` or `trueu` - Marks a reported post as true positive and adds the poster to the blacklist.
- - `fp` or `false` - Marks a reported post as false positive.
+ - `fp` or `false` - Marks a reported post as false positive. Additionally removes the user from the blacklist, if that was the reason that the post was reported.
  - `fpu` or `falseu` - Marks a reported post as false positive and adds the poster to the whitelist.
  - `naa` - If the reported post is an answer, this command records it as NAA (Not an answer) in metasmoke.
  - `ignore` - Makes SmokeDetector ignore a reported post.
