@@ -22,8 +22,12 @@ Stack Exchange has a [Be Nice policy](http://meta.stackexchange.com/help/be-nice
 
 As a SmokeDetector user, we expect everyone to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting on with the users and administrators of SmokeDetector. Remember - *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment - we're friendly, so laughing and joking within reason are fine, but keep it professional.
 
+Charcoal intends to create an environment where all humans are welcome and will be treated equally regardless of attributes or lack thereof. You can be part of this by being mindful of how what you say may be construed by others.
+
 The [unofficial standard](http://chat.stackexchange.com/transcript/message/29760077#29760077) is this:
 
 > If a system administrator ends up getting pinged more than once because you're abusing the system or seriously bugging other users, your privileges are likely to be revoked.
 
 Exercise some common sense, bring your sense of humour, and we'll all get along just fine.
+
+Breaches of any part of this policy should in the majority of cases be reported to a [Charcoal team member](https://github.com/orgs/Charcoal-SE/people). In cases where a breach also contravenes the Stack Exchange Be Nice policy, it can be reported to any Stack Exchange network moderator.
