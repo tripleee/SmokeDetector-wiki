@@ -11,6 +11,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Parenting:** [_{Private chat}_](http://chat.stackexchange.com/rooms/21625)
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
  - **Ubuntu:** [Ask Ubuntu General Room](http://chat.stackexchange.com/rooms/201/ask-ubuntu-general-room) But only select reports are sent.
+ - **Stack Overflow in Russian** [Ru.SO General Room](http://chat.stackexchange.com/rooms/22462/stack-overflow--)
 
 ### Universal, cross site reports are sent to:
 
