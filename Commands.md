@@ -13,7 +13,7 @@ These commands can be executed by everyone.
  - `!!/blame` - Chooses randomly from a list of people who have talked recently in the room.
  - `!!/lick`, `!!/wut`, `!!/coffee`, `!!/tea`, and `!!/brownie` - better versions of `!!/alive`.
  - `!!/location` - Replies with the current location, as set in the `config` file
- - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question body.
+ - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question title, body, or username. To test specifically, use `!!/test-a` for answer, `!!/test-q` for question body, `!!/test-t` for title, or `!!/test-u` for username.
  - `!!/isblu`, `!!/iswlu` - Checks if a user is blacklisted/whitelisted. Two formats are accepted: `<profile_URL>` or `<user_ID> <site_name>`
  - `!!/whoami` - Replies with the bot's user id for that site
  - `!!/amiprivileged` - Lets you know if you are in the list of privileged users
