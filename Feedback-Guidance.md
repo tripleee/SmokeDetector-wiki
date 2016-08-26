@@ -7,6 +7,15 @@ In very general terms, the litmus test for whether you should use [`k`](https://
 
 If the answer to that question is *yes*, you should mark the post `k`. There are a few types of activity we have specific guidelines for, as outlined below.
 
+### Disclosed affiliation
+It's fine to promote your own product or service on Stack Exchange, *as long as*:
+
+- you're not doing it excessively
+- you disclose your affiliation
+- you only do so where relevant
+
+If all of those conditions are true, then self-promotion is not spam and therefore not `k`. If any of them are false, self-promotion is `k`.
+
 ### Self-vandalism
 Self-vandalism is where a user vandalises their own post by replacing all its useful content with something like "xxxxxxxxxxxxxxxxxxxxxxxx", or "deleted deleted deleted". For self-vandalism, use [`tp-`](https://github.com/Charcoal-SE/SmokeDetector/wiki/Commands#privileged-commands-as-reply). At a system level, we'd want to catch and block people doing this, but it's not worth blacklisting the user because it's usually a one-time incident. Most users, when warned, don't do it again.
 
