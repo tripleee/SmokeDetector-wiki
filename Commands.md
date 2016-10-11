@@ -27,7 +27,7 @@ These commands can be executed by everyone.
 # Commands as reply for everyone
 
 - `why` - Shows the reason that SmokeDetector caught a post.  
-  Note that `why` data is only kept for the last 50 reports.
+  Note that `why` data is only kept for the last 50 reports. If you need to see older data, it can be found in the post record on Metasmoke.
 
 # Privileged commands
 
