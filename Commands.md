@@ -4,15 +4,15 @@ This wiki page contains a list of commands and their explanation.
 
 These commands can be executed by everyone.
 
- - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.
+ - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.  *(Reply message is constant in Charcoal HQ.)*
  - `!!/status` - Shows the UTC date when SmokeDetector started running.
  - `!!/rev` or `!!/ver` - Shows the running Git revision.
  - `!!/help`, `!!/info`, `!!/commands` - Shows a small help message about SmokeDetector.
  - `!!/apiquota` - Shows the remaining API quota of SmokeDetector.
  - `!!/queuestatus` - Shows the queue status of BodyFetcher.
  - `!!/blame` - Chooses randomly from a list of people who have talked recently in the room.
- - `!!/lick`, `!!/wut`, `!!/coffee`, `!!/tea`, and `!!/brownie` - better versions of `!!/alive`.
- - `!!/location` - Replies with the current location, as set in the `config` file
+ - `!!/lick`, `!!/wut`, `!!/coffee`, `!!/tea`, and `!!/brownie` - better versions of `!!/alive`, aka 'fun' commands.
+ - `!!/location` - Replies with the current location, as set in the `config` file.
  - `!!/test <string>` - Runs `<string>` against the filter as if it appeared in a question title, body, or username. To test specifically, use `!!/test-a` for answer, `!!/test-q` for question body, `!!/test-t` for title, or `!!/test-u` for username.
  - `!!/isblu`, `!!/iswlu` - Checks if a user is blacklisted/whitelisted. Two formats are accepted: `<profile_URL>` or `<user_ID> <site_name>`
  - `!!/whoami` - Replies with the bot's user id for that site
