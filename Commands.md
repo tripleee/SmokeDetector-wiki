@@ -57,11 +57,9 @@ These commands require privileges, and have to be posted as a reply to a message
 
 User-friendly syntax: 
 
-- use `spam` or `rude` or `abusive` or `offensive` for posts that should be flagged as such 
-- use `vandalism` for posts that have been vandalised and the vandalism edit should be rolled back
-- use `notspam` if the post should not be flagged
-
-These commands are equivalent to `tpu-` and `fp-`, respectively: see below.
+- use `spam` or `rude` or `abusive` or `offensive` for posts that should be flagged as such (equivalent to `tpu-`; see below)
+- use `vandalism` for posts that have been vandalised and the vandalism edit should be rolled back (equivalent to `tp-`)
+- use `notspam` if the post should not be flagged (equivalent to `fp-`)
 
 Complete list:
 
@@ -83,6 +81,13 @@ Also, some frequently used commands have one-letter aliases:
  - `f` is the same as `fp-`
  - `k` is the same as `tpu-`
  - `n` is the same as `naa-`
+
+# Message deletion
+Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
+
+Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if the relevant post is deleted before the 2-minute window is up; this does not apply in Charcoal HQ.
+
+Messages will also be deleted if they are fed back on as a false positive within the 2-minute window.
 
 # Shortcut commands
 
