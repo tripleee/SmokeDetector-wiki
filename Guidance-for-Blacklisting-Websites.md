@@ -10,8 +10,6 @@ Generally, it makes sense to blacklist a website if all of the following criteri
 
 - Website has been used in **at least** 2 confirmed instances (tp fed back reports) of spam (You can use https://metasmoke.erwaysoftware.com/search to find other instances of a website being used for spam)
 
-- Website is not used legitimately in other posts on Stack Exchange.
-
 - Website is not currently caught in either of these filters:
 	- bad keyword in body
 	- blacklisted website
@@ -21,13 +19,10 @@ You can test this by using the **!!/test <string to test>** command. (or **!!/te
 
 ## How to blacklist a website:
 
-Everyone with SmokeDetector privileges (see [here](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges) on how to get those) can blacklist a website, though the action will require admin-approval for most people.Additions to the blacklist (via both methods) must be valid Regex. In reality that means for largely exact matches (like the website blacklist) that you ensure that special characters (like .) are escaped. (Example: _thisisspam\\.com_)
+Everyone with SmokeDetector privileges (if you don't have those and would like them, read up on [how to get them](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges)) can blacklist a website, though the action will require admin-approval for most people. Additions to the blacklist (via both methods) must be valid regular expressions (regex). In reality that means for largely exact matches (like the website blacklist) that you ensure that special characters (like `.`) are escaped. (Example: _thisisspam\\.com_)
 
 There are 2 methods to add a website to the blacklist:
 
-- Propose a change to the [blacklisted_websites.txt](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt) file on github and create a PULL request specifying why you want to blacklist the website.
+- Propose a change to the [blacklisted_websites.txt](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt) file on GitHub and create a pull request specifying why you want to blacklist the website.
 
-- Use the "!!/blacklist <Regex String>" command in any of the Smoke Detector chatrooms. This will create a pull request containing your change for you.
-
-
-
+- Use the "!!/blacklist <regex string>" command in any of the Smoke Detector chatrooms. This will create a pull request containing your change for you.
