@@ -8,7 +8,9 @@ Blacklisting a website makes SmokeDetector report every post that is posted or m
 
 Generally, it makes sense to blacklist a website if all of the following criteria are met:
 
-- Website has been used in **at least** 2 confirmed instances (tp fed back reports) of spam (You can use https://metasmoke.erwaysoftware.com/search to find other instances of a website being used for spam)
+- Website has been used in **at least** 2 confirmed instances (tp fed back reports) of spam (You can use https://metasmoke.erwaysoftware.com/search to find other instances of a website being used for spam).
+
+- Website is not used legitimately in other posts on Stack Exchange.
 
 - Website is not currently caught in either of these filters:
 	- bad keyword in body
