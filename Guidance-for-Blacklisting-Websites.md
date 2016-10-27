@@ -25,6 +25,6 @@ Everyone with SmokeDetector privileges (if you don't have those and would like t
 
 There are 2 methods to add a website to the blacklist:
 
-- Propose a change to the [blacklisted_websites.txt](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt) file on GitHub and create a pull request specifying why you want to blacklist the website.** [NOTE: due to issues with the file format when manually edited, this is currently strongly discouraged. If at all possible, use the blacklist command instead.]**
+- Propose a change to the [blacklisted_websites.txt](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt) file on GitHub and create a pull request specifying why you want to blacklist the website. **[NOTE: due to issues with the file format when manually edited, this is currently strongly discouraged. If at all possible, use the blacklist command instead.]**
 
 - Use the "!!/blacklist <regex string>" command in any of the Smoke Detector chatrooms. This will create a pull request containing your change for you.
