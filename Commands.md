@@ -36,6 +36,7 @@ These commands require privileges.
 
  - `!!/report <post URL 1> [<post URL 2> [...]]` - Makes SmokeDetector report a specific post/multiple specific posts in Charcoal HQ and Tavern on the Meta. The originator of each post will be added to the blacklist. Maximally 5 at a time.
  - `!!/allspam <user URL>` - To be used if a spammer has many posts so you don't have to use `!!/report`. This command posts a message about the user in all applicable rooms.  Note that this command does NOT auto-TPU anything, for various reasons. It has an alias, `!!/reportuser <user URL>`
+ - `!!/blacklist` - Adds a regular expression pattern to the website blacklist. Make sure regex special characters are escaped (in particular `.` characters should be escaped as `\.`). If you are a code admin on metasmoke, your change will apply immediately once CI passes; otherwise, a pull request will be created for your changes so that they can be reviewed.
  - `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` - Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
  - `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` - Removes a user from the whitelist.
  - `!!/addblu` (same syntax as `!!/addwlu`) - Adds a user to the blacklist (this means that any post of this user will be reported).
