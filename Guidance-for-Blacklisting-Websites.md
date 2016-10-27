@@ -19,7 +19,7 @@ You can test this by using the **!!/test <string to test>** command. (or **!!/te
 
 ## How to blacklist a website:
 
-Everyone with SmokeDetector privileges (if you don't have those and would like them, read up on [how to get them](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges)) can blacklist a website, though the action will require admin-approval for most people. Additions to the blacklist (via both methods) must be valid regular expressions (regex). In reality that means for largely exact matches (like the website blacklist) that you ensure that special characters (like `.`) are escaped. (Example: _thisisspam\\.com_)
+Everyone with SmokeDetector privileges (if you don't have those and would like them, read up on [how to get them](https://github.com/Charcoal-SE/SmokeDetector/wiki/Privileges)) can blacklist a website, though the action will require admin-approval for most people. Additions to the blacklist (via both methods) must be valid regular expressions (regex). In reality that means for largely exact matches (like the website blacklist) that you ensure that special characters (like `.`) are escaped. (Example: `thisisspam\.com`)
 
 There are 2 methods to add a website to the blacklist:
 
