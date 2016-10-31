@@ -33,7 +33,7 @@ Exercise some common sense, bring your sense of humour, and we'll all get along 
 Breaches of any part of this policy should in the majority of cases be reported to a [Charcoal team member](https://github.com/orgs/Charcoal-SE/people) or by emailing `smokey@artofcode.co.uk`. In cases where a breach also contravenes the Stack Exchange Be Nice policy, it can be reported to any Stack Exchange network moderator.
 
 ## External Liaison
-Occasionally, spam on SE sites gets handled incorrectly. Historically in these cases, a Charcoal member has often reached out to the people involved in this situation to offer advice on how spam should be handled correctly. However, as Charcoal has continued to expand it becomes more difficult to have experienced team members do this, so this is some guidance on how to approach liaising with other people or communities around the SE network.
+Occasionally, spam on SE sites gets handled incorrectly. Historically in these cases, a Charcoal member has often reached out to the people involved in this situation to offer advice on how spam should be handled correctly. However, as Charcoal has continued to expand it has become more difficult to have experienced team members do this, so this is some guidance on how to approach liaising with other people or communities around the SE network.
 
 **If you're going to go to other sites and advise people on how to deal with spam**, that's awesome, but make sure you're doing it diplomatically. Bear in mind that you will likely have little activity on the target site, and this is the first impression many users will have of you and of Charcoal.
 
