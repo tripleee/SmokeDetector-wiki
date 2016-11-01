@@ -77,11 +77,21 @@ Complete list:
 
 If you don't want SmokeDetector to reply when executing a command, add a `-` sign at the end, for example `fp-`. This is a good practice to cut down on chatroom clutter.  Note that SmokeDetector will always report any errors, even if the `-` is present. The hyphen can be placed after the command itself, or after its parameter. The following commands support silent mode: replying to spam reports, managing black- and white-list, and managing chat notifications.
 
-Also, some frequently used commands have one-letter aliases:
+Also, some frequently used commands have one-letter aliases, or convenient words that can be used instead:
 
- - `f` is the same as `fp-`
- - `k` is the same as `tpu-`
- - `n` is the same as `naa-`
+<table>
+<tr><th>Command</th><th>Alias of</th></tr>
+<tr><td><code>f</code></td><td><code>fp-</code></td></tr>
+<tr><td><code>notspam</code></td><td><code>fp-</code></td></tr>
+<tr><td><code>k</code></td><td><code>tpu-</code></td></tr>
+<tr><td><code>spam</code></td><td><code>tpu-</code></td></tr>
+<tr><td><code>rude</code></td><td><code>tpu-</code></td></tr>
+<tr><td><code>abuse</code></td><td><code>tpu-</code></td></tr>
+<tr><td><code>abusive</code></td><td><code>tpu-</code></td></tr>
+<tr><td><code>offensive</code></td><td><code>tpu-</code></td></tr>
+<tr><td><code>vandalism</code></td><td><code>tp-</code></td></tr>
+<tr><td><code>n</code></td><td><code>naa-</code></td></tr>
+</table>
 
 # Message deletion
 Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
