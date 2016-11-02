@@ -5,6 +5,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Bitcoin:** [mempool](http://chat.stackexchange.com/rooms/8089/mempool)
  - **English:** [English Language & Usage](http://chat.stackexchange.com/rooms/95/english-language-usage)
  - **Ethereum:** [Whisper](http://chat.stackexchange.com/rooms/34620/whisper)
+ - **Magento:** [Charcoal SmokeDetector Reports](http://chat.stackexchange.com/rooms/47869/charcoal-smokedetector-reports)
  - **Mathematics:** [C.R.U.D.E.](http://chat.stackexchange.com/rooms/2165/c-r-u-d-e)
  - **Mi Yodeya:** [V'dibarta Bam](http://chat.stackexchange.com/rooms/468/vdibarta-bam)
  - **Money:** [Smoke Detector](http://chat.stackexchange.com/rooms/35068/smoke-detector)
