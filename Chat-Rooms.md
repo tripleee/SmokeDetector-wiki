@@ -10,7 +10,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Mi Yodeya:** [V'dibarta Bam](http://chat.stackexchange.com/rooms/468/vdibarta-bam)
  - **Money:** [Smoke Detector](http://chat.stackexchange.com/rooms/35068/smoke-detector)
  - **Movies:** [Movies & TV Moderation and Maintenance](http://chat.stackexchange.com/rooms/40705/movies-tv-moderation-and-maintenance)
- - **Parenting:** [_{Private chat}_](http://chat.stackexchange.com/rooms/21625) *(temporarily disabled while we sort out access issues)*
+ - **Parenting:** [Parenting](http://chat.stackexchange.com/rooms/388/parenting)
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
  - **Ubuntu:** [Ask Ubuntu General Room](http://chat.stackexchange.com/rooms/201/ask-ubuntu-general-room) But only select reports are sent.
  - **Stack Overflow in Russian:** [Ru.SO General Room](http://chat.stackexchange.com/rooms/22462/stack-overflow--)
@@ -18,7 +18,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
 ### Universal, cross site reports are sent to:
 
  - [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq)
- - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta) (with a 5-minute delay, and excluding Stack Overflow reports). 
+ - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta) (undeleted posts with a 5-minute delay, and excluding Stack Overflow reports). 
 
 ### Commands are accepted from:
 
