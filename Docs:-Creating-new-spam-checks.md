@@ -32,7 +32,7 @@ Scroll to the `rules` array, which is [somewhere around line 312 in `findspam.py
 You need to add a new entry to this array that describes your check. The general format of this dictionary is:
 
     {
-        'regex': "Include your regex here if it's a regex-based check",
+        'regex': r"Include your regex here if it's a regex-based check",
         'method': method_name,  # Pass the name of your method here if it's a method-based check,
         'all': True,  # True if you want to scan all sites in the network, False otherwise,
         'sites': [],  # If `all` is true, these sites are excluded; otherwise, they are the only sites to get scanned
