@@ -13,6 +13,8 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you're looking for **guidance on feeding back to SmokeDetector**, read [Feedback Guidance](https://github.com/Charcoal-SE/SmokeDetector/wiki/Feedback-Guidance).
 
+ - If you want to know **when it is appropriate to blacklist a website**, check out [Guidance for Blacklisting Websites](https://github.com/Charcoal-SE/SmokeDetector/wiki/Guidance-for-Blacklisting-Websites).
+
 ###Developer information
 
  - For information on **how to write a new check for spam**, see [Docs: Creating new spam checks](https://github.com/Charcoal-SE/SmokeDetector/wiki/Docs:-Creating-new-spam-checks).
