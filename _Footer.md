@@ -1,0 +1,1 @@
+Smokey is made with <3 by the [Charcoal Team](https://github.com/Charcoal-SE) and the other awesome contributors from [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq).
