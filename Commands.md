@@ -62,7 +62,7 @@ These commands require privileges, and have to be posted as a reply to a message
 User-friendly syntax: 
 
 - use `spam` or `rude` or `abusive` or `offensive` for posts that should be flagged as such (equivalent to `tpu-`; see below)
-- use `vandalism` for posts that have been vandalised and the vandalism edit should be rolled back (equivalent to `tp-`)
+- use `v`, `vand` or `vandalism` for posts that have been vandalised and the vandalism edit should be rolled back (equivalent to `tp-`)
 - use `notspam` if the post should not be flagged (equivalent to `fp-`)
 
 Complete list:
