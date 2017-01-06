@@ -102,7 +102,7 @@ Messages by SmokeDetector can be deleted within 2 minutes after they were posted
 
 Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if the relevant post is deleted before the 2-minute window is up; this does not apply in Charcoal HQ.
 
-Messages will also be deleted if they are fed back on as a false positive within the 2-minute window.
+Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if they are fed back on as a false positive within the 2-minute window.
 
 # Shortcut commands
 
