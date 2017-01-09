@@ -12,7 +12,7 @@ The main dashboard (status, statistics, etc) is at https://metasmoke.erwaysoftwa
 
 # Technical details and spam score
 
-Every time a post is reported, it triggers a variety of different reasons for being reported (such as bad keyword, blacklisted website, etc). Each of these reasons contributes to the post's spam score. The formula that determines how much score each reason contributes is as follows:
+Every time a post is reported, it triggers a [variety of different reasons](https://metasmoke.erwaysoftware.com/dashboard) for being reported (such as bad keyword, blacklisted website, etc). Each of these reasons contributes to the post's spam score. The formula that determines how much score each reason contributes is as follows:
 
 `[Numer of True Positives caught by reason] / [Total posts caught by the reason] * 100`
 
