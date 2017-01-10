@@ -2,7 +2,7 @@
 
 Caution: At this point in time, this page is an ad-hoc summary of work in progress. Autoflagging is preliminarily enabled right now, only casting a single spam flag per eligible post, to be expanded in the future (Stack Exchange permitting).
 
-We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" -> "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam score section for details.).
+We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" -> "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam weight section for details.).
 
 We are working out the details of the system right now, so the details are still in flux.
 
@@ -10,7 +10,7 @@ To participate in the development of this feature, please show up in [the Charco
 
 The main dashboard (status, statistics, etc) is at https://metasmoke.erwaysoftware.com/flagging
 
-# Technical details and spam score
+# Technical details and spam weight
 
 Every time a post is reported, it triggers a [variety of different reasons](https://metasmoke.erwaysoftware.com/dashboard) for being reported (such as bad keyword, blacklisted website, etc). Each of these reasons (also known as "heuristics") contributes to the post's weight. The formula that determines how much weight each reason contributes is as follows:
 
