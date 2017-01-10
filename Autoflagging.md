@@ -4,7 +4,7 @@ Caution: At this point in time, this page is an ad-hoc summary of work in progre
 
 We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" -> "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam weight section for details.).
 
-We are working out the details of the system right now, so the details are still in flux.
+We are working out the specifics of the system right now, so the details are still in flux.
 
 To participate in the development of this feature, please show up in [the Charcoal HQ chat room](http://chat.stackexchange.com/rooms/11540/charcoal-hq) and wait for a good moment to bring up your topic (afternoon UTC seems to be a fairly busy time in the room).
 
