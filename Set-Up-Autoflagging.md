@@ -6,6 +6,7 @@ Before running through the rest of these instructions, ensure that:
  - You have an account on metasmoke. You can get one of those [here](https://metasmoke.erwaysoftware.com/users/sign_up), if you don't have one.
  - Your metasmoke account has the "flagger" permission. You can check that [here](https://metasmoke.erwaysoftware.com/users): find your username, and look for the "flagger" role. Ask an admin about this if you don't have it.
  - Autoflagging and registrations are enabled. You can check these under [system settings](https://metasmoke.erwaysoftware.com/flagging/settings); verify that the `flagging_enabled` and `registration_enabled` settings have a value of `1`.
+ - Your metasmoke account is write-access authenticated. If you don't know whether it is or not, it's probably not - visit the [authentication status page](https://metasmoke.erwaysoftware.com/authentication/status) to authenticate.
 
 ## Set Up Autoflagging
 1. **Enable flags on your account.**  
