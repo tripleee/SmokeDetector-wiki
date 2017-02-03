@@ -22,7 +22,7 @@ The flagging is done by Metasmoke (the back end component) using the credentials
 
 # Opting In
 
-There is a separate page about [Setting up Autoflagging](Setting up Autoflagging).  This brief section is a quick FAQ-like summary.
+There is a separate page about [Setting up Autoflagging](Set up Autoflagging).  This brief section is a quick FAQ-like summary.
 
 There is a "big red button" which you can click.  Please be patient and try again until it actually sticks!  This is a known issue which of course we hope to resolve eventually.
 
