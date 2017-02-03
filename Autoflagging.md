@@ -22,7 +22,7 @@ The flagging is done by Metasmoke (the back end component) using credentials of 
 
 # Opting In
 
-To participate, you need to have a Metasmoke account.  The details of obtaining one are [elsewhere](Creating-a-metasmoke-account).
+To participate, you need to have a Metasmoke account.  The details of obtaining one are [elsewhere](/Charcoal-SE/metasmoke/wiki/Creating-a-metasmoke-account).
 
 There is a "big red button" which you can click.  Please be patient and try again until it actually sticks!  This is a known issue which of course we hope to resolve eventually.
 
