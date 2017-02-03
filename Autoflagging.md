@@ -18,6 +18,8 @@ Every time a post is reported, it triggers a [variety of different reasons](http
 
 In our current preliminary testing, the threshold that was set for posts to be flagged automatically is at a weight of 280. In our database of over 50,000 records, this score threshold has a predictive accuracy of 99.98% (meaning of all posts hitting 280 score caught by Smokey, 99.98% were true positives).
 
+As with any other projection, you need to understand that past performance is no guarantee for the future.
+
 The flagging is done by Metasmoke (the back end component) using the credentials of users who have signed up to allow the system to cast flags on their behalf.
 
 # Opting In
