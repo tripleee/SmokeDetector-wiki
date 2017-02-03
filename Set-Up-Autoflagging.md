@@ -1,4 +1,4 @@
-This document provides instructions on how to set up your account to cast automatic flags via the SmokeDetector/metasmoke system.
+This document provides instructions on how to set up your account to cast automatic flags via the SmokeDetector/metasmoke system.  The facility is described in brief on the [Autoflagging](Autoflagging) wiki page.
 
 ## Prerequisites
 Before running through the rest of these instructions, ensure that:
