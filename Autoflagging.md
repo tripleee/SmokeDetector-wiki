@@ -19,3 +19,13 @@ Every time a post is reported, it triggers a [variety of different reasons](http
 In our current preliminary testing, the threshold that was set for posts to be flagged automatically is at a weight of 280. In our database of over 50,000 records, this score threshold has a predictive accuracy of 99.98% (meaning of all posts hitting 280 score caught by Smokey, 99.98% were true positives).
 
 The flagging is done by Metasmoke (the back end component) using credentials of a user who signed up to allow the system to cast flags on their behalf (currently only the core developers, @Undo and @ArtOfCode).  Eventually, users will be able to sign up to allow the system to flag spam on their behalf, but the timeline for that is undecided (and crucially depends on the opinion of the Stack Exchange maintainers, which they are apparently still articulating).
+
+# Opting In
+
+To participate, you need to have a Metasmoke account.  The details of obtaining one are [elsewhere](Creating-a-metasmoke-account).
+
+There is a "big red button" which you can click.  Please be patient and try again until it actually sticks!  This is a known issue which of course we hope to resolve eventually.
+
+Once [your flagging status](https://metasmoke.erwaysoftware.com/flagging/preferences) shows as active (the button stays checked if you navigate away from the page and come back again) and your conditions are met, you are eligible to be drawn randomly when a flag is about to be raised.  This is a random selection out of the list of users whose conditions allow flagging at the given weight on the given site.
+
+You can review your own flag status at a URL like `https://metasmoke.erwaysoftware.com/flagging/users/XX/logs` (for example, [Undo's log](https://metasmoke.erwaysoftware.com/flagging/users/1/logs))
