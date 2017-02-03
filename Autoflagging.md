@@ -28,4 +28,4 @@ There is a "big red button" which you can click.  Please be patient and try agai
 
 Once [your flagging status](https://metasmoke.erwaysoftware.com/flagging/preferences) shows as active (the button stays checked if you navigate away from the page and come back again) and your conditions are met, you are eligible to be drawn randomly when a flag is about to be raised.  This is a random selection out of the list of users whose conditions allow flagging at the given weight on the given site.
 
-You can review your own flag status at a URL like `https://metasmoke.erwaysoftware.com/flagging/users/XX/logs` (for example, [Undo's log](https://metasmoke.erwaysoftware.com/flagging/users/1/logs))
+You can review the flags cast on your behalf at a URL like `https://metasmoke.erwaysoftware.com/flagging/users/XX/logs` (for example, [Undo's log](https://metasmoke.erwaysoftware.com/flagging/users/1/logs)).  There is a number of other useful links on the personal flagging dashboard where you can tweak conditions or turn off autoflagging.
