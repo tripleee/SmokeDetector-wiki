@@ -46,7 +46,8 @@ These commands require privileges.
  - `!!/addblu` (same syntax as `!!/addwlu`) - Adds a user to the blacklist (this means that any post of this user will be reported).
  - `!!/rmblu` (same syntax as `!!/rmwlu`) - Removes a user from the blacklist.
  - `!!/reboot` - Reboots SmokeDetector.
- - `!!/stappit` - Stops SmokeDetector.
+ - `!!/stappit` - Stops all SmokeDetector instances.
+ - `!!/stappit <string>` - Stops all SmokeDetector instances where `string` is included in the location (e.g. `!!/stappit undo` would stop `Undo/EC2` and `Undo/DO`, but not `teward/aroura`
  - `!!/pull` - Pulls new revisions from GitHub.
  - `!!/master` - When SmokeDetector enters reverted mode, use this command to go back to the `master` branch.
  - `!!/errorlogs <N>` - Shows the last *N* lines of the error logs.
