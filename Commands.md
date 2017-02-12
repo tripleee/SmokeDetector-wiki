@@ -17,6 +17,7 @@ These commands can be executed by everyone.
  - `!!/isblu`, `!!/iswlu` - Checks if a user is blacklisted/whitelisted. Two formats are accepted: `<profile_URL>` or `<user_ID> <site_name>`
  - `!!/whoami` - Replies with the bot's user id for that site
  - `!!/amiprivileged` - Lets you know if you are in the list of privileged users
+ - `!!/amicodeprivileged` - Lets you know whether or not you have code privileges (i.e. you can blacklist without approval)
  - `!!/notify <chatroom_ID_number> <site_domain>` - Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
   Example:  `!!/notify 89 parenting.stackexchange.com-`  
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
