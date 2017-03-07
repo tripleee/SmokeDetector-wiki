@@ -2,7 +2,7 @@
 
 Caution: At this point in time, this page is an ad-hoc summary of work in progress. Autoflagging is preliminarily enabled right now, only casting a single spam flag per eligible post, to be expanded in the future (Stack Exchange permitting).
 
-We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" -> "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam weight section for details.).
+We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" → "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam weight section for details.).
 
 We are working out the specifics of the system right now, so the details are still in flux.
 
@@ -14,7 +14,9 @@ The main dashboard (status, statistics, etc) is at https://metasmoke.erwaysoftwa
 
 Every time a post is reported, it triggers a [variety of different reasons](https://metasmoke.erwaysoftware.com/dashboard) for being reported (such as bad keyword, blacklisted website, etc). Each of these reasons (also known as "heuristics") contributes to the post's weight. The formula that determines how much weight each reason contributes is as follows:
 
-`[Number of True Positives caught by reason] / [Total posts caught by the reason] * 100`
+```
+[Number of True Positives caught by reason] / [Total posts caught by the reason] * 100
+```
 
 In our current preliminary testing, the threshold that was set for posts to be flagged automatically is at a weight of 280. In our database of over 50,000 records, this score threshold has a predictive accuracy of 99.98% (meaning of all posts hitting 280 score caught by Smokey, 99.98% were true positives).
 
@@ -24,7 +26,7 @@ The flagging is done by Metasmoke (the back end component) using the credentials
 
 # Opting In
 
-There is a separate page about [Setting up Autoflagging](Set up Autoflagging).  This brief section is a quick FAQ-like summary.
+There is a separate page about [Setting up Autoflagging](Set-Up-Autoflagging).  This brief section is a quick FAQ-like summary.
 
 There is a "big red button" which you can click.  Please be patient and try again until it actually sticks!  This is a known issue which of course we hope to resolve eventually.
 
