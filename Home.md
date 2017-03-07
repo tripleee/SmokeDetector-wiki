@@ -3,7 +3,7 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
 ***
 
-###User information
+### User information
 
  - You can find a list of **SmokeDetector's commands** on [the Commands wiki page](https://github.com/Charcoal-SE/SmokeDetector/wiki/Commands).
 
@@ -15,14 +15,14 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you want to know **when it is appropriate to blacklist a website**, check out [Guidance for Blacklisting Websites](https://github.com/Charcoal-SE/SmokeDetector/wiki/Guidance-for-Blacklisting-Websites).
 
-###Developer information
+### Developer information
 
  - For information on **how to write a new check for spam**, see [Docs: Creating new spam checks](https://github.com/Charcoal-SE/SmokeDetector/wiki/Docs:-Creating-new-spam-checks).
 
  - If you wish to **integrate with Smokey** and Metasmoke via our API, see the [API Docs](https://github.com/Charcoal-SE/metasmoke/wiki/API-Documentation).
 
 ***
-###Glossary:
+### Glossary:
 
 - **Blacklist** - list of users whose every question or answer will be posted to the appropriate chatrooms. This should be used **only for spammers or** for users whose posts merit **abusive/offensive flags.**
 
