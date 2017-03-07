@@ -10,7 +10,7 @@ In theory, anyone can be added to the privilege list. In practice, this doesn't 
   We can also simply look through your various accounts on the network. SmokeDetector scans posts for spam network-wide, so the more sites you have accounts on, the better it is for everyone - more accounts means you can flag spam on more sites. We may also look at how active you've been on various sites (and on their meta sites) to determine how able you are to moderate content effectively. Again, we're not looking for a massive or exceptional record, just enough to show that you know what you're doing.
 
 - **Referral**  
-  If your request for privileges is supported by a regular of one of the [chat rooms](https://github.com/Charcoal-SE/SmokeDetector/wiki/Chat-Rooms) that SmokeDetector posts reports to, we'll look more favourably upon it - we tend to trust people who are already part of the system to make sound judgements. Additionally, if you've been around in one of the rooms for a while and have made yourself known, you've got a good chance.
+  If your request for privileges is supported by a regular of one of the [chat rooms](Chat-Rooms) that SmokeDetector posts reports to, we'll look more favourably upon it - we tend to trust people who are already part of the system to make sound judgements. Additionally, if you've been around in one of the rooms for a while and have made yourself known, you've got a good chance.
 
 These are all general guidelines, rather than hard limits. We understand that there are cases of users who have little apparent activity who can be excellent at moderation; we're also aware that the converse is true. Take note of what's mentioned here, but also remember that requests are judged on a case-by-case basis.
 
@@ -30,7 +30,7 @@ The [unofficial standard](http://chat.stackexchange.com/transcript/message/29760
 
 Exercise some common sense, bring your sense of humour, and we'll all get along just fine.
 
-Breaches of any part of this policy should in the majority of cases be reported to a [Charcoal team member](https://github.com/orgs/Charcoal-SE/people) or by emailing `smokey@artofcode.co.uk`. In cases where a breach also contravenes the Stack Exchange Be Nice policy, it can be reported to any Stack Exchange network moderator.
+Breaches of any part of this policy should in the majority of cases be reported to a [Charcoal team member](//charcoal-se.org/people) or by emailing `smokey@artofcode.co.uk`. In cases where a breach also contravenes the Stack Exchange Be Nice policy, it can be reported to any Stack Exchange network moderator.
 
 ## External Liaison
 Occasionally, spam on SE sites gets handled incorrectly. Historically in these cases, a Charcoal member has often reached out to the people involved in this situation to offer advice on how spam should be handled correctly. However, as Charcoal has continued to expand, it has become more difficult to have experienced team members do this, so this is some guidance on how to approach liaising with other people or communities around the SE network.
