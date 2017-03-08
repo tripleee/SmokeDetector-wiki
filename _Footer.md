@@ -1,1 +1,1 @@
-Smokey is made with <3 by the [Charcoal Team](http://charcoal-se.org/people.html) and the other awesome contributors from [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq).
+Smokey is made with <3 by the [Charcoal Team](http://charcoal-se.org/people.html) and the other awesome [contributors](https://github.com/Charcoal-SE/SmokeDetector/graphs/contributors) from [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq).
