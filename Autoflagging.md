@@ -1,7 +1,5 @@
 # State of the Project
 
-> Caution: At this point in time, this page is an ad-hoc summary of work in progress. Autoflagging is preliminarily enabled right now, only casting a single spam flag per eligible post, to be expanded in the future (Stack Exchange permitting).
-
 We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" → "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam weight section for details.).
 
 We are working out the specifics of the system right now, so the details are still in flux.
