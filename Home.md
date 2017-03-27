@@ -17,7 +17,7 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
 ### Developer information
 
- - For information on **how to write a new check for spam**, see [Docs: Creating new spam checks](Docs-Creating-new-spam-checks).
+ - For information on **how to write a new check for spam**, see [Docs: Creating new spam checks](Creating-new-spam-checks).
 
  - If you wish to **integrate with Smokey** and Metasmoke via our API, see the [API Docs](https://charcoal-se.org/ms/API-Documentation).
 
