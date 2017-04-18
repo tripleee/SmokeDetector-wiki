@@ -5,21 +5,21 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
 ### User information
 
- - You can find a list of **SmokeDetector's commands** on [the Commands wiki page](Commands).
+ - You can find a list of **SmokeDetector's commands** on [the commands page](Commands).
 
- - Find a list of **chatrooms that SmokeDetector interacts with** on [the Chat Rooms wiki page](Chat-Rooms).
+ - Find a list of **chatrooms that SmokeDetector interacts with** on [the chat rooms page](Chat-Rooms).
 
- - If you're thinking about **asking for privileges**, take a look at the [Privileges](Privileges) page.
+ - If you're thinking about **asking for privileges**, take a look at [the privileges page](Privileges).
 
- - If you're looking for **guidance on feeding back to SmokeDetector**, read [Feedback Guidance](Feedback-Guidance).
+ - If you're looking for **guidance on feeding back to SmokeDetector**, read [the feedback guidance](Feedback-Guidance).
 
- - If you want to know **when it is appropriate to blacklist a website**, check out [Guidance for Blacklisting Websites](Guidance-for-Blacklisting-Websites).
+ - If you want to know **when it is appropriate to blacklist a website**, check out [the guidance for blacklisting websites](Guidance-for-Blacklisting-Websites).
 
 ### Developer information
 
- - For information on **how to write a new check for spam**, see [Docs: Creating new spam checks](Creating-new-spam-checks).
+ - For information on **how to write a new check for spam**, see [the documentation for creating new spam checks](Creating-new-spam-checks).
 
- - If you wish to **integrate with Smokey** and Metasmoke via our API, see the [API Docs](https://charcoal-se.org/ms/API-Documentation).
+ - If you wish to **integrate with Smokey** and Metasmoke via our API, see [the API docs](https://charcoal-se.org/ms/API-Documentation).
 
 ***
 ### Glossary:
