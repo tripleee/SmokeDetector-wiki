@@ -17,7 +17,7 @@ Generally, it makes sense to blacklist a website if all of the following criteri
 	- blacklisted website
 	- pattern matching website
 
-You can test this by using the **!!/test <string to test>** command. (or **!!/test-a <string to test>** to test as an answer).
+You can test this by using the `!!/test <string to test>` command. (or `!!/test-a <string to test>` to test as an answer).
 
 ## How to blacklist a website:
 
@@ -27,4 +27,4 @@ There are 2 methods to add a website to the blacklist:
 
 - Propose a change to the [blacklisted_websites.txt](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt) file on GitHub and create a pull request specifying why you want to blacklist the website.
 
-- Use the "!!/blacklist-website <regex string>" command in any of the Smoke Detector chatrooms. This will create a pull request containing your change for you.
+- Use the `!!/blacklist-website <regex string>` command in any of the Smoke Detector chatrooms. This will create a pull request containing your change for you.
