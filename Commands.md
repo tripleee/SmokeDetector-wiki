@@ -1,7 +1,3 @@
----
-layout: wiki
-repo_name: SmokeDetector
----
 This wiki page contains a list of commands and their explanation.
 
 # Commands for everyone
