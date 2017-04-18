@@ -1,3 +1,7 @@
+---
+layout: wiki
+repo_name: SmokeDetector
+---
 This wiki page contains a list of commands and their explanation.
 
 # Commands for everyone
@@ -38,7 +42,7 @@ These commands require privileges.
 
  - `!!/report <post URL 1> [<post URL 2> [...]]` - Makes SmokeDetector report a specific post/multiple specific posts in Charcoal HQ and Tavern on the Meta. The originator of each post will be added to the blacklist. Maximally 5 at a time.
  - `!!/allspam <user URL>` - To be used if a spammer has many posts so you don't have to use `!!/report`. This command posts a message about the user in all applicable rooms.  Note that this command does NOT auto-TPU anything, for various reasons. It has an alias, `!!/reportuser <user URL>`
- - `!!/blacklist <regex>` - **This command is deprecated.** Use one of the three specialized blacklist commands instead, which are shown below. If run, this command will print a help 
+ - `!!/blacklist <regex>` - **This command is deprecated.** Use one of the three specialized blacklist commands instead, which are shown below. If run, this command will print a help
  - `!!/blacklist-website <regex>` - Adds a regular expression pattern to the [website blacklist](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt). Make sure regex special characters are escaped (in particular `.` characters should be escaped as `\.`). If you are a code admin on metasmoke, your change will apply immediately once CI passes; otherwise, a pull request will be created for your changes so that they can be reviewed.
  - `!!/blacklist-keyword <regex>` - Adds a regular expression pattern to the [list of bad keywords](https://github.com/Charcoal-SE/SmokeDetector/blob/master/bad_keywords.txt). Just like `!!/blacklist-website`, if you are a code admin on metasmoke your change will apply immediately once CI passes; otherwise, a pull request will be created for your changes to that they can be reviewed.
  - `!!/blacklist-username <regex>` - Adds a regular expression pattern to the [username blacklist](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_usernames.txt). Just like `!!/blacklist-website` and `!!/blacklist-keyword`, if you are a code admin on metasmoke your change will apply immediately once CI passes; otherwise, a pull request will be created for your changes to that they can be reviewed.
@@ -62,7 +66,7 @@ These commands require privileges.
 
 These commands require privileges, and have to be posted as a reply to a message of SmokeDetector.
 
-User-friendly syntax: 
+User-friendly syntax:
 
 - use `spam` or `rude` or `abusive` or `offensive` for posts that should be flagged as such (equivalent to `tpu-`; see below)
 - use `v`, `vand` or `vandalism` for posts that have been vandalised and the vandalism edit should be rolled back (equivalent to `tp-`)
@@ -85,19 +89,22 @@ If you don't want SmokeDetector to reply when executing a command, add a `-` sig
 
 Also, some frequently used commands have one-letter aliases, or convenient words that can be used instead:
 
-<table>
-<tr><th>Command</th><th>Alias of</th></tr>
-<tr><td><code>f</code></td><td><code>fp-</code></td></tr>
-<tr><td><code>notspam</code></td><td><code>fp-</code></td></tr>
-<tr><td><code>k</code></td><td><code>tpu-</code></td></tr>
-<tr><td><code>spam</code></td><td><code>tpu-</code></td></tr>
-<tr><td><code>rude</code></td><td><code>tpu-</code></td></tr>
-<tr><td><code>abuse</code></td><td><code>tpu-</code></td></tr>
-<tr><td><code>abusive</code></td><td><code>tpu-</code></td></tr>
-<tr><td><code>offensive</code></td><td><code>tpu-</code></td></tr>
-<tr><td><code>vandalism</code></td><td><code>tp-</code></td></tr>
-<tr><td><code>n</code></td><td><code>naa-</code></td></tr>
-</table>
+<center>
+
+|   Command | Alias of |
+|----------:|----------|
+|         f | fp-      |
+|   notspam | fp-      |
+|         k | tpu-     |
+|      spam | tpu-     |
+|      rude | tpu-     |
+|     abuse | tpu-     |
+|   abusive | tpu-     |
+| offensive | tpu-     |
+| vandalism | tp-      |
+|         n | naa-     |
+
+</center>
 
 # Message deletion
 Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
@@ -134,6 +141,6 @@ A few examples:
 
 You can also put a digit in front of a command so the command will apply as many times as the digit. A few examples:
 
-- `sd 2tpu` == `sd tpu tpu`
-- `sd 2tpu 3fpu` == `sd tpu tpu fpu fpu fpu`
-- `sd 2- fp` == `sd - - fp`
+- `sd 2tpu` = `sd tpu tpu`
+- `sd 2tpu 3fpu` = `sd tpu tpu fpu fpu fpu`
+- `sd 2- fp` = `sd - - fp`
