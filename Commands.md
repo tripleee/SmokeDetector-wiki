@@ -4,7 +4,7 @@ This wiki page contains a list of commands and their explanation.
 
 These commands can be executed by everyone.
 
- - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.  *(Reply message is constant in Charcoal HQ.)*
+ - `!!/alive` - Replies a random message taken from a list so you can see that SmokeDetector is still running.
  - `!!/status` - Shows the UTC date when SmokeDetector started running.
  - `!!/rev` or `!!/ver` - Shows the running Git revision.
  - `!!/help`, `!!/info`, `!!/commands` - Shows a small help message about SmokeDetector.
