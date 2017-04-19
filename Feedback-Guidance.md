@@ -23,11 +23,11 @@ Self-vandalism is where a user vandalises their own post by replacing all its us
 Treat these as you would an English post. If it's spam, offensive, etc., then mark it as `k`; otherwise use `f` or `n`. Particularly, answers in the wrong language for the target site are NAA, so `n`. Being in the wrong language for the site *alone* doesn't make a post `k`-able.
 
 ### Plagiarism
-Plagiarism - copying without attribution from another source such as someone else's answer or another website - is not always easy to spot. If you do spot it in an answer, then mark it as `k` - you may wish to explain to other users in the chatroom why you've done that, to avoid arguments about what the feedback should be.
+Plagiarism — copying without attribution from another source such as someone else's answer or another website — is not always easy to spot. If you do spot it in an answer, then mark it as `k` — you may wish to explain to other users in the chatroom why you've done that, to avoid arguments about what the feedback should be.
 
 If you get to a post before it's deleted, an easy way to spot plagiarism is to check the other posts on the same page for similar content.
 
-However, while plagiarism should be marked as `k`, the `!!/report` command shouldn't be used to report plagiarism - catching plagiarism is a bonus if we do, but we're not aiming to catch it.
+However, while plagiarism should be marked as `k`, the `!!/report` command shouldn't be used to report plagiarism — catching plagiarism is a bonus if we do, but we're not aiming to catch it.
 
 ### NAA feedback
 NAA feedback has sometimes been a little confusing. Using `n` as your feedback should, in general, be done if:
