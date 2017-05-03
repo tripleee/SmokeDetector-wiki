@@ -85,8 +85,6 @@ If you don't want SmokeDetector to reply when executing a command, add a `-` sig
 
 Also, some frequently used commands have one-letter aliases, or convenient words that can be used instead:
 
-<center>
-
 |   Command | Alias of |
 |----------:|----------|
 |         f | fp-      |
@@ -99,8 +97,6 @@ Also, some frequently used commands have one-letter aliases, or convenient words
 | offensive | tpu-     |
 | vandalism | tp-      |
 |         n | naa-     |
-
-</center>
 
 ## Message deletion
 Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
