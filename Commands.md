@@ -1,6 +1,6 @@
 This wiki page contains a list of commands and their explanation.
 
-# Commands for everyone
+## Commands for everyone
 
 These commands can be executed by everyone.
 
@@ -25,13 +25,13 @@ These commands can be executed by everyone.
 - `!!/willibenotified <chatroom_ID_number> <site_domain>` — Reports whether you will be pinged, in the given room, about spam on the given site.
 - `!!/allnotificationsites <chatroom_ID_number>` — Shows all sites that you will be pinged for in the given room.
 
-# Commands as reply for everyone
+## Commands as reply for everyone
 
 - `why` — Shows the reason that SmokeDetector caught a post.  
   Note that `why` data is only kept for the last 50 reports. If you need to see older data, it can be found in the post record on Metasmoke.
 - `autoflagged` — Returns if the post was autoflagged or not, and if so, what users were used.
 
-# Privileged commands
+## Privileged commands
 
 These commands require privileges.
 <!-- These were not in any order. Recommend most-used/useful up top. -->
@@ -58,7 +58,7 @@ These commands require privileges.
 - `!!/unblock <room_id>` — Unblock SmokeDetector manually in the specific room.
 
 
-# Privileged commands as reply
+## Privileged commands as reply
 
 These commands require privileges, and have to be posted as a reply to a message of SmokeDetector.
 
@@ -79,7 +79,7 @@ Complete list:
 - `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector.
 - `postgone` — Edits out the post link of a SmokeDetector report.
 
-# Silent mode and aliases
+## Silent mode and aliases
 
 If you don't want SmokeDetector to reply when executing a command, add a `-` sign at the end, for example `fp-`. This is a good practice to cut down on chatroom clutter.  Note that SmokeDetector will always report any errors, even if the `-` is present. The hyphen can be placed after the command itself, or after its parameter. The following commands support silent mode: replying to spam reports, managing black- and white-list, and managing chat notifications.
 
@@ -102,14 +102,14 @@ Also, some frequently used commands have one-letter aliases, or convenient words
 
 </center>
 
-# Message deletion
+## Message deletion
 Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
 
 Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if the relevant post is deleted before the 2-minute window is up; this does not apply in Charcoal HQ.
 
 Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if they are fed back on as a false positive within the 2-minute window.
 
-# Shortcut commands
+## Shortcut commands
 
 You can now use a shortcut to post a reply to one, two or three messages
 at the same time, in this shape:
