@@ -76,8 +76,8 @@ Complete list:
 - `fpu` or `falseu` — Marks a reported post as false positive and adds the poster to the whitelist.
 - `naa` — If the reported post is an answer, this command records it as NAA (Not an answer) in metasmoke.
 - `ignore` — Makes SmokeDetector ignore a reported post.
-- `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector.
-- `postgone` — Edits out the post link of a SmokeDetector report.
+- `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector. If in CHQ, this should be used sparingly - we like to keep the room as a complete transcript of all reports and messages by the bot. 
+- `postgone` — Edits out the post link of a SmokeDetector report. If in CHQ, this should be used sparingly. 
 
 ## Silent mode and aliases
 
