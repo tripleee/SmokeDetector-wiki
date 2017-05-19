@@ -7,6 +7,8 @@ In very general terms, the litmus test for whether you should use [`k`](Commands
 
 If the answer to that question is *yes*, you should mark the post `k`. There are a few types of activity we have specific guidelines for, as outlined below.
 
+Also, if you report a post manually (via FDSC or with the `!!/report` command), you should refrain from posting feedback. This way, we'll always have two different people (counting Smokey as human) involved in handling a post.
+
 ### Disclosed affiliation
 It's fine to promote your own product or service on Stack Exchange, *as long as*:
 
