@@ -41,7 +41,7 @@ You will want to test that the expression you want to blacklist or watch isn't a
 
 You can test this by using the `!!/test <string to test>` command (or `!!/test-a <string to test>` to test as an answer).
 
-Everyone with SmokeDetector privileges (if you don't have those and would like them, read up on [how to get them](Privileges)) can blacklist a website, though the action will require administrator approval for most people. Additions to the blacklist must be valid regular expressions (regex). In reality that means for largely exact matches (like the website blacklist) that you ensure that special characters (like `.`) are escaped. (Example: `thisisspam\.com`)
+Everyone with SmokeDetector privileges (if you don't have those and would like them, read up on [how to get them](Privileges)) can blacklist a website, though this will need to be approved by someone with code privileges if you don't already have them. Additions to the blacklist must be valid regular expressions (regex). In reality that means for largely exact matches (like the website blacklist) that you ensure that special characters (like `.`) are escaped. (Example: `thisisspam\.com`)
 
 There are two methods to add a website to a watch list or blacklist:
 
@@ -51,3 +51,5 @@ There are two methods to add a website to a watch list or blacklist:
   - `!!/blacklist-website <regex>` to blacklist a web site
   - `!!/blacklist-keyword <regex>` to blacklist a keyword expression
   - `!!/watch <regex>` to add something to the watch list
+
+If you're blacklisting or watching a complex regex to match a whole bunch of different stuff, it's probably better off in the pattern-matching section of `findspam.py`. You'll need to propose a change to the file on GitHub for this; ask for help if you're unsure what to do.
