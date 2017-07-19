@@ -13,7 +13,7 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you're looking for **guidance on feeding back to SmokeDetector**, read [the feedback guidance](Feedback-Guidance).
 
- - If you want to know **when it is appropriate to blacklist a website**, check out [the guidance for blacklisting websites](Guidance-for-Blacklisting-Websites).
+ - If you want to know **when it is appropriate to blacklist or watch something,** check out [the guidance for blacklisting and watching](Guidance-for-Blacklisting-and-Watching).
 
 ### Developer information
 
