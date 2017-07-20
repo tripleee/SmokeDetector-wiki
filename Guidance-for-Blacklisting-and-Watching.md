@@ -20,6 +20,8 @@ The keyword blacklist is maintained in the [SmokeDetector GitHub repository](htt
 
 "Watching" an expression causes SmokeDetector to report it just like a blacklist expression, but the rule weight is kept low, so as to prevent matches from triggering autoflagging. Posts which only match watched expressions and no other rules are not reported in other chat rooms, just in Charcoal. That means you can use `!!/watch` to try out different patterns experimentally, just to get an idea of what sorts of posts match a particular expression.
 
+The list of watched expressions is maintained in the [SmokeDetector GitHub repository](https://github.com/Charcoal-SE/SmokeDetector), specifically in the file [watched_keywords.txt](https://github.com/Charcoal-SE/SmokeDetector/blob/master/watched_keywords.txt).  The format is slightly different from the other similar files; each entry is a tab-delimited record which includes a date stamp (expressed as Unix epoch, i.e. seconds since midnight Jan 1 1970 UTC) and the user name of the person who added the expression.
+
 ## Rules for Blacklisting and Watching
 
 We have established the following rules for watching and blacklisting.
