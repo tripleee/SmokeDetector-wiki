@@ -27,7 +27,7 @@ Here's an example check method. This method will say that any `s` longer than 3 
 ## 3. Endless Lists
 Checks are our ammunition against spam; now you need a gun to fire it from. In our case, it's a GLOCK — a Giant List of Checks and Keywords.
 
-Scroll to the `rules` array, which is [somewhere around line 312 in `findspam.py`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/findspam.py#L312). This structure describes all the checks that SmokeDetector runs, and how to apply them. (N.B.: It's not actually JSON, don't make that mistake — it's Python dicts.)
+Scroll to the `rules` array, which is [somewhere around line 641 in `findspam.py`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/findspam.py#L641). This structure describes all the checks that SmokeDetector runs, and how to apply them. (N.B.: It's not actually JSON, don't make that mistake — it's Python dicts.)
 
 You need to add a new entry to this array that describes your check. The general format of this dictionary is:
 
