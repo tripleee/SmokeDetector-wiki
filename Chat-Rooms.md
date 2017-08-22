@@ -3,6 +3,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
 ### Site-specific reports are sent to:
 
  - **Bitcoin:** [mempool](http://chat.stackexchange.com/rooms/8089/mempool)
+ - **Crafts:** [The Studio](https://chat.stackexchange.com/rooms/38932/the-studio)
  - **English:** [English Language & Usage](http://chat.stackexchange.com/rooms/95/english-language-usage)
  - **English Language Learners:** [Language Overflow](https://chat.stackexchange.com/rooms/24938/language-overflow)
  - **Ethereum:** [Whisper](http://chat.stackexchange.com/rooms/34620/whisper)
