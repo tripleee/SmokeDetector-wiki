@@ -16,7 +16,6 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Parenting:** [Parenting](http://chat.stackexchange.com/rooms/388/parenting)
  - **Role-playing Games**: [RPG General Chat](http://chat.stackexchange.com/rooms/11/rpg-general-chat)
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
- - **Ubuntu:** [Ask Ubuntu General Room](http://chat.stackexchange.com/rooms/201/ask-ubuntu-general-room) But only select reports are sent.
  - **Stack Overflow in Russian:** [Ru.SO General Room](http://chat.stackexchange.com/rooms/22462/stack-overflow--)
  - **Science Fiction & Fantasy:** [SFF community cleanup room](https://chat.stackexchange.com/rooms/59281/sff-community-cleanup-room)
 
