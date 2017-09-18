@@ -24,4 +24,4 @@ At this point, you should be set up and your account will be used to cast spam f
 
 A large number of volunteers have signed up to donate their flags (thanks, everyone!) so the pool of available flags is currently much larger than the actual need.
 
-There is a prioritization mechanism in place which favors users who have contributed feedback (tp / fp / naa) on at least 50 spam reports in Metasmoke.
+There is a prioritization mechanism in place which favors autoflags from users who have contributed feedback (tp / fp / naa) on at least 50 spam reports in Metasmoke.
