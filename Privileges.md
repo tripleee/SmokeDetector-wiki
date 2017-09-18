@@ -19,12 +19,12 @@ If you're a Stack Exchange network moderator, **you're automatically privileged*
 
 ## Privilege Levels
 
-There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be elegible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
+There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
 
 (SD) refers to privileges set in the code of SmokeDetector, (MS) refers to privileges set on metasmoke, and (GH) refers to privileges set on GitHub.
 
 ### Smokedetector privileges (SD)
-The process for aquiring these privileges is listed above. Note that this privilege only works per-chat-server, so if you're privileged in CHQ, you're not automatically privileged in SOCVR or the Tavern (due to your user ID being different), so you'll need to contact an admin so that they can add you there as well.
+The process for acquiring these privileges is listed above. Note that this privilege only works per-chat-server, so if you're privileged in CHQ, you're not automatically privileged in SOCVR or the Tavern (due to your user ID being different), so you'll need to contact an admin so that they can add you there as well.
 
 This privilege level allows you to:
 * Give feedback via chat
@@ -32,7 +32,7 @@ This privilege level allows you to:
 * Stop autoflagging in the event of an emergency using `!!/stopflagging`. After this, autoflagging can only be re-enabled by a system administrator.
 
 ### Reviewer (MS)
-Everyone who has SmokeDetector privileges is elegible to get the reviewer role. However, this process is not automatic, so you will need to sign up for a metasmoke account so that admin can grant it to you. 
+Everyone who has SmokeDetector privileges is eligible to get the reviewer role. However, this process is not automatic, so you will need to sign up for a metasmoke account so that admin can grant it to you. 
 
 This allows you to:
 * Review posts from the [review queue](https://metasmoke.erwaysoftware.com/review)
@@ -58,7 +58,7 @@ Benefits include:
 
 * Can `!!/watch` and `!!/blacklist` without approval. Please make sure that you read the [blacklisting guidelines](https://charcoal-se.org/smokey/Guidance-for-Blacklisting-and-Watching) before using these commands.
 * Can approve other user's watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly; ping ArtOfCode or Undo and they will be able to set you up.
-* Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 5 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [torubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
+* Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 5 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [troubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
 
 ### GitHub push privileges a.k.a. proper code admin (GH)
 
@@ -72,7 +72,7 @@ These people have collaborator access on GitHub.
 
 Note that you can still run a SmokeDetector instance without this privilege; however it's functionality will be limited without it.
 
-* Has a copy of the crededentials for the SmokeDetector account on SE and GH
+* Has a copy of the credentials for the SmokeDetector account on SE and GH
 * Has the ability to [generate](https://metasmoke.erwaysoftware.com/smoke_detector/mine) metasmoke integration tokens, required in order for Smokey to integrate with MS (e.g. feedbacks, privilege checks, autoflagging, etc)
 
 ### Admin (MS)
@@ -93,7 +93,7 @@ They can:
 
 ### Developer for metasmoke (MS)
 
-Only avaliable to our benevolent dictators Art and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
+Only available to our benevolent dictators Art and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
 
 * Can see production logs
 * Can refresh the site list cache
