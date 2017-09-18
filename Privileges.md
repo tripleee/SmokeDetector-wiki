@@ -23,7 +23,7 @@ There are multiple privilege levels on SmokeDetector and metasmoke, each giving 
 
 (SD) refers to privileges set in the code of SmokeDetector, (MS) refers to privileges set on metasmoke, and (GH) refers to privileges set on GitHub.
 
-### Smokedetector privileges (SD)
+### SmokeDetector privileges (SD)
 The process for acquiring these privileges is listed above. Note that this privilege only works per-chat-server, so if you're privileged in CHQ, you're not automatically privileged in SOCVR or the Tavern (due to your user ID being different), so you'll need to contact an admin so that they can add you there as well.
 
 This privilege level allows you to:
@@ -70,14 +70,14 @@ These people have collaborator access on GitHub.
 
 ### SmokeDetector Runner (MS)
 
-Note that you can still run a SmokeDetector instance without this privilege; however it's functionality will be limited without it.
+Note that you can still run a SmokeDetector instance without this privilege; however its functionality will be limited without it.
 
 * Has a copy of the credentials for the SmokeDetector account on SE and GH
 * Has the ability to [generate](https://metasmoke.erwaysoftware.com/smoke_detector/mine) metasmoke integration tokens, required in order for Smokey to integrate with MS (e.g. feedbacks, privilege checks, autoflagging, etc)
 
 ### Admin (MS)
 
-These people get access to lots of administrational tools. All admins are also subscribed to the `smokey@charcoal-se.org` mailing list - any email sent to that address will reach the admins.
+These people get access to lots of administrative tools. They are able to see most data that is usually only visible to its owner, and perform system-level administration and maintenance tasks. All admins are also subscribed to the `smokey@charcoal-se.org` mailing list - any email sent to that address will reach the admins.
 
 They can:
 
@@ -89,7 +89,7 @@ They can:
 * View, edit, enable/disable and delete other user's autoflagging conditions
 * Invalidate autoflagging API tokens in the event of an emergency
 * Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, max flags and core flags - note that the latter two are also hard-coded for extra security)
-* Can destroy domain records and domain tags
+* Destroy domain records and domain tags
 
 ### Developer for metasmoke (MS)
 
@@ -97,5 +97,6 @@ Only available to our benevolent dictators Art and Undo. Only Undo can grant thi
 
 * Can see production logs
 * Can refresh the site list cache
-* Can send messages down the SmokeDetector websocket to all instances for testing and development purposes
+* Can refresh the per-post feedback cache
+* Can send messages down metasmoke's websockets for testing and development purposes
  
