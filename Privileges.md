@@ -90,6 +90,7 @@ They can:
 * Invalidate autoflagging API tokens in the event of an emergency
 * Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, max flags and core flags - note that the latter two are also hard-coded for extra security)
 * Destroy domain records and domain tags
+* De-authorize a rouge SmokeDetector instance
 
 ### Developer for metasmoke (MS)
 
