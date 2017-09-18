@@ -39,6 +39,7 @@ This allows you to:
 * Use applications which require the write API (e.g. userscripts such as FIRE and FDSC)
 * Associate your chat feedback with your metasmoke account when [you connect your SE account](https://metasmoke.erwaysoftware.com/authentication/status) (this should be done when you sign up, older users may need to do this manually)
 * Overwrite and invalidate your own feedback
+* Use the [autoflagging conditions sandbox](https://metasmoke.erwaysoftware.com/flagging/conditions/sandbox)
 
 ### Flagger (MS)
 Everyone who signs up to metasmoke gets this by default. This privilege will be revoked if you abuse the system.
