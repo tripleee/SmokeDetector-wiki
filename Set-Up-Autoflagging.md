@@ -24,4 +24,4 @@ At this point, you should be set up and your account will be used to cast spam f
 
 A large number of volunteers have signed up to donate their flags (thanks, everyone!) so the pool of available flags is currently much larger than the actual need.
 
-There is a prioritization mechanism in place which favors autoflags from Metasmoke users who have "core" status.
+There is a prioritization mechanism in place which favors autoflags from Metasmoke users who have "core" status. This is to reward them for their contributions to Charcoal (e.g. flagging and giving feedback, contributing code, and participating in discussions in CHQ). Generally, for posts that receive 3 autoflags, 2 will be cast by core users and the other one will be cast by a non-core user. 
