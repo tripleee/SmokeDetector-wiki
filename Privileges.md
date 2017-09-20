@@ -72,7 +72,7 @@ These people have collaborator access on GitHub.
 * ***ALWAYS PUSH TO MASTER, NEVER DEPLOY!***
 * Generally it's fine to directly push minor changes (e.g. privilege, blacklist, watchlist, regex, and spam check changes, bug fixes) to master without any reviews; it is recommended that you make a PR and ask for reviews on any major changes (e.g. refactoring, changed functionality, new commands, new rules)
 
-One of the project's owners on GitHub can add you as a collaborator via https://github.com/orgs/Charcoal-SE/outside-collaborators
+One of [the project's owners on GitHub](https://github.com/orgs/Charcoal-SE/people?utf8=%E2%9C%93&query=%20role%3Aowner) can add you as a collaborator via https://github.com/orgs/Charcoal-SE/outside-collaborators
 
 ### SmokeDetector Runner (MS)
 
