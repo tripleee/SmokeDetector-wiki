@@ -21,7 +21,7 @@ If you're a Stack Exchange network moderator, **you're automatically privileged*
 
 There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
 
-(SD) refers to privileges set in the code of SmokeDetector, (MS) refers to privileges set on metasmoke, and (GH) refers to privileges set on GitHub.
+(SD) refers to privileges set in the code of SmokeDetector [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/globalvars.py#L98), (MS) refers to privileges set from within metasmoke (admins: you're looking for [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
 
 ### SmokeDetector privileges (SD)
 The process for acquiring these privileges is listed above. Note that this privilege only works per-chat-server, so if you're privileged in CHQ, you're not automatically privileged in SOCVR or the Tavern (due to your user ID being different), so you'll need to contact an admin so that they can add you there as well.
@@ -42,8 +42,6 @@ This allows you to:
 * Associate your chat feedback with your metasmoke account when [you connect your SE account](https://metasmoke.erwaysoftware.com/authentication/status) (this should be done when you sign up, older users may need to do this manually)
 * Overwrite and invalidate your own feedback
 * Use the [autoflagging conditions sandbox](https://metasmoke.erwaysoftware.com/flagging/conditions/sandbox)
-
-MS privileges are administered via [the Metasmoke permissions page](https://metasmoke.erwaysoftware.com/admin/permissions) (admin only).
 
 ### Flagger (MS)
 Everyone who signs up to metasmoke gets this by default. This privilege will be revoked if you abuse the system.
@@ -72,7 +70,7 @@ These people have collaborator access on GitHub.
 * ***ALWAYS PUSH TO MASTER, NEVER DEPLOY!***
 * Generally it's fine to directly push minor changes (e.g. privilege, blacklist, watchlist, regex, and spam check changes, bug fixes) to master without any reviews; it is recommended that you make a PR and ask for reviews on any major changes (e.g. refactoring, changed functionality, new commands, new rules)
 
-One of [the project's owners on GitHub](https://github.com/orgs/Charcoal-SE/people?utf8=%E2%9C%93&query=%20role%3Aowner) can add you as a collaborator via https://github.com/orgs/Charcoal-SE/outside-collaborators
+One of [the project's owners on GitHub](https://github.com/orgs/Charcoal-SE/people?utf8=%E2%9C%93&query=%20role%3Aowner) will add you as a collaborator to the correct repository by assigning you to [the appropriate team on our GH organisation](https://github.com/orgs/Charcoal-SE/teams). Note: if you're already part of the GH organisation, the team maintainer can also add you.
 
 ### SmokeDetector Runner (MS)
 
