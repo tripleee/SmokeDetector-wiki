@@ -28,7 +28,7 @@ The process for acquiring these privileges is listed above. Note that this privi
 
 This privilege level allows you to:
 * Give feedback via chat
-* Use the privileged commands listed [here](Commands).
+* Use the privileged commands listed [here](./Commands#privileged-commands).
 * Stop autoflagging in the event of an emergency using `!!/stopflagging`. After this, autoflagging can only be re-enabled by a system administrator.
 
 Technically, this privilege is granted in the Smoke Detector source code by adding the user's numeric account ID to the `privileged_users` list for the room in question.  When this is in place, the `!!/amiprivileged` chat command will cause Smoke Detector to reply "✓ You are a privileged user".
