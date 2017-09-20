@@ -43,7 +43,7 @@ This allows you to:
 * Overwrite and invalidate your own feedback
 * Use the [autoflagging conditions sandbox](https://metasmoke.erwaysoftware.com/flagging/conditions/sandbox)
 
-Technically, one of the Metasmoke admins will need to change your privilege entry in the database. _(FIXME: More detail here please?)_
+MS privileges are administered via [the Metasmoke permissions page](https://metasmoke.erwaysoftware.com/admin/permissions) (admin only).
 
 ### Flagger (MS)
 Everyone who signs up to metasmoke gets this by default. This privilege will be revoked if you abuse the system.
