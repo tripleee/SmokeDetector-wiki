@@ -29,15 +29,15 @@ The process for acquiring these privileges is listed above. Note that this privi
 This privilege level allows you to:
 * Give feedback via chat
 * Use the privileged commands listed [here](./Commands#privileged-commands).
-* Stop autoflagging in the event of an emergency using `!!/stopflagging`. After this, autoflagging can only be re-enabled by a system administrator.
+* Stop autoflagging in the event of an emergency using `!!/stopflagging`. After this, autoflagging can only be re-enabled by an admin.
 
 Technically, this privilege is granted in the Smoke Detector source code by adding the user's numeric account ID to the `privileged_users` list for the room in question.  When this is in place, the `!!/amiprivileged` chat command will cause Smoke Detector to reply "✓ You are a privileged user".
 
 ### Reviewer (MS)
-Everyone who has SmokeDetector privileges is eligible to get the reviewer role. However, this process is not automatic, so you will need to [sign up for a metasmoke account](https://metasmoke.erwaysoftware.com/users/sign_up) so that admin can grant it to you. 
+Everyone who has SmokeDetector privileges is eligible to get the reviewer role. However, this process is not automatic, so you will need to [sign up for a metasmoke account](https://metasmoke.erwaysoftware.com/users/sign_up) so that an admin can grant it to you. 
 
 This allows you to:
-* Review posts from the [review queue](https://metasmoke.erwaysoftware.com/review)
+* Review posts from the [metasmoke review queue](https://metasmoke.erwaysoftware.com/review)
 * Use applications which require the write API (e.g. userscripts such as FIRE and FDSC)
 * Associate your chat feedback with your metasmoke account when [you connect your SE account](https://metasmoke.erwaysoftware.com/authentication/status) (this should be done when you sign up, older users may need to do this manually)
 * Overwrite and invalidate your own feedback
