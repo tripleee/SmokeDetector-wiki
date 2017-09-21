@@ -12,7 +12,7 @@ In theory, anyone can be added to the privilege list. In practice, this doesn't 
 - **Referral**  
   If your request for privileges is supported by a regular of one of the [chat rooms](Chat-Rooms) that SmokeDetector posts reports to, we'll look more favourably upon it — we tend to trust people who are already part of the system to make sound judgements. Additionally, if you've been around in one of the rooms for a while and have made yourself known, you've got a good chance.
 
-These are all general guidelines, rather than hard limits. We understand that there are cases of users who have little apparent activity who can be excellent at moderation; we're also aware that the converse is true. Take note of what's mentioned here, but also remember that requests are judged on a case-by-case basis.
+These are all general guidelines, rather than hard limits. Really, we're just checking to make sure that you're a sane person who won't abuse the system. We understand that there are cases of users who have little apparent activity who can be excellent at moderation; we're also aware that the converse is true. Take note of what's mentioned here, but also remember that requests are judged on a case-by-case basis.
 
 #### For Moderators
 If you're a Stack Exchange network moderator, **you're automatically privileged** with SmokeDetector in [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq) (and in [SOCVR](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers) if you are a Stack Overflow moderator). You don't need to be added to the explicit privilege lists, as your diamond also gives you privileges with SmokeDetector. We assume that moderators are, on the whole, pretty good at moderation.
