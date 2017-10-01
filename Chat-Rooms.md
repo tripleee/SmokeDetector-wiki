@@ -15,7 +15,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Movies:** [Movies & TV Moderation and Maintenance](http://chat.stackexchange.com/rooms/40705/movies-tv-moderation-and-maintenance)
  - **Parenting:** [Parenting](http://chat.stackexchange.com/rooms/388/parenting)
  - **Role-playing Games**: [RPG General Chat](http://chat.stackexchange.com/rooms/11/rpg-general-chat)
- - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
+ - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers), [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
  - **Stack Overflow in Russian:** [Ru.SO General Room](http://chat.stackexchange.com/rooms/22462/stack-overflow--)
  - **Science Fiction & Fantasy:** [SFF community cleanup room](https://chat.stackexchange.com/rooms/59281/sff-community-cleanup-room)
 
@@ -29,3 +29,4 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq)
  - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta)
  - [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
+ - [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
