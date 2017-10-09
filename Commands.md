@@ -77,7 +77,7 @@ Complete list:
 - `fpu` or `falseu` — Marks a reported post as false positive and adds the poster to the whitelist.
 - `naa` — If the reported post is an answer, this command records it as NAA (Not an answer) in metasmoke.
 - `ignore` — Makes SmokeDetector ignore a reported post.
-- `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector. If in CHQ, this should be used sparingly - we like to keep the room as a complete transcript of all reports and messages by the bot. 
+- `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector. This has been disabled in CHQ due to the reasons [listed below](#a-note-on-message-deletion), but if you really need to delete a message use `sd delete-force`.
 - `postgone` — Edits out the post link of a SmokeDetector report. If in CHQ, this should be used sparingly. 
 
 ## Silent mode and aliases
@@ -99,12 +99,19 @@ Also, some frequently used commands have one-letter aliases, or convenient words
 | vandalism | tp-      |
 |         n | naa-     |
 
-## Message deletion
+## A note on message deletion
 Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
 
-Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if the relevant post is deleted before the 2-minute window is up; this does not apply in Charcoal HQ.
+Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers, or Raiders of the Lost Downboat if the relevant post is deleted or marked as false positive before the 2-minute window is up.
 
-Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers if they are fed back on as a false positive within the 2-minute window.
+**Please note** that the usage of deletion commands is discouraged in Charcoal HQ. Generally, messages in CHQ are kept as a record of all reported posts for multiple reasons:
+
+* While we *do* have metasmoke which acts as a mirror of all posts, it does go offline occasionally
+* Some userscripts which run in chat (e.g. FIRE) use information from the chat reports to fetch the correct data from the API. 
+* It allows for a second opinion on reports, even if one person has marked it as a false positive
+* Seeing spam and abusive posts is an occupational hazard in CHQ; we aren't worried if the report contains something NSFW.
+
+The `delete-force` command can be used if a report *really* needs to be deleted in Charcoal HQ.
 
 ## Shortcut commands
 
