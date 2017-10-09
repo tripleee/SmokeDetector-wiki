@@ -21,7 +21,7 @@ These commands can be executed by everyone.
 - `!!/notify <chatroom_ID_number> <site_domain>` — Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
   Example:  `!!/notify 89 parenting.stackexchange.com-`  
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
-- `!!/unnotify <chatroom_ID_number> <site_domain>` — Cancels the previously set notification.  Also accepts the silent mode suffix&nbsp;(`-`).
+- `!!/unnotify <chatroom_ID_number> <site_domain>` — Cancels the previously set notification.  Also, accepts the silent mode suffix&nbsp;(`-`).
 - `!!/willibenotified <chatroom_ID_number> <site_domain>` — Reports whether you will be pinged, in the given room, about spam on the given site.
 - `!!/allnotificationsites <chatroom_ID_number>` — Shows all sites that you will be pinged for in the given room.
 
@@ -61,7 +61,7 @@ These commands require privileges.
 
 ## Privileged commands as reply
 
-These commands require privileges, and have to be posted as a reply to a message of SmokeDetector.
+These commands require privileges and have to be posted as a reply to a message of SmokeDetector.
 
 User-friendly syntax:
 
@@ -77,14 +77,14 @@ Complete list:
 - `fpu` or `falseu` — Marks a reported post as false positive and adds the poster to the whitelist.
 - `naa` — If the reported post is an answer, this command records it as NAA (Not an answer) in metasmoke.
 - `ignore` — Makes SmokeDetector ignore a reported post.
-- `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector. This has been disabled in CHQ due to the reasons [listed below](#a-note-on-message-deletion), but if you really need to delete a message use `sd delete-force`.
+- `delete`, `del`, `remove` or `gone` — Deletes a message of SmokeDetector. This has been disabled in CHQ due to the reasons [listed below](#a-note-on-message-deletion). But if you really need to delete a message, use `sd delete-force`.
 - `postgone` — Edits out the post link of a SmokeDetector report. If in CHQ, this should be used sparingly. 
 
 ## Silent mode and aliases
 
-If you don't want SmokeDetector to reply when executing a command, add a `-` sign at the end, for example `fp-`. This is a good practice to cut down on chatroom clutter.  Note that SmokeDetector will always report any errors, even if the `-` is present. The hyphen can be placed after the command itself, or after its parameter. The following commands support silent mode: replying to spam reports, managing black- and white-list, and managing chat notifications.
+If you don't want SmokeDetector to reply when executing a command add a `-` sign at the end, for example, `fp-`. This is a good practice to cut down on chatroom clutter.  Note that SmokeDetector will always report any errors, even if the `-` is present. The hyphen can be placed after the command itself or after its parameter. The following commands support silent mode: replying to spam reports, managing black- and white-list, and managing chat notifications.
 
-Also, some frequently used commands have one-letter aliases, or convenient words that can be used instead:
+Also, some frequently used commands have one-letter aliases or convenient words that can be used instead:
 
 |   Command | Alias of |
 |----------:|----------|
@@ -102,7 +102,7 @@ Also, some frequently used commands have one-letter aliases, or convenient words
 ## A note on message deletion
 Messages by SmokeDetector can be deleted within 2 minutes after they were posted by using the `del`, `remove`, or `gone` commands. After 2 minutes are up, SmokeDetector cannot delete its own messages in response to those commands, so any deletion after that window must be done by a moderator.
 
-Messages will also be deleted in Tavern on the Meta and SO Close Vote Reviewers, or Raiders of the Lost Downboat if the relevant post is deleted or marked as false positive before the 2-minute window is up.
+Messages will also be deleted in *Tavern on the Meta* and *SO Close Vote Reviewers*, or *Raiders of the Lost Downboat* if the relevant post is deleted or marked as false positive before the 2-minute window is up.
 
 **Please note** that the usage of deletion commands is discouraged in Charcoal HQ. Generally, messages in CHQ are kept as a record of all reported posts for multiple reasons:
 
@@ -131,7 +131,7 @@ It's also possible to skip a message. Replace a command with a `-` to skip a
 message. For example, `sd - delete` skips the most recent message and
 deletes the message before that one.
 
-Smokey will reply to your shortcut command, unless all commands have quiet
+Smokey will reply to your shortcut command unless all commands have quiet
 mode (like tp-) or just don't reply by default (like delete).
 
 A few examples:
@@ -139,7 +139,7 @@ A few examples:
 - `sd - delete` keeps the most recent message and deletes the one before that.
 - `sd tp fp delete` marks the most recent message as tp, the one before that as fp, and deletes the one before that.
 
-You can also put a digit in front of a command so the command will apply as many times as the digit. A few examples:
+You can also put a digit in front of a command so that the command will apply as many times as the digit. A few examples:
 
 - `sd 2tpu` = `sd tpu tpu`
 - `sd 2tpu 3fpu` = `sd tpu tpu fpu fpu fpu`
