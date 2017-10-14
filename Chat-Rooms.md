@@ -12,7 +12,6 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Mathematics:** [C.R.U.D.E.](http://chat.stackexchange.com/rooms/2165/c-r-u-d-e)
  - **Mi Yodeya:** [V'dibarta Bam](http://chat.stackexchange.com/rooms/468/vdibarta-bam)
  - **Money:** [Smoke Detector](http://chat.stackexchange.com/rooms/35068/smoke-detector)
- - **Movies:** [Movies & TV Moderation and Maintenance](http://chat.stackexchange.com/rooms/40705/movies-tv-moderation-and-maintenance)
  - **Parenting:** [Parenting](http://chat.stackexchange.com/rooms/388/parenting)
  - **Role-playing Games**: [RPG General Chat](http://chat.stackexchange.com/rooms/11/rpg-general-chat)
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers), [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
