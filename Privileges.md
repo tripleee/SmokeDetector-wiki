@@ -59,7 +59,7 @@ Benefits include:
 ### Code admin a.k.a. blacklister (MS)
 
 * Can `!!/watch` and `!!/blacklist` without approval. Please make sure that you read the [blacklisting guidelines](https://charcoal-se.org/smokey/Guidance-for-Blacklisting-and-Watching) before using these commands.
-* Can approve other user's watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly (which in turn requires you to have a GitHub account which is known to us); ping ArtOfCode and he will be able to set you up.
+* Can approve other user's watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly (which in turn requires you to have a GitHub account which is known to us and added to the [Other Awesome People team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members)); ping ArtOfCode and he will be able to set you up.
 * Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 5 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [troubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
 
 ### GitHub push privileges a.k.a. proper code admin (GH)
