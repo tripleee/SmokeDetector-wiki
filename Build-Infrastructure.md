@@ -11,14 +11,14 @@ The idea of the build process is to enable those with SmokeDetector privileges t
 
 # Flow
 ## CI
-CI - Continuous Integration - runs Smokey's test suite against every commit. This is the major phase in every build, as no changes can be remotely pulled until CI has passed the commit.
+CI — Continuous Integration — runs Smokey's test suite against every commit. This is the major phase in every build, as no changes can be remotely pulled until CI has passed the commit.
 
 We use two CI services, Travis and Circle. Semaphore also watches the repo, but Smokey doesn't use Semaphore to check commit validity. When someone makes a commit, GitHub fires a webhook event to all registered CI services to alert them to start testing on the new commit. Each CI service runs its test process, and reports back to GitHub by creating a commit status.
 
 ## metasmoke
-GitHub POSTs the commit status to https://metasmoke.erwaysoftware.com/github/status_hook ([code](https://github.com/Charcoal-SE/metasmoke/blob/master/app/controllers/github_controller.rb#L12)). The status gets saved into metasmoke's database, and forwarded to Smokey via the MS-Smokey websocket.#
+GitHub `POST`s the commit status to metasmoke ([handler code](https://github.com/Charcoal-SE/metasmoke/blob/master/app/controllers/github_controller.rb#L12)). The status gets saved into metasmoke's database, and forwarded to Smokey via the MS-Smokey websocket.
 
-GitHub _also_ POSTs the commit event itself to metasmoke, and metasmoke uses Octokit to update the `deploy` branch to the same commit as `master`. This is why all commits should be made on master rather than deploy, and also why commits to deploy break things. The exception to this is for PR commits, which don't update deploy until they're merged.
+GitHub *also* `POST`s the commit event itself to metasmoke, and metasmoke uses Octokit to update the `deploy` branch to the same commit as `master`. This is why all commits should be made on master rather than deploy, and also why commits to deploy break things. The exception to this is for PR commits, which don't update deploy until they're merged.
 
 ## Smokey
 Smokey [receives the websocket message for processing](https://github.com/Charcoal-SE/SmokeDetector/blob/master/metasmoke.py#L159). If the tests failed, then Smokey simply posts that in CHQ and takes no further action. If, however, it was successful, then Smokey further checks if the commit message contains "autopull", and automatically pulls in the changes if it does; if not, it posts a CI success message in CHQ.
