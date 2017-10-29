@@ -18,11 +18,13 @@ Your method should return a pair of values. The first is a boolean, indicating w
 
 Here's an example check method. This method will say that any `s` longer than 3 characters is spam.
 
-    def ridiculous_spam_check(s, site):
-        if len(s) > 3:
-            return True, "Length is greater than 3 characters"
-        else:
-            return False, ""
+```py
+def ridiculous_spam_check(s, site):
+  if len(s) > 3:
+       return True, "Length is greater than 3 characters"
+  else:
+       return False, ""
+```
 
 ## 3. Endless Lists
 Checks are our ammunition against spam; now you need a gun to fire it from. In our case, it's a GLOCK — a Giant List of Checks and Keywords.
@@ -31,7 +33,7 @@ Scroll to the `rules` array, which is [somewhere around line 641 in `findspam.py
 
 You need to add a new entry to this array that describes your check. The general format of this dictionary is:
 
-```python
+```py
 {
     'regex': r"Include your regex here if it's a regex-based check",
     'method': method_name,  # Pass the name of your method here if it's a method-based check,
