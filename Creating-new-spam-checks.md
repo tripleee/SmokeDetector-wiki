@@ -31,19 +31,21 @@ Scroll to the `rules` array, which is [somewhere around line 641 in `findspam.py
 
 You need to add a new entry to this array that describes your check. The general format of this dictionary is:
 
-    {
-        'regex': r"Include your regex here if it's a regex-based check",
-        'method': method_name,  # Pass the name of your method here if it's a method-based check,
-        'all': True,  # True if you want to scan all sites in the network, False otherwise,
-        'sites': [],  # If `all` is true, these sites are excluded; otherwise, they are the only sites to get scanned
-        'reason': "Name of the reason you're categorising these posts as (bad keyword, link at end of body, etc)",
-        'title': False,  # True if you want to scan post titles, False otherwise
-        'body': True,  # True if you want to scan post bodies, False otherwise
-        'username': False,  # True if you want to scan owner usernames, False otherwise
-        'body_summary': False,  # True if you want to scan body summaries, False otherwise
-        'stripcodeblocks': False,  # True if you want code removed before getting passed to your check
-        'max_rep': 20,  # Posts from users above this reputation will not be scanned
-        'max_score': 1,  # Posts scoring above this value will not be scanned
-    }
+```python
+{
+    'regex': r"Include your regex here if it's a regex-based check",
+    'method': method_name,  # Pass the name of your method here if it's a method-based check,
+    'all': True,  # True if you want to scan all sites in the network, False otherwise,
+    'sites': [],  # If `all` is true, these sites are excluded; otherwise, they are the only sites to get scanned
+    'reason': "Name of the reason you're categorising these posts as (bad keyword, link at end of body, etc)",
+    'title': False,  # True if you want to scan post titles, False otherwise
+    'body': True,  # True if you want to scan post bodies, False otherwise
+    'username': False,  # True if you want to scan owner usernames, False otherwise
+    'body_summary': False,  # True if you want to scan body summaries, False otherwise
+    'stripcodeblocks': False,  # True if you want code removed before getting passed to your check
+    'max_rep': 20,  # Posts from users above this reputation will not be scanned
+    'max_score': 1,  # Posts scoring above this value will not be scanned
+}
+```
 
 You should only include *one* of `regex` or `method` — checks should not be both at the same time.
