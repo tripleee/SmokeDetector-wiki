@@ -18,7 +18,7 @@ Before running through the rest of these instructions, ensure that:
 
 > **N.B.** There's a threshold of accuracy that all flagging conditions must meet before they're used to cast flags automatically. Currently, this is 99.9% — if you want to get the current value of this threshold, it's stored as the `min_accuracy` system setting. You can use the Preview button during condition setup to find out how accurate your proposed parameters are.
 
-At this point, you should be set up and your account will be used to cast spam flags according to the parameters you've specified. If you've found any bugs, or have feedback on the system, let us know. If you've found a security bug, please email it to someone rather than posting publicly.
+At this point, you should be set up and your account will be used to cast spam flags according to the parameters you've specified. If you've found any bugs, or have feedback on the system, let us know. If you've found a security bug, please [read and follow these instructions](https://charcoal-se.org/security) rather than posting publicly.
 
 ## I Opted In, But I Don't See Any Flags
 
