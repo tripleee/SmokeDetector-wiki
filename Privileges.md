@@ -90,13 +90,13 @@ They can:
 * Create API keys, edit them, and revoke write tokens, on the behalf of the application author
 * Invalidate other people's feedback
 * Manually expire announcements
-* View, edit, enable/disable and delete other user's autoflagging conditions
+* View, edit, enable/disable and delete other users' autoflagging conditions
 * Invalidate autoflagging API tokens in the event of an emergency
-* Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, max flags and core flags - note that the latter two are also hard-coded for extra security)
+* Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, and max flags - note that the latter is also hard-coded for extra security)
 * Destroy domain records and domain tags
-* De-authorize a rouge SmokeDetector instance
+* De-authorize a rogue SmokeDetector instance
 
-### Developer for metasmoke (MS)
+### MS Developer (MS)
 
 Only available to our benevolent dictators Art and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
 
