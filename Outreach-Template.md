@@ -22,6 +22,6 @@ To be clear: all of the various methods that I've seen have their own benefits a
  - Vote to delete them;
  - Downvote them.
 
-Flagging these posts gets them removed in the quickest way possible; it puts the tools for doing it in the hands of a majority of the community rather than just those with the VTD privilege; and as an added benefit it feeds the user to SpamRam, Stack Exchange's native spam-blocking mechanism. Editing, voting to delete, or downvoting the posts all reduce the visibility of the spam/abuse, which means it takes longer for the post to accumulate the required flags (6) to get rid of it.
+Flagging these posts gets them removed in the quickest way possible; it puts the tools for doing it in the hands of a majority of the community rather than just those with the vote-to-delete privilege; and as an added benefit it feeds the user to SpamRam, Stack Exchange's native spam-blocking mechanism. Editing, voting to delete, or downvoting the posts all reduce the visibility of the spam/abuse, which means it takes longer for the post to accumulate the required flags (6) to get rid of it.
 
 I suggest that, as a community, we follow that policy as closely as is practicable.
