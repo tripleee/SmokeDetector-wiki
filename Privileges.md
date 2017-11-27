@@ -21,7 +21,7 @@ If you're a Stack Exchange network moderator, **you're automatically privileged*
 
 There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
 
-(SD) refers to privileges set in the code of SmokeDetector [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/globalvars.py#L98), (MS) refers to privileges set from within metasmoke (admins: you're looking for [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
+(SD) refers to privileges set in the code of SmokeDetector [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/globalvars.py#L98), (MS) refers to privileges set from within metasmoke (the admin would then add you using the form on [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
 
 ### SmokeDetector privileges (SD)
 The process for acquiring these privileges is listed above. Note that this privilege only works per-chat-server, so if you're privileged in CHQ, you're not automatically privileged in SOCVR or the Tavern (due to your user ID being different), so you'll need to contact an admin so that they can add you there as well.
