@@ -1,4 +1,4 @@
-# State of the Project
+## State of the Project
 
 We are looking into automating flags from Smokey.  Basically, it will look as if though Smokey clicks "flag" → "spam" as soon as Smoke Detector reports a post (though not all reported posts are eligible; see the Spam weight section for details.).
 
@@ -8,7 +8,7 @@ To participate in the development of this feature, please show up in [the Charco
 
 The main dashboard (status, statistics, etc) is at https://metasmoke.erwaysoftware.com/flagging
 
-# Technical details and spam weight
+## Technical details and spam weight
 
 Every time a post is reported, it triggers a [variety of different reasons](https://metasmoke.erwaysoftware.com/dashboard) for being reported (such as bad keyword, blacklisted website, etc). Each of these reasons (also known as "heuristics") contributes to the post's weight. The formula that determines how much weight each reason contributes is as follows:
 
@@ -22,7 +22,7 @@ As with any other projection, you need to understand that past performance is no
 
 The flagging is done by Metasmoke (the back end component) using the credentials of users who have signed up to allow the system to cast flags on their behalf.
 
-# Opting In
+## Opting In
 
 There is a separate page about [Setting up Autoflagging](Set-Up-Autoflagging).  This brief section is a quick FAQ-like summary.
 
