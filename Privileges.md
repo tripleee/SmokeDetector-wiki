@@ -1,6 +1,6 @@
 SmokeDetector operates a privilege system. That is, before you are able to use a number of commands (most notably the feedback commands), you must be added to a list of privileged users in SmokeDetector's code. 
 
-Please review this page before getting in touch with someone with a request; once you know what you need, see [whom to ping.](/pings/)
+Please review this page before getting in touch with someone with a request; once you know what you need, see [whom to ping.](https://charcoal-se.org/pings/)
 
 ## Getting reviewer privileges with SmokeDetector
 In theory, anyone can be added to the privilege list. In practice, this doesn't always work out, so *as a general guideline*, we look for a few things to indicate how qualified you are.
