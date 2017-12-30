@@ -97,6 +97,8 @@ They can:
 * Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, and max flags - note that the latter is also hard-coded for extra security)
 * Destroy domain records and domain tags
 * De-authorize a rogue SmokeDetector instance
+* Kill all SmokeDetector instances
+* Remove 'skip' reviews
 
 ### MS Developer (MS)
 
@@ -106,4 +108,4 @@ Only available to our benevolent dictators Art and Undo. Only Undo can grant thi
 * Can refresh the site list cache
 * Can refresh the per-post feedback cache
 * Can send messages down metasmoke's websockets for testing and development purposes
- 
+* Has access to a user details page and associated tooling (including refreshing chat IDs and mod sites, and sending password reset emails manually)
