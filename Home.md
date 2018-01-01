@@ -29,8 +29,8 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
 ### Glossary:
 
-- **User Blacklist** - list of **users** (identified by site + ID) whose every question or answer will be posted to the appropriate chatrooms. This should be used **only for spammers or** for users whose posts merit **abusive/offensive flags.** This list is stored locally on every SmokeDetector instance, and is not carried between failovers.
+- **User Blacklist** - list of *users* (identified by site + ID) whose every question or answer will be posted to the appropriate chatrooms. This should be used **only for spammers or** for users whose posts merit **abusive/offensive flags.** This list is stored locally on every SmokeDetector instance, and is not carried between failovers.
 
-- **User Whitelist** - list of **users** which are free from username checks on their posts. Title and body will still be checked. This list is stored locally on every SmokeDetector instance, and is not carried between failovers.
+- **User Whitelist** - list of *users* which are free from username checks on their posts. Title and body will still be checked. This list is stored locally on every SmokeDetector instance, and is not carried between failovers.
 
 - **User*name* Blacklist** - list of user*name* regexes which will be checked against the user's username, and trigger a report if matching. The list can be found [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_usernames.txt), and is shared between all Smokey instances.
