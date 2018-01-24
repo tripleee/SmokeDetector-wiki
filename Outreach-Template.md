@@ -2,7 +2,7 @@ This document is intended for use as a template for Charcoal members to use when
 
 To aid with image, a member of Charcoal who is also an **active member of the target community** should make the post. This helps because it doesn't come across as a new user (often sub-200 rep) turning up on a site's meta and telling the community what to do.
 
-**To use this template:** Edit this wiki page, and copy all the markdown from the first horizontal rule (`-----`) down. Remove any sections that are irrelevant to the site/time/situation you are posting about. If you make any modifications, try to avoid mentioning Charcoal where possible, and remember to follow the target site's policies. Again: if in doubt, ask CHQ.
+**To use this template:** [Edit](https://github.com/Charcoal-SE/SmokeDetector/wiki/Outreach-Template/_edit) this wiki page, and copy all the markdown from the first horizontal rule (`-----`) down. Remove any sections that are irrelevant to the site/time/situation you are posting about. If you make any modifications, try to avoid mentioning Charcoal where possible, and remember to follow the target site's policies. Again: if in doubt, ask CHQ.
 
 -----
 
