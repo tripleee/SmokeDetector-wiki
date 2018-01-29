@@ -43,6 +43,7 @@ These commands require privileges.
 - `!!/blacklist-keyword <regex>` — Adds a regular expression pattern to the [list of bad keywords](https://github.com/Charcoal-SE/SmokeDetector/blob/master/bad_keywords.txt). Just like `!!/blacklist-website`, if you are a code admin on metasmoke your change will apply immediately once CI passes; otherwise, a pull request will be created for your changes to that they can be reviewed.
 - `!!/blacklist-username <regex>` — Adds a regular expression pattern to the [username blacklist](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_usernames.txt). Just like `!!/blacklist-website` and `!!/blacklist-keyword`, if you are a code admin on metasmoke your change will apply immediately once CI passes; otherwise, a pull request will be created for your changes to that they can be reviewed.
 - `!!/watch-keyword <regex>` - Adds a regular expression pattern to a "watch list" which is similar to the list of bad keywords (see `!!/blacklist-keyword` above) but with less strict criteria for what you can list.  The intent is that you can set up Smoke Detector to watch for something and be alerted when it actually happens.  Typical phrases to watch include domain names and phrases which have not occurred before but not enough to actually blacklist (yet).
+- `!!/feedback <post_URL> <feedback_type>` - Manually sends the given feedback to Metasmoke. Note that this won't blacklist/whitelist users automatically.
 - `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` — Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
 - `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` — Removes a user from the whitelist.
 - `!!/addblu` (same syntax as `!!/addwlu`) — Adds a user to the blacklist (this means that any post of this user will be reported).
@@ -57,6 +58,7 @@ These commands require privileges.
 - `!!/block <N> <room_id>` — Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
 - `!!/unblock` — Unblock SmokeDetector manually, resetting global block only.
 - `!!/unblock <room_id>` — Unblock SmokeDetector manually in the specific room.
+- `!!/invite <room_id> <roles separated by commas...>` - Temporarily invites SmokeDetector to the given room on the current site. Roles are the same as in `rooms.yml`.
 
 
 ## Privileged commands as reply
