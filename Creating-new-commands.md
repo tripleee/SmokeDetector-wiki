@@ -2,7 +2,7 @@
 
 ## 1. The perfect function
 
-Define a function that is the same name as the command you want. If you want a command called `!!/create command`, you would write a function like this:
+Define a function that is the same name as the command you want. If you want a command called `!!/createcommand`, you would write a function like this:
 
 ```python
 @command()
