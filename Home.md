@@ -23,16 +23,6 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - For information on **how to write a new Smokey command**, see [the documentation for creating new commands](Creating-new-commands).
 
- - If you wish to **integrate with Smokey** and Metasmoke via our API, see [the API docs](https://charcoal-se.org/ms/API-Documentation).
+ - If you wish to **integrate with Smokey** and metasmoke via our API, see [the API docs](https://charcoal-se.org/ms/API-Documentation).
 
  - For information on our **build process**, see [Build Infrastructure](Build-Infrastructure).
-
-***
-
-### Glossary:
-
-- **User Blacklist** - list of *users* (identified by site + ID) whose every question or answer will be posted to the appropriate chatrooms. This should be used **only for spammers or** for users whose posts merit **abusive/offensive flags.** This list is stored locally on every SmokeDetector instance, and is not carried between failovers.
-
-- **User Whitelist** - list of *users* which are free from username checks on their posts. Title and body will still be checked. This list is stored locally on every SmokeDetector instance, and is not carried between failovers.
-
-- **User*name* Blacklist** - list of user*name* regexes which will be checked against the user's username, and trigger a report if matching. The list can be found [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_usernames.txt), and is shared between all Smokey instances.
