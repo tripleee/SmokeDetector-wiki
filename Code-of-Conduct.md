@@ -3,15 +3,17 @@ Stack Exchange has a [Be Nice policy](http://meta.stackexchange.com/help/be-nice
 
 As a SmokeDetector user, we expect everyone to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting along with the users and administrators of SmokeDetector. Remember — *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment — we're friendly, so laughing and joking within reason are fine, but keep it professional.
 
-Charcoal intends to create an environment where all humans are welcome and will be treated equally regardless of personal or physical attributes or lack thereof. You can be part of this by being mindful of how what you say may be construed by others.
-
-The [unofficial standard](http://chat.stackexchange.com/transcript/message/29760077#29760077) is this:
+The [unofficial standard of behaviour](http://chat.stackexchange.com/transcript/message/29760077#29760077) is this:
 
 > If a system administrator ends up getting pinged more than once because you're abusing the system or seriously bugging other users, your privileges are likely to be revoked.
 
 Exercise some common sense, bring your sense of humour, and we'll all get along just fine.
 
-Breaches of any part of this policy should in the majority of cases be reported to a [Charcoal team member](//charcoal-se.org/people) or by emailing `smokey@charcoal-se.org`. In cases where a breach also contravenes the Stack Exchange Be Nice policy, it can be reported to any Stack Exchange network moderator.
+### Diversity & Discrimination
+Charcoal intends to create an environment where everyone is welcome, regardless of who they are or how they identify. You can be part of this by being respectful of others and mindful of how what you say may be construed by others.
+
+### Policy Breaches & Dispute Resolution
+If someone is consistently failing to behave appropriately, or if you have a dispute with another user that you feel unable to resolve, please get in touch with a [Charcoal admin](https://charcoal-se.org/people#admins). If you'd like to get in touch in private, you can email smokey@charcoal-se.org. Your concerns will be handled promptly and sensitively.
 
 ## External Liaison
 Occasionally, spam on SE sites gets handled incorrectly. Historically in these cases, a Charcoal member has often reached out to the people involved in this situation to offer advice on how spam should be handled correctly. However, as Charcoal has continued to expand, it has become more difficult to have experienced team members do this, so this is some guidance on how to approach liaising with other people or communities around the SE network.
