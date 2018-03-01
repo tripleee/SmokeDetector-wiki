@@ -27,4 +27,6 @@ Start off with [this template](https://github.com/Charcoal-SE/SmokeDetector/wiki
 - **Phrase what you say carefully.** Avoid anything that could seem accusatory — it seems silly, but try to avoid saying *you*. If it seems personal, someone'll take it personally, and won't be able to see the real issue because they think they've been insulted. Instead of *"You did X and you shouldn't have!"*, try *"X happened to Y post, and* I think *this could have been done Z way instead, according to `[SE policy](link to it)`"*. Talk about *actions* or *posts* rather than *users* or *people*.
 - **Assume good faith.** Even if a post has been handled incorrectly, it most likely wasn't done out of malice. Remember that, and don't treat people like they're idiots for not knowing the policy.
 
+Ideally, have another Charcoal member who's active on the target site post the question for you. People are more likely to be receptive to feedback if it's coming from someone who they're familiar with.
+
 Remember to [Be Nice](http://meta.stackexchange.com/help/be-nice) at all times. If *at any point* you don't feel you can start or continue a conversation diplomatically and Nicely, *step back*. There are plenty of other users who can help out; if necessary, call on one of the mods involved in the project — they're used to being diplomatic with irksome users.
