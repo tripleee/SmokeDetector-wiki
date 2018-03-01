@@ -11,7 +11,7 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you're thinking about **asking for privileges**, take a look at [the privileges page](Privileges).
 
- - To find out what's expected of members of Charcoal, check out our [expected behaviour and procedures page](Behaviour-and-Procedure)
+ - To find out what's expected of members of Charcoal, check out our [code of conduct](Code-of-Conduct)
 
  - If you're looking for **guidance on feeding back to SmokeDetector**, read [the feedback guidance](Feedback-Guidance).
 
