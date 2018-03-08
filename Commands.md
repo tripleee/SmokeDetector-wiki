@@ -61,7 +61,7 @@ These commands require privileges.
 - `!!/unblock` — Unblock SmokeDetector manually, resetting global block only.
 - `!!/unblock <room_id>` — Unblock SmokeDetector manually in the specific room.
 - `!!/invite <room_id> <roles separated by commas...>` - Temporarily invites SmokeDetector to the given room on the current site. Roles are the same as in `rooms.yml`.
-
+- `!!/stopflagging` - An emergency measure to immediately disable all autoflagging. Once disabled, autoflagging can only be re-enabled by an Admin.
 
 ## Privileged commands as reply
 
