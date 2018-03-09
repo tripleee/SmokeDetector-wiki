@@ -13,3 +13,5 @@ We are creating `charcoal-se.org` addresses for regular users; fill in [this for
 If you have access to an address in one of the other domains, there is no need per se to fill in the form.
 
 The Channels sign-up asks for your email address, then dispatches the Stack Overflow login page to associate your Stack Overflow account with that address for using Channels.
+
+Once you have an address in one of these domains, you can join the Charcoal team in Channels at https://stackoverflow.com/c/charcoal/join
