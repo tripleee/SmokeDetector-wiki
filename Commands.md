@@ -100,6 +100,7 @@ Also, some frequently used commands have one-letter aliases or convenient words 
 |     abuse | tpu-     |
 |   abusive | tpu-     |
 | offensive | tpu-     |
+|         v | tp-      |
 | vandalism | tp-      |
 |         n | naa-     |
 
