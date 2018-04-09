@@ -24,6 +24,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
 
  - [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq)
  - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta) (undeleted posts with a 5-minute delay, and excluding Stack Overflow reports). 
+ - [The Fire Department](https://chat.meta.stackexchange.com/rooms/1181/the-fire-department)
 
 ### Commands are accepted from:
 
@@ -31,3 +32,4 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta)
  - [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
  - [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
+ - [The Fire Department](https://chat.meta.stackexchange.com/rooms/1181/the-fire-department)
