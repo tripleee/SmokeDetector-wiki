@@ -10,6 +10,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Ethereum:** [Whisper](http://chat.stackexchange.com/rooms/34620/whisper)
  - **Graphic Design:** [The Spam Blot](http://chat.stackexchange.com/rooms/56223/the-spam-blot)
  - **Interpersonal Skills:** [The Awkward Silence](https://chat.stackexchange.com/rooms/61165/the-awkward-silence)
+ - **Japanese Language:** [Japanese Language general room](https://chat.stackexchange.com/rooms/511/japanese-language)
  - **Magento:** [Charcoal SmokeDetector Reports](http://chat.stackexchange.com/rooms/47869/charcoal-smokedetector-reports)
  - **Mathematics:** [C.R.U.D.E.](http://chat.stackexchange.com/rooms/2165/c-r-u-d-e)
  - **Mi Yodeya:** [V'dibarta Bam](http://chat.stackexchange.com/rooms/468/vdibarta-bam)
@@ -25,6 +26,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq)
  - [Tavern on the Meta](http://chat.meta.stackexchange.com/rooms/89/tavern-on-the-meta) (undeleted posts with a 5-minute delay, and excluding Stack Overflow reports). 
  - [The Fire Department](https://chat.meta.stackexchange.com/rooms/1181/the-fire-department)
+ - [Charcoal Test](https://chat.stackexchange.com/rooms/65945/charcoal-test)
 
 ### Commands are accepted from:
 
@@ -33,3 +35,4 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers)
  - [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
  - [The Fire Department](https://chat.meta.stackexchange.com/rooms/1181/the-fire-department)
+ - [Charcoal Test](https://chat.stackexchange.com/rooms/65945/charcoal-test)
