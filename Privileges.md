@@ -50,7 +50,7 @@ Everyone who signs up to metasmoke gets this by default. This privilege will be 
 * Allows you to set up your account so that it will be used for autoflagging
 
 ### Core (MS)
-Given to people who have contributed to Charcoal in a non-trivial way (e.g. by giving 50+ feedbacks, contributing code, or frequenting CHQ). This signals that you are a core member of our team.
+Given to people who have contributed to Charcoal in a non-trivial way (e.g. by giving 60+ feedbacks in 30 day, contributing code, or frequenting CHQ). This signals that you are a core member of our team.
 
 Benefits include:
 * Increased autoflagging frequency (see [this](https://charcoal-se.org/smokey/Set-Up-Autoflagging#i-opted-in-but-i-dont-see-any-flags) page for details)
