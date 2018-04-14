@@ -34,6 +34,10 @@ However, while plagiarism should be marked as `k`, the `!!/report` command shoul
 ### Repairable offensive posts
 Some (non-native) speakers think *f\*cking* is a synonym for *very*. The posts usually can be salvaged by editing out the inappropriate language and leaving a comment. The appropriate feedback is `f` as [we don't want a system-level block preventing these kind of posts](https://github.com/Charcoal-SE/SmokeDetector/issues/995#issuecomment-319727732).
 
+Some people think that *f\*cking* is a synonym for *very*, and so they use it to provide emphasis when writing their post. These posts usually can be salvaged by editing out the inappropriate language and leaving a comment. Therefore the appropriate feedback is `f` as we [don't want a system-level block preventing these kind of posts](https://github.com/Charcoal-SE/SmokeDetector/issues/995#issuecomment-319727732).
+
+However, if a post is edited by the author in a way which is mostly offensive, then the appropriate feedback is `tp-` as we would've wanted that edit to be blocked by the system.
+
 ### NAA feedback
 NAA feedback has sometimes been a little confusing. Using `n` as your feedback should, in general, be done if:
 
