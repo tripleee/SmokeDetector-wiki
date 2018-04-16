@@ -11,11 +11,15 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you're thinking about **asking for privileges**, take a look at [the privileges page](Privileges).
 
+### Charcoal Policy
+
  - To find out **what's expected of members** of Charcoal, check out our [code of conduct](Code-of-Conduct).
 
  - If you're looking for **guidance on feeding back to SmokeDetector**, read [the feedback guidance](Feedback-Guidance).
 
  - If you want to know **when it is appropriate to blacklist or watch something,** check out [the guidance for blacklisting and watching](Guidance-for-Blacklisting-and-Watching).
+
+ - If you've noticed that your website is on our blacklist and you want it removed, have a look at our [blacklist removal policy](Process-for-blacklist-removal).
 
 ### Developer information
 
