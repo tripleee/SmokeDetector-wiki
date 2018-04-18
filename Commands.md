@@ -19,7 +19,7 @@ These commands can be executed by everyone.
 - `!!/amiprivileged` — Lets you know if you are in the list of privileged users
 - `!!/amicodeprivileged` — Lets you know whether or not you have code privileges (i.e. you can blacklist without approval)
 - `!!/notify <chatroom_ID_number> <site_domain>` — Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
-  Example:  `!!/notify 89 parenting.stackexchange.com-`  
+  Example:  `!!/notify- 89 parenting.stackexchange.com`  
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
 - `!!/unnotify <chatroom_ID_number> <site_domain>` — Cancels the previously set notification.  Also, accepts the silent mode suffix&nbsp;(`-`).
 - `!!/unnotify-all` - Removes all notifications.
