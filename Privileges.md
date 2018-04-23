@@ -19,6 +19,8 @@ These are all general guidelines, rather than hard limits. Really, we're just ch
 #### For Moderators
 If you're a Stack Exchange network moderator, **you're automatically privileged** with SmokeDetector in [Charcoal HQ](http://chat.stackexchange.com/rooms/11540/charcoal-hq) (and in [SOCVR](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers) if you are a Stack Overflow moderator). You don't need to be added to the explicit privilege lists, as your diamond also gives you privileges with SmokeDetector. We assume that moderators are, on the whole, pretty good at moderation.
 
+Moderators can also see additional information on their [site dashboard](https://metasmoke.erwaysoftware.com/sites/dash) in relation to spammers and autoflagging participants.
+
 ## Privilege Levels
 
 There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
@@ -55,13 +57,14 @@ Given to people who have contributed to Charcoal in a non-trivial way (e.g. by g
 Benefits include:
 * Increased autoflagging frequency (see [this](https://charcoal-se.org/smokey/Set-Up-Autoflagging#i-opted-in-but-i-dont-see-any-flags) page for details)
 * Access to the [data explorer](https://metasmoke.erwaysoftware.com/data)
+* Ability to download [database dumps](https://metasmoke.erwaysoftware.com/dumps)
 * Can create [new announcements](https://metasmoke.erwaysoftware.com/announcements/new) (please don't use this if you don't know what you're doing)
 * Can edit domain records, and add/edit domain tags
 
 ### Code admin a.k.a. blacklister (MS)
 
 * Can `!!/watch` and `!!/blacklist` without approval. Please make sure that you read the [blacklisting guidelines](https://charcoal-se.org/smokey/Guidance-for-Blacklisting-and-Watching) before using these commands.
-* Can approve other user's watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly (which in turn requires you to have a GitHub account which is known to us and added to the [Other Awesome People team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members)); ping ArtOfCode and he will be able to set you up.
+* Can approve other user's watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly (which in turn requires you to have a GitHub account which is known to us and added to the [Other Awesome People team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members)); ping an admin and they will set you up. *(note to admin: if things are failing, press the 'Sync with GitHub' button [here](https://pullapprove.com/Charcoal-SE/SmokeDetector/settings/))*
 * Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 5 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [troubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
 
 ### GitHub push privileges a.k.a. proper code admin (GH)
@@ -95,6 +98,7 @@ They can:
 * View, edit, enable/disable and delete other users' autoflagging conditions
 * Invalidate autoflagging API tokens in the event of an emergency
 * Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, and max flags - note that the latter is also hard-coded for extra security)
+* Edit metasmoke site settings
 * Destroy domain records and domain tags
 * De-authorize a rogue SmokeDetector instance
 * Kill all SmokeDetector instances
