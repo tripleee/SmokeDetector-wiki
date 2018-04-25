@@ -28,6 +28,7 @@ We have established the following rules for watching and blacklisting.
 
 * **Blacklisted websites:** reserved for sites which we are highly confident that are used only in spam. You may add a site to this list if *one of* the following is true.
   * The site has at least five hits in Metasmoke, with no false positives, and at least one of them is below the default autoflagging threshold (currently, 280) and no older than six months.
+  * The site has at least three hits in Metasmoke, with no false positives, and it is part of an ongoing campaign. (See below.)
   * There are more than twenty hits in the last six months, and no false positives.
   * There are recent hits, and more than 30 hits overall, and no false positives.
 * **Blacklisted keywords:** reserved for phrases which we are highly confident that are used only in spam.  You may add a phrase to this list if the following is true.
@@ -36,6 +37,10 @@ We have established the following rules for watching and blacklisting.
   * We will be removing patterns periodically; you can reduce the risk of having useful patterns removed by proactively removing patterns you no longer are interested in, or which produce very uncertain value.
   * Autoflagging weight for this reason is technically forced to stay at 1.
   * Smoke Detector will regard these rules as "experimental"; it will not alert in other rooms than Charcoal HQ if there are hits solely from this set of rules.
+
+### Ongoing Campaign
+
+The blacklisting guidance relaxes the criteria for blacklisting a web site when it is promoted in a spam post which we identify as being part of an "ongoing campaign". This basically means that the spam incident is substantially similar to a number of other recent spam posts which already fulfill the stricter blacklisting criteria.  In practice, this helps us trigger blacklisting early for sites which are clearly part of an ongoing promotion, where we can be reasonably sure that the only purpose of the site is to have a different URL than the other sites used in the campaign. (This is called "snowshoe spamming" -- the tactic is to spread your footprint across many sites so as to evade trivial duplicate detection.)
 
 ## How to Blacklist or Watch Something
 
