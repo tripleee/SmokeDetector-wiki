@@ -33,6 +33,7 @@ The process for acquiring these privileges is listed above. Note that this privi
 This privilege level allows you to:
 * Give feedback via chat
 * Use the privileged commands listed [here](./Commands#privileged-commands).
+* Add comments to posts from chat (simply reply to any SD report)
 * Stop autoflagging in the event of an emergency using `!!/stopflagging`. After this, autoflagging can only be re-enabled by an admin.
 
 Technically, this privilege is granted in the Smoke Detector source code by adding the user's numeric account ID to the `privileged_users` list for the room in question.  When this is in place, the `!!/amiprivileged` chat command will cause Smoke Detector to reply "✓ You are a privileged user".
@@ -46,6 +47,7 @@ This allows you to:
 * Associate your chat feedback with your metasmoke account when [you connect your SE account](https://metasmoke.erwaysoftware.com/authentication/status) (this should be done when you sign up, older users may need to do this manually)
 * Overwrite and invalidate your own feedback
 * Use the [autoflagging conditions sandbox](https://metasmoke.erwaysoftware.com/flagging/conditions/sandbox)
+* Add comments to posts from metasmoke
 
 ### Flagger (MS)
 Everyone who signs up to metasmoke gets this by default. This privilege will be revoked if you abuse the system.
@@ -56,10 +58,11 @@ Given to people who have contributed to Charcoal in a non-trivial way (e.g. by g
 
 Benefits include:
 * Increased autoflagging frequency (see [this](https://charcoal-se.org/smokey/Set-Up-Autoflagging#i-opted-in-but-i-dont-see-any-flags) page for details)
-* Access to the [data explorer](https://metasmoke.erwaysoftware.com/data)
+* Access to the [SQL](https://metasmoke.erwaysoftware.com/data/sql) and [JavaScript](https://metasmoke.erwaysoftware.com/data) data explorers
 * Ability to download [database dumps](https://metasmoke.erwaysoftware.com/dumps)
 * Can create [new announcements](https://metasmoke.erwaysoftware.com/announcements/new) (please don't use this if you don't know what you're doing)
 * Can edit domain records, and add/edit domain tags
+* Can create abuse reports & contacts
 
 ### Code admin a.k.a. blacklister (MS)
 
@@ -99,6 +102,8 @@ They can:
 * Invalidate autoflagging API tokens in the event of an emergency
 * Edit global autoflagging settings (e.g. enabled/disabled, min accuracy and post count, dry run, and max flags - note that the latter is also hard-coded for extra security)
 * Edit metasmoke site settings
+* Edit and delete abuse reports & contacts
+* Edit and delete comments
 * Destroy domain records and domain tags
 * De-authorize a rogue SmokeDetector instance
 * Kill all SmokeDetector instances
@@ -109,6 +114,7 @@ They can:
 Only available to our benevolent dictators Art and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
 
 * Can see production logs
+* Can deploy metasmoke
 * Can refresh the site list cache
 * Can refresh the per-post feedback cache
 * Can send messages down metasmoke's websockets for testing and development purposes
