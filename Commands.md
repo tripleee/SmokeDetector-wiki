@@ -55,7 +55,7 @@ These commands require privileges.
 - `!!/stappit` — Stops all SmokeDetector instances.
 - `!!/stappit <string>` — Stops all SmokeDetector instances where `string` is included in the location (e.g. `!!/stappit undo` would stop `Undo/EC2` and `Undo/DO`, but not `teward/aroura`
 - `!!/standby <string>` - Places that instance into standby mode.
-- `!!/standby-except` <string> - Places all other instances into standby mode, use if multiple instances are running.
+- `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
 - `!!/pull` — Pulls new revisions from GitHub.
 - `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `master` branch.
 - `!!/errorlogs <N>` — Shows the last *N* lines of the error logs.
