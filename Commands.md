@@ -4,7 +4,7 @@ This wiki page contains a list of commands and their explanation.
 
 These commands can be executed by everyone.
 
-- `!!/alive` — Replies a random message taken from a list so you can see that SmokeDetector is still running.
+- `!!/alive` or `!!/live` — Replies a random message taken from a list so you can see that SmokeDetector is still running. 
 - `!!/status` — Shows the UTC date when SmokeDetector started running.
 - `!!/rev` or `!!/ver` — Shows the running Git revision.
 - `!!/help`, `!!/info`, `!!/commands` — Shows a small help message about SmokeDetector.
@@ -58,7 +58,7 @@ These commands require privileges.
 - `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
 - `!!/pull` — Pulls new revisions from GitHub.
 - `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `master` branch.
-- `!!/errorlogs <N>` — Shows the last *N* lines of the error logs.
+- `!!/errorlogs <N>` — Shows the last *N* lines of the error logs. (You can also use `!!/errlog` or `!!/errlogs)
 - `!!/block <N>` — Blocks SmokeDetector globally for *N* seconds; no alerts will be posted. Example: `!!/block 600` blocks globally for 10 minutes.
 - `!!/block <N> <room_id>` — Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
 - `!!/unblock` — Unblock SmokeDetector manually, resetting global block only.
