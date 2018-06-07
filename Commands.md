@@ -23,7 +23,7 @@ These commands can be executed by everyone.
   Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
 - `!!/unnotify <chatroom_ID_number> <site_domain>` — Cancels the previously set notification.  Also, accepts the silent mode suffix&nbsp;(`-`).
 - `!!/unnotify-all` - Removes all notifications.
-- `!!/willibenotified <chatroom_ID_number> <site_domain>` — Reports whether you will be pinged, in the given room, about spam on the given site.
+- `!!/willbenotified <chatroom_ID_number> <site_domain>` — Reports whether you will be pinged, in the given room, about spam on the given site.
 - `!!/allnotificationsites <chatroom_ID_number>` — Shows all sites that you will be pinged for in the given room.
 - `!!/scan <post URL>` — Forces SmokeDetector to scan a post. This is useful when Smokey misses a post, or when you're not sure if a post is spam. Smokey will go through all the usual processes of scanning a post and report it if it's spam, and will tell you that it's not spam otherwise. If you're sure it's spam but it isn't being caught, `!!/report` it.
 
