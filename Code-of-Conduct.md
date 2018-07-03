@@ -1,7 +1,7 @@
 ## Standard of Behaviour
 Stack Exchange has a [Be Nice policy](http://meta.stackexchange.com/help/be-nice) — if you're not familiar with it, you should go and read it now.
 
-As a SmokeDetector user, we expect everyone to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting along with the users and administrators of SmokeDetector. Remember — *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment — we're friendly, so laughing and joking within reason are fine, but keep it professional.
+We expect all Charcoal members to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting along with the users and administrators of SmokeDetector. Remember — *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment — we're friendly, so laughing and joking within reason are fine, but keep it professional.
 
 The [unofficial standard of behaviour](http://chat.stackexchange.com/transcript/message/29760077#29760077) is this:
 
