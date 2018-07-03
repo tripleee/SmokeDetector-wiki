@@ -9,8 +9,8 @@ The [unofficial standard of behaviour](http://chat.stackexchange.com/transcript/
 
 Exercise some common sense, bring your sense of humour, and we'll all get along just fine.
 
-### Diversity & Discrimination
-Charcoal intends to create an environment where everyone is welcome, regardless of who they are or how they identify. You can be part of this by being respectful of others and mindful of how what you say may be construed by others.
+### Inclusivity
+Charcoal intends to create an environment where everyone is welcome, regardless of who they are or how they identify. The best teams are diverse and can only be created through being inclusive of everyone. You can be part of this by being respectful of others and mindful of how what you say may be construed by others.
 
 ### Policy Breaches & Dispute Resolution
 If someone is consistently failing to behave appropriately, or if you have a dispute with another user that you feel unable to resolve, please get in touch with a [Charcoal admin](https://charcoal-se.org/people#admins). If you'd like to get in touch in private, you can email smokey@charcoal-se.org. Your concerns will be handled promptly and sensitively.
