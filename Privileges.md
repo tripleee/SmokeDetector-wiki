@@ -50,24 +50,26 @@ This allows you to:
 * Add comments to posts from metasmoke
 
 ### Flagger (MS)
-Everyone who signs up to metasmoke gets this by default. This privilege will be revoked if you abuse the system.
+Everyone who signs up to metasmoke gets this by default (unless that's turned off, which it usually isn't).
 * Allows you to set up your account so that it will be used for autoflagging
 
 ### Core (MS)
-Given to people who have contributed to Charcoal in a non-trivial way (e.g. by giving 60+ feedbacks in 30 day, contributing code, or frequenting CHQ). This signals that you are a core member of our team.
+Given to people who have contributed to Charcoal in a significant way. This signals that you are a core member of our team.
 
 Benefits include:
 * Increased autoflagging frequency (see [this](https://charcoal-se.org/smokey/Set-Up-Autoflagging#i-opted-in-but-i-dont-see-any-flags) page for details)
 * Access to the [SQL](https://metasmoke.erwaysoftware.com/data/sql) and [JavaScript](https://metasmoke.erwaysoftware.com/data) data explorers
-* Ability to download [database dumps](https://metasmoke.erwaysoftware.com/dumps)
+* Ability to download [database dumps](https://metasmoke.erwaysoftware.com/dumps)*
 * Can create [new announcements](https://metasmoke.erwaysoftware.com/announcements/new) (please don't use this if you don't know what you're doing)
 * Can edit domain records, and add/edit domain tags
-* Can create abuse reports & contacts
+* Can create abuse reports & contacts and change their statuses
+
+<sup>* Although downloading database dumps is restricted to core users, you're welcome to distribute them onwards to other people who ask for them too.</sup>
 
 ### Code admin a.k.a. blacklister (MS)
 
 * Can `!!/watch` and `!!/blacklist` without approval. Please make sure that you read the [blacklisting guidelines](https://charcoal-se.org/smokey/Guidance-for-Blacklisting-and-Watching) before using these commands.
-* Can approve other user's watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly (which in turn requires you to have a GitHub account which is known to us and added to the [Other Awesome People team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members)); ping an admin and they will set you up. *(note to admin: if things are failing, press the 'Sync with GitHub' button [here](https://pullapprove.com/Charcoal-SE/SmokeDetector/settings/))*
+* Can approve other users' watches and blacklists on GitHub. Simply add a comment on the auto-generated PR containing the command `!!/approve`, and metasmoke will handle the rest. Note that you will need to be added to PullApprove for this to work properly (which in turn requires you to have a GitHub account which is known to us and added to the [Other Awesome People team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members)); ping an admin and they will set you up. *(note to admin: if things are failing, press the 'Sync with GitHub' button [here](https://pullapprove.com/Charcoal-SE/SmokeDetector/settings/))*
 * Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 3 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [troubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
 
 ### GitHub push privileges a.k.a. proper code admin (GH)
