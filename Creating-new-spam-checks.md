@@ -12,24 +12,24 @@ The *very first* thing you need to do before creating a new spam check is test i
 
 If you've determined that a new check is necessary, now you need to actually write it. The preferred way of doing this is a regex — these are (usually) simpler and easier to maintain than the alternatives. Writing a regex check is pretty easy: just write the regex. You can use regex-checking websites like [regex101](http://regex101.com) to check if you've written it right — doing this is encouraged, because regex is not an easy language to speak.
 
-The alternative, which should only be used if a regex doesn't do the job, is to write a check method. This is done by writing a new method in `findspam.py`, which takes three parameters: `s`, `site`, and `*args` (to catch any additional arguments passed, though you won't need them). `s` is a string of stuff that you need to check (like the title, username, or post body), and `site` is the site that the post is on. Give your method a descriptive name, so that its purpose can be judged at a glance.
+The alternative, which should only be used if a regex doesn't do the job, is to write a check method. This is done by writing a new method in `findspam.py`, which takes two parameters: `s` and `site`. `s` is a string of stuff that you need to check (like the title, username, or post body), and `site` is the site that the post is on. Give your method a descriptive name, so that its purpose can be judged at a glance.
 
-Your method should return a pair of values. The first is a boolean, indicating whether or not you think the post is spam. The second is a string, which is the `why` data for the post (and if you don't know what that means, you should probably be letting someone more experienced write the check — or go learn about it).
+Your method should return a pair of values. The first is a boolean, indicating whether or not you think the post is spam. The second is a string, the `why` data for the post. It should be a short descriptive text that describes why you think it's spam, e.g. *Contains keyword \*male-enhancement\**.
 
 Here's an example check method. This method will say that any `s` longer than 3 characters is spam.
 
 ```py
 def ridiculous_spam_check(s, site):
-  if len(s) > 3:
-       return True, "Length is greater than 3 characters"
-  else:
-       return False, ""
+    if len(s) > 3:
+        return True, "Length is greater than 3 characters"
+    else:
+        return False, ""
 ```
 
 ## 3. Endless Lists
-Checks are our ammunition against spam; now you need a gun to fire it from. In our case, it's a GLOCK — a Giant List of Checks and Keywords.
+Checks are our ammunition against spam; now you need a gun to fire it from. In our case, it's a GLoCK — a Giant List of Checks and Keywords.
 
-Scroll to the `rules` array, which is [somewhere around line 641 in `findspam.py`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/findspam.py#L641). This structure describes all the checks that SmokeDetector runs, and how to apply them. (N.B.: It's not actually JSON, don't make that mistake — it's Python dicts.)
+Scroll to the `rules` array, which is [somewhere around line 1150 in `findspam.py`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/findspam.py#L1146). This structure describes all the checks that SmokeDetector runs, and how to apply them. (N.B.: It's not actually JSON, don't make that mistake — it's Python dicts.)
 
 You need to add a new entry to this array that describes your check. The general format of this dictionary is:
 
