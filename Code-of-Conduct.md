@@ -1,7 +1,7 @@
 ## Standard of Behaviour
-Stack Exchange has a [Be Nice policy](http://meta.stackexchange.com/help/be-nice) — if you're not familiar with it, you should go and read it now.
+Stack Exchange has a [Code of Conduct](https://meta.stackexchange.com/conduct). If you're not familiar with it, you should go and read it now.
 
-We expect all Charcoal members to abide by that policy. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting along with the users and administrators of SmokeDetector. Remember — *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment — we're friendly, so laughing and joking within reason are fine, but keep it professional.
+Charcoal fully supports and expects all members to abide by that code. We also extend that standard a little: we expect that you take a professional and constructive approach to moderation, and that you're capable of getting along with the users and administrators of SmokeDetector. Remember — *getting along* is not the same as *liking*. Additionally, the chatrooms are a professional environment — we're friendly, so laughing and joking within reason are fine, but keep it professional.
 
 The [unofficial standard of behaviour](http://chat.stackexchange.com/transcript/message/29760077#29760077) is this:
 
@@ -29,4 +29,4 @@ Start off with [this template](https://github.com/Charcoal-SE/SmokeDetector/wiki
 
 Ideally, have another Charcoal member who's active on the target site post the question for you. People are more likely to be receptive to feedback if it's coming from someone who they're familiar with.
 
-Remember to [Be Nice](http://meta.stackexchange.com/help/be-nice) at all times. If *at any point* you don't feel you can start or continue a conversation diplomatically and Nicely, *step back*. There are plenty of other users who can help out; if necessary, call on one of the mods involved in the project — they're used to being diplomatic with irksome users.
+Remember to abide by Stack Exchange's Code of Conduct at all times. If *at any point* you don't feel you can start or continue a conversation diplomatically and in line with that standard of personal conduct, *step back*. There are plenty of other users who can help out; if necessary, call on one of the mods involved in the project — they're used to being diplomatic with irksome users.
