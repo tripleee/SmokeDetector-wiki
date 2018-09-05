@@ -14,7 +14,7 @@ If you've determined that a new check is necessary, now you need to actually wri
 
 The alternative, which should only be used if a regex doesn't do the job, is to write a check method. This is done by writing a new method in `findspam.py`, which takes two parameters: `s` and `site`. `s` is a string of stuff that you need to check (like the title, username, or post body), and `site` is the site that the post is on. Give your method a descriptive name, so that its purpose can be judged at a glance.
 
-Your method should return a pair of values. The first is a boolean, indicating whether or not you think the post is spam. The second is a string, the `why` data for the post. It should be a short descriptive text that describes why you think it's spam, e.g. *Contains keyword \*male-enhancement\**.
+Your method should return a pair of values. The first is a boolean, indicating whether or not you think the post is spam. The second is a string, the `why` data for the post. It should be a short descriptive text that describes why you think it's spam, e.g. *Contains keyword \*male-enhancement\**. See the text box under the reasons list of [a metasmoke record](https://m.erwaysoftware.com/post/130809) for an example.
 
 Here's an example check method. This method will say that any `s` longer than 3 characters is spam.
 
@@ -37,17 +37,17 @@ You need to add a new entry to this array that describes your check. The general
 {
     'regex': r"Include your regex here if it's a regex-based check",
     'method': method_name,  # Pass the name of your method here if it's a method-based check,
-    'all': True,  # True if you want to scan all sites in the network, False otherwise,
-    'sites': [],  # If `all` is true, these sites are excluded; otherwise, they are the only sites to get scanned
+    'all': True,            # True if you want to scan all sites in the network, False otherwise,
+    'sites': [],            # If `all` is true, these sites are excluded; otherwise, they are the only sites to get scanned
     'reason': "Name of the reason you're categorising these posts as (bad keyword, link at end of body, etc)",
-    'title': False,  # True if you want to scan post titles, False otherwise
-    'body': True,  # True if you want to scan post bodies, False otherwise
-    'username': False,  # True if you want to scan owner usernames, False otherwise
+    'title': False,         # True if you want to scan post titles, False otherwise
+    'body': True,           # True if you want to scan post bodies, False otherwise
+    'username': False,      # True if you want to scan owner usernames, False otherwise
     'body_summary': False,  # True if you want to scan body summaries, False otherwise
     'stripcodeblocks': False,  # True if you want code removed before getting passed to your check
-    'max_rep': 20,  # Posts from users above this reputation will not be scanned
-    'max_score': 1,  # Posts scoring above this value will not be scanned
+    'max_rep': 20,          # Posts from users above this reputation will not be scanned
+    'max_score': 1,         # Posts scoring above this value will not be scanned
 }
 ```
 
-You should only include *one* of `regex` or `method` — checks should not be both at the same time.
+You should only include *either* `regex` or `method` — checks should not be both at the same time.
