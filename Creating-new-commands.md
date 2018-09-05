@@ -14,9 +14,13 @@ This command will do nothing. The function returns a string or `None`. If a stri
 
 ## 2. Configuration of the `@command()`
 
+Supported arguments:
+
+**command**(*privileged=False*, *whole_msg=False*, *arity=None*, *aliases=[]*, *give_name=False*, *reply=False*)
+
 To tweak the settings of your command, you have to edit the parameters inside `@command()`
 
-- `whole_msg` - `True` or `False`: If `True`, you can include a parameter `msg` in your function. `msg` is a [ChatExchange](https://github.com/Manishearth/ChatExchange) message object. The default is `False`.
+- `whole_msg` - `True` or `False`: If `True`, you can include a parameter `msg` in your function. `msg` is a [ChatExchange](https://github.com/Manishearth/ChatExchange) message object. The default is `False`. The `msg` argument will always come first, if there is any other argument.
 
   Example:
   ```python
@@ -33,6 +37,15 @@ To tweak the settings of your command, you have to edit the parameters inside `@
   def createcommand():
       return None
   ```
+
+  You can also manually return the non-privileged response if you want:
+
+  ```python
+  @command(whole_msg=True)
+  def createcommand(msg):
+    if not is_privileged(msg.owner, msg.room):
+      raise CmdException(GlobalVars.not_privileged_warning)
+    return "Hello"
 
 - `aliases` - an array of strings: In addition to the function name, the function will be executed if the command is equal to the alias.
 
@@ -62,17 +75,17 @@ To tweak the settings of your command, you have to edit the parameters inside `@
       return None
   ```
 
-- `give_name` - `True` or `False`: When `True`, a parameter called `alias_used` can be added, which shows which alias was used. See [L287 of `chatcommands.py`](https://github.com/Charcoal-SE/SmokeDetector/blob/3fae27a1f1a2fc5053c438047a55359f963eb013/chatcommands.py#L287).
+- `give_name` - `True` or `False`: When `True`, a parameter called `alias_used` can be added, which shows which alias was used. See [L287 of `chatcommands.py`](https://github.com/Charcoal-SE/SmokeDetector/blob/3fae27a1f1a2fc5053c438047a55359f963eb013/chatcommands.py#L287). This parameter will be supplied as a keyword argument.
 
-- `arity` - tuple of `int`s: Allows the number of command argument to be in the range. (eg `arity=(0,2)`) allows the command to have 0, 1 or 2 arguments.
+- `arity` - tuple of `int`s: Allows the number of command argument to be in the range. (eg `arity=(0,2)`) allows the command to have 0, 1 or 2 arguments. Absent values will be provided as `None`.
 
 - `reply` - `True` or `False`: Defaults to `False`. If `True`, the command will only execute if it is a reply or by `sd` feedback, not `!!/`. If `False`, the command will only execute if `!!/` is used.
 
 ## 3. Post something
 
-To post data that is what you expected, simply execute `return "your message here"`
+To post data that is what you expected, simply execute `return "some message"`
 
-If you encounter an error, you can raise a `CmdException` with a string as the error message. The string will be sent to chat.
+If you encounter an error, you can raise a `CmdException` with a string as the error message. The string will be sent to chat. The difference is that with `return`, the response can be suppressed if the command is issued in "silent mode" (ends with an additional hyphen, e.g. `!!/command-`). With `raise CmdException`, the response suppression will be ignored and Smokey will always response with the string in the exception.
 
 ```python
 @command()
@@ -88,5 +101,9 @@ If you want to send a message to all the rooms that Smokey is running in, use `t
 tell_rooms("A message")
 ```
 
+It's recommended that you send messages to rooms that are interested in debug messages, instead of spamming all rooms. You can use `tell_rooms_with`:
 
+```python
+tell_rooms_with('debug', "A debug message")
+```
 
