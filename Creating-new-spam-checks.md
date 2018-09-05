@@ -47,6 +47,9 @@ You need to add a new entry to this array that describes your check. The general
     'stripcodeblocks': False,  # True if you want code removed before getting passed to your check
     'max_rep': 20,          # Posts from users above this reputation will not be scanned
     'max_score': 1,         # Posts scoring above this value will not be scanned
+
+    'questions': True,      # False if questions shouldn't be checked
+    'answers': True,        # False if answers shouldn't be checked
 }
 ```
 
