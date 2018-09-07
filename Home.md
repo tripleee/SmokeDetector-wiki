@@ -11,6 +11,8 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you're thinking about **asking for privileges**, take a look at [the privileges page](Privileges).
 
+ - To find out more about how the metasmoke commenting system works, check out the [comments page](Comments)
+
 ### Charcoal Policy
 
  - To find out **what's expected of members** of Charcoal, check out our [code of conduct](Code-of-Conduct).
