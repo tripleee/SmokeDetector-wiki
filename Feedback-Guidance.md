@@ -1,15 +1,17 @@
 Some aspects of feedback to SmokeDetector have historically caused confusion. This page is intended to address some of those confusions.
 
-### Generic Guidance
+## Generic Guidance
 In very general terms, the litmus test for whether you should use [`k`](Commands#silent-mode-and-aliases) or [`f`](Commands#silent-mode-and-aliases) is this:
 
 > If SmokeDetector was implemented as a system-level block, would we want to catch this type of activity?
 
-If the answer to that question is *yes*, you should mark the post `k`. There are a few types of activity we have specific guidelines for, as outlined below.
+If the answer to that question is *yes*, you should mark the post `k`. Otherwise, a `f` or `n` repsonse may be more appropriate.
 
-Also, if you report a post manually (via FDSC or with the `!!/report` command), you should refrain from posting feedback. This way, we'll always have two different people (counting Smokey as human) involved in handling a post.
+If it's not obvious which type of feedback was appropriate for a post, it's recommended that you [leave a comment](Comments) on the post - this is generally useful for others looking at the post, and makes invalidating any conflicting feedbacks in the future much easier.
 
-### Disclosed affiliation
+There are a few types of activity we have specific feedback guidelines for, as outlined below.
+
+## Disclosed affiliation
 It's fine to promote your own product or service on Stack Exchange, *as long as*:
 
 - you're not doing it excessively
@@ -18,26 +20,32 @@ It's fine to promote your own product or service on Stack Exchange, *as long as*
 
 If all of those conditions are true, then self-promotion is not spam and therefore `f` and not `k` (unless it doesn't answer the question, in which case it's `n`). If any of them are false, self-promotion is `k`.
 
-### Self-vandalism
+## Self-vandalism
 Self-vandalism is where a user vandalises their own post by replacing all its useful content with something like "xxxxxxxxxxxxxxxxxxxxxxxx", or "deleted deleted deleted". For self-vandalism, use [`tp-`](Commands#privileged-commands-as-reply) (or one of its aliases, such as `v`, `vand` or `vandalism`). At a system level, we'd want to catch and block people doing this, but it's not worth blacklisting the user because it's usually a one-time incident. Most users, when warned, don't do it again.
 
-### Foreign-language posts on English sites (or vice versa)
+## Foreign-language posts on English sites (or vice versa)
 Treat these as you would an English post. If it's spam, offensive, etc., then mark it as `k`; otherwise use `f` or `n`. Particularly, answers in the wrong language for the target site are NAA, so `n`. Being in the wrong language for the site *alone* doesn't make a post `k`-able.
 
-### Plagiarism
+## Plagiarism
 Plagiarism — copying without attribution from another source such as someone else's answer or another website — is not always easy to spot. If you do spot it in an answer, then mark it as `k` — you may wish to explain to other users in the chatroom why you've done that, to avoid arguments about what the feedback should be.
 
 If you get to a post before it's deleted, an easy way to spot plagiarism is to check the other posts on the same page for similar content.
 
 However, while plagiarism should be marked as `k`, the `!!/report` command shouldn't be used to report plagiarism — catching plagiarism is a bonus if we do, but we're not aiming to catch it.
 
-### Repairable offensive posts
+## Repairable offensive posts
 Some people think that *f\*cking* is a synonym for *very*, and so they use it to provide emphasis when writing their post. These posts usually can be salvaged by editing out the inappropriate language and leaving a comment. Therefore the appropriate feedback is `f` as we [don't want a system-level block preventing these kind of posts](https://github.com/Charcoal-SE/SmokeDetector/issues/995#issuecomment-319727732).
 
 However, if a post is edited by the author in a way which is mostly offensive, then the appropriate feedback is `tp-` as we would've wanted that edit to be blocked by the system.
 
-### NAA feedback
+## NAA feedback
 NAA feedback has sometimes been a little confusing. Using `n` as your feedback should, in general, be done if:
 
 - the post is not spam, abusive, offensive etc. (use `k`)
 - you would flag the post as Not An Answer on the site itself
+
+### Bad questions
+
+The NAA feedback is disabled on questions, as questions are, in fact, not answers. But what if the question is VLQ, off-topic, too broad, or otherwise considered 'bad' by SE's quality standards? Often, it's not entirely clear whether the `tp-` or `fp-` feedbacks are appropriate. 
+
+In these cases, it's recommended that you pick the feedback type that feels most appropriate (if you're still unsure, err on the side of caution and choose `f`). Then, leave a comment on the post indicating what is wrong with it, and why you chose that feedback.
