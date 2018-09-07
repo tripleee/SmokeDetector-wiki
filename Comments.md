@@ -23,7 +23,7 @@ If you reply to any report posted by SmokeDetector in chat, some or all of your 
 
 * When adding feedback, all of your message after the feedback code will be taken as a comment.
 
-  e.g. `↰@SmokeDetector k Self promotion - no disclosure` will post `Self promotion - no disclosure` as a comment, and fp- as a feedback
+  e.g. `↰@SmokeDetector k Self promotion - no disclosure` will post `Self promotion - no disclosure` as a comment, and tpu- as a feedback
 
 * Any standard (non-feedback/command) reply will add your entire message as a comment.
 
