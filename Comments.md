@@ -29,6 +29,10 @@ If you reply to any report posted by SmokeDetector in chat, some or all of your 
 
   e.g. `↰@SmokeDetector This looks fishy` will post `This looks fishy` as a comment
 
+Note that you must reply to the report itself, not the feedback message.
+
+![](https://i.stack.imgur.com/ZQO7S.png)
+
 ## Viewing comments
 
 Comments on a post will appear underneath the domains section and above the 'add comment' button.
