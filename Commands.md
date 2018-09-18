@@ -6,6 +6,7 @@ These commands can be executed by everyone.
 
 - `!!/alive` or `!!/live` — Replies a random message taken from a list so you can see that SmokeDetector is still running. 
 - `!!/status` — Shows the UTC date when SmokeDetector started running.
+- `!!/ms-status` — Shows the status of MetaSmoke.
 - `!!/rev` or `!!/ver` — Shows the running Git revision.
 - `!!/help`, `!!/info`, `!!/commands` — Shows a small help message about SmokeDetector.
 - `!!/apiquota` — Shows the remaining API quota of SmokeDetector.
