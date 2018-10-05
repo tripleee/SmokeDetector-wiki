@@ -17,6 +17,8 @@ These commands can be executed by everyone.
 - `!!/test site=<site_domain> <string>` — Runs `<string>` against the filter as if it appeared in a question title, body, or username. To test specifically, use `!!/test-a` for answer, `!!/test-q` for question body, `!!/test-t` for title, or `!!/test-u` for username. Note that the site is optional. If site is present, the command will use filters for that site.
 - `!!/isblu`, `!!/iswlu` — Checks if a user is blacklisted/whitelisted. Two formats are accepted: `<profile_URL>` or `<user_ID> <site_name>`
 - `!!/whoami` — Replies with the bot's user id for that site
+- `!!/whois admin` — Replies with a list of admins (and who's currently in the room).
+- `!!/whois code_admin` — Replies with a list of code admins (and who's currently in the room).
 - `!!/amiprivileged` — Lets you know if you are in the list of privileged users
 - `!!/amicodeprivileged` — Lets you know whether or not you have code privileges (i.e. you can blacklist without approval)
 - `!!/notify <chatroom_ID_number> <site_domain>` — Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
