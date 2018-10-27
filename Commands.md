@@ -64,6 +64,7 @@ These commands require privileges.
 - `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
 - `!!/pull` — Pulls new revisions from GitHub.
 - `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `deploy` branch.
+- `!!/gitstatus` — Shows which git branch the SD instance is on and if it is behind origin/deploy.
 - `!!/errorlogs <N>` — Shows the last *N* lines of the error logs. (You can also use `!!/errorlog`, `!!/errlog` or `!!/errlogs`)
 - `!!/block <N>` — Blocks SmokeDetector globally for *N* seconds; no alerts will be posted. Example: `!!/block 600` blocks globally for 10 minutes.
 - `!!/block <N> <room_id>` — Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
