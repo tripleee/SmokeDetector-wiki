@@ -101,9 +101,21 @@ If you want to send a message to all the rooms that Smokey is running in, use `t
 tell_rooms("A message")
 ```
 
+The longhand version of this (which allows additional configuration) is:
+
+```python
+tell_rooms(message, (roles to have...), (roles not to have...))
+```
+
 It's recommended that you send messages to rooms that are interested in debug messages, instead of spamming all rooms. You can use `tell_rooms_with`:
 
 ```python
 tell_rooms_with('debug', "A debug message")
+```
+
+You can also use `tell_rooms_without` to post to all rooms without a specific role:
+
+```python
+tell_rooms_without("metatavern", "Tavern on the Meta sucks")
 ```
 
