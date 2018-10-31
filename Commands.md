@@ -63,6 +63,7 @@ These commands require privileges.
 - `!!/standby <string>` - Places that instance into standby mode.
 - `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
 - `!!/pull` — Pulls new revisions from GitHub.
+- `!!/pull-sync` — For use when other methods of resolving git issues, particularly "HEAD isn't at tip of origin's master branch", fail. The command performs `git checkout -b temp origin/master; git branch -M master`, which replaces the SmokeDetector instance's local master branch with what's on GitHub. This should be used rarely, only after determining that other methods (commands) fail to resolve the issue.
 - `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `deploy` branch.
 - `!!/gitstatus` — Shows which git branch the SD instance is on and if it is behind origin/deploy.
 - `!!/errorlogs <N>` — Shows the last *N* lines of the error logs. (You can also use `!!/errorlog`, `!!/errlog` or `!!/errlogs`)
