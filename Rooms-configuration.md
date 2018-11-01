@@ -1,10 +1,7 @@
-# Rooms
-
 The Wiki page explains the following:
 - File structure for the rooms.yml file
-- `Commands` within the file that users are allowed to execute
-- Message types (`msg_types`) and their description
-- Chat communication functionality
+- Glossary of terms used in rooms.yml
+- How to configure SmokeDetector for development
 
 ### File structure
 
