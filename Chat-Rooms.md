@@ -20,6 +20,7 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - **Stack Overflow:** [SO Close Vote Reviewers](http://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers), [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
  - **Stack Overflow in Russian:** [Ru.SO General Room](http://chat.stackexchange.com/rooms/22462/stack-overflow--)
  - **Science Fiction & Fantasy:** [SFF community cleanup room](https://chat.stackexchange.com/rooms/59281/sff-community-cleanup-room)
+ - **All international sites**: [The Terminal](https://chat.stackexchange.com/rooms/84778/the-terminal)
 
 ### Universal, cross site reports are sent to:
 
@@ -36,3 +37,6 @@ This is a list of _Stack Exchange_ chat rooms where SmokeDetector posts reports 
  - [SOBotics](https://chat.stackoverflow.com/rooms/111347/sobotics)
  - [The Fire Department](https://chat.meta.stackexchange.com/rooms/1181/the-fire-department)
  - [Charcoal Test](https://chat.stackexchange.com/rooms/65945/charcoal-test)
+
+### SmokeDetector also uses
+ - [Socket Science](https://chat.stackexchange.com/rooms/84821/socket-science) (for direct communication between instances)
