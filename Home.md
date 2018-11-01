@@ -29,6 +29,8 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - For information on **how to write a new Smokey command**, see [the documentation for creating new commands](Creating-new-commands).
 
+ - For information on the **`rooms.yml` configuration**, check out the [rooms configuration documentation](Rooms-configuration)
+
  - If you wish to **integrate with Smokey** and metasmoke via our API, see [the API docs](https://charcoal-se.org/ms/API-Documentation).
 
  - For information on our **build process**, see [Build Infrastructure](Build-Infrastructure).
