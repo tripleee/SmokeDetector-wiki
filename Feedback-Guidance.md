@@ -5,9 +5,9 @@ In very general terms, the litmus test for whether you should use [`k`](Commands
 
 > If SmokeDetector was implemented as a system-level block, would we want to catch this type of activity?
 
-If the answer to that question is *yes*, you should mark the post `k`. Otherwise, a `f` or `n` repsonse may be more appropriate.
+If the answer to that question is *yes*, you should mark the post `k`. Otherwise, a `f` or `n` response may be more appropriate.
 
-If it's not obvious which type of feedback was appropriate for a post, it's recommended that you [leave a comment](Comments) on the post - this is generally useful for others looking at the post, and makes invalidating any conflicting feedbacks in the future much easier.
+If it's not obvious which type of feedback was appropriate for a post, it may be easier to refrain from giving feedback until you can discuss it with others in Charcoal HQ and work out what the correct response is.
 
 There are a few types of activity we have specific feedback guidelines for, as outlined below.
 
