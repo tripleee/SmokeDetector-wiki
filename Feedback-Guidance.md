@@ -7,7 +7,7 @@ In very general terms, the litmus test for whether you should use [`k`](Commands
 
 If the answer to that question is *yes*, you should mark the post `k`. Otherwise, a `f` or `n` response may be more appropriate.
 
-If it's not obvious which type of feedback was appropriate for a post, it may be easier to refrain from giving feedback until you can discuss it with others in Charcoal HQ and work out what the correct response is.
+If it's not obvious which type of feedback was appropriate for a post, it may be easier to refrain from giving feedback until you can discuss it with others in Charcoal HQ and work out what the correct response is. You can also [leave a comment on the metasmoke record](https://charcoal-se.org/smokey/Comments) to help others looking at the record work out what's already been thought of. Please don't comment on the post itself on Stack Exchange unless you're a regular of the site.
 
 There are a few types of activity we have specific feedback guidelines for, as outlined below.
 
