@@ -13,9 +13,9 @@ These flags are mostly informational for you. There is very little visibility in
 ## When are they cast?
 Rarely. These flags are cast when all of the following are true:
 
- (a) SmokeDetector reported the post as being potentially spam.
- (b) Charcoal members (people looking at the report) manually cast at least one spam flag on the post
- (c) The post was later classified as not being spam - either as a false positive or just not an answer (NAA).
+ (a) SmokeDetector reported the post as being potentially spam.  
+ (b) Charcoal members (people looking at the report) manually cast at least one spam flag on the post.  
+ (c) The post was later classified as not being spam - either as a false positive or just not an answer (NAA).  
  (d) The post was later deleted.
 
 In terms of frequency, we see these cases about once every 10 days or so, network-wide. Many small sites on the SE network will never see one of these flags; even the large sites are unlikely to get more than one or two a month. This makes these flags much rarer than most Community auto-flags.
