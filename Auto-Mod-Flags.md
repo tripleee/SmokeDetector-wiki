@@ -5,6 +5,11 @@
 	Charcoal members, and a majority of the audience will have little to no familiarity with Charcoal systems or nuances.
 -->
 
+> **Bug!**
+>
+> The initial implementation of this system had a bug in it that would cast a moderator flag when 0 spam flags were cast on the post. Whoops! If you see any of these, handle as you see fit. The bug is now fixed, so you shouldn't see any more.
+{: .alert.link}
+
 If you're reading this page, you've probably just found an automatic flag cast by SmokeDetector that says something about a post having had Charcoal members flag it as spam but then decided it wasn't. This page is an explanation of what that's about.
 
 ## What are these flags?
