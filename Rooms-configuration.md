@@ -5,11 +5,17 @@ The Wiki page explains the following:
 
 ### File structure
 
-The file is a yaml/yml markdown file which contains the following structure:
+The file is a yaml/yml markdown file which has 3 sections, one for each chat domain:
+* stackexchange.com
+* meta.stackexchange.com
+* stackoverflow.com
+
+Each section contains the following structure:
 
 ```<chat host>:
   <room id>:
     commands: true/false,
+    watcher: true/false,
     msg_types:
       - <role string...>
       - ...
@@ -35,9 +41,9 @@ commands - true/false boolean flag which determines if SmokeDetector listens for
 
 During development, you probably want to avoid posting a bunch of reports and debug messages to our main rooms. In this case, you can set up a custom rooms.yml file to configure where Smokey will post messages. 
 
-Simply create a file named `rooms_custom.yml`, and fill it in using the format described above. If you need a spare room to test in, we have several available for your use:
+Simply create a file named `rooms_custom.yml`, and fill it in using the format described above. If you need a spare room to test in, we have one available for your use:
 
  - [Charcoal Test](https://chat.stackexchange.com/rooms/65945/charcoal-test)
- - <add more here>
+
 
 If you don't want Smokey to post any chat messages, you can simply leave the file blank.
