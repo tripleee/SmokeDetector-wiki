@@ -113,7 +113,7 @@ They can:
 
 ### MS Developer (MS)
 
-Only available to our benevolent dictators Art and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
+Only available to our benevolent dictators Art, thesecretmaster and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
 
 * Can see production logs
 * Can deploy metasmoke
