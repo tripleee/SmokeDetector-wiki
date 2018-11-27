@@ -12,7 +12,8 @@ The file is a yaml/yml markdown file which has 3 sections, one for each chat dom
 
 Each section contains the following structure:
 
-```<chat host>:
+```
+<chat host>:
   <room id>:
     commands: true/false,
     watcher: true/false,
@@ -26,6 +27,7 @@ Each section contains the following structure:
 ```
 ### Glossary
 
+- chat host - The domain in which the chat host is a sub-domain. Stack Exchange has 3 chat domains: chat.stackexchange.com, chat.meta.stackexchange.com, and chat.stackoverflow.com. The correct entries for `<chat host>` corresponding to these domains are stackexchange.com, meta.stackexchange.com, and stackoverflow.com.  Each chat server has independent rate limiting for the chat messages a single user can post. If you're making a test room into which the SmokeDetector user is going to be posting lots of messages, then please create the room on either meta.stackexchange.com or stackoverflow.com. SmokeDetector currently posts most of it's messages to the stackexchange.com chat server, which means it's the one that gets rate-limited the most.
 - room id - room id for the rooms with which SmokeDetector interacts. For example: 12345:
 commands - true/false boolean flag which determines if SmokeDetector listens for commands in the room
 - msg_types - kinds of messages the room will receive, as described in the role_string types below
