@@ -21,6 +21,8 @@ If you're a Stack Exchange network moderator, **you're automatically privileged*
 
 Moderators can also see additional information on their [site dashboard](https://metasmoke.erwaysoftware.com/sites/dash) in relation to spammers and autoflagging participants.
 
+<sup>Diamond-based privileges apply to any room you have a diamond in. This means, in effect, they extend across one entire chat server (two if you're an SO or MSE mod; three if you're an SO _and_ MSE mod - looking at you, ChrisF). Diamond privileges _do not inherit_ like normal privileges do - if your privileges in CHQ are based on your diamond, they will not inherit to Tavern on the Meta.</sup>
+
 ## Privilege Levels
 
 There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
@@ -28,7 +30,7 @@ There are multiple privilege levels on SmokeDetector and metasmoke, each giving 
 (SD) refers to privileges set in the code of SmokeDetector [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/globalvars.py#L98), (MS) refers to privileges set from within metasmoke (the admin would then add you using the form on [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
 
 ### SmokeDetector privileges (SD)
-The process for acquiring these privileges is listed above. Note that this privilege only works per-chat-server, so if you're privileged in CHQ, you're not automatically privileged in SOCVR or the Tavern (due to your user ID being different), so you'll need to contact an admin so that they can add you there as well.
+The process for acquiring these privileges is listed above. Depending on where you get privileges, your privileges may apply to one or to multiple rooms: if you acquire them in SOCVR, your privileges will apply only to SOCVR; if you acquire them in Charcoal HQ, you will also be automatically privileged in Charcoal Test and Tavern on the Meta.
 
 This privilege level allows you to:
 * Give feedback via chat
