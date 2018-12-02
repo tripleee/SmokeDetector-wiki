@@ -1,5 +1,5 @@
 SmokeDetector is a headless chatbot that detects spam and posts it to chatrooms.  
-It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes questions from [the Stack Exchange realtime tab](http://stackexchange.com/questions?tab=realtime). For more information on how it works, see our website at [charcoal-se.org](https://charcoal-se.org/).
+It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes questions from [the Stack Exchange realtime tab](https://stackexchange.com/questions?tab=realtime). For more information on how it works, see our website at [charcoal-se.org](https://charcoal-se.org/).
 
 ***
 
