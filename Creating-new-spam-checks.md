@@ -42,9 +42,9 @@ Read the code of the existing checks in [`findspam.py`](https://github.com/Charc
 - Functional checks are created by using `create_rule` as a decorator ([PEP 318](https://www.python.org/dev/peps/pep-0318/)):
 
   ```py
-   @create_rule("spam answer", question=False)
-   def ridiculous_check(s, site):
-     return True, "All answers are spam"
+  @create_rule("spam answer", question=False)
+  def ridiculous_check(s, site):
+      return True, "All answers are spam"
   ```
 
   This way, the function `ridiculous_check` is wrapped into a `Rule` object and registered to the GLoCK.
@@ -84,6 +84,8 @@ create_rule(reason,
     disabled=False
 )
 ```
+
+Implementation details: `create_rule` takes an optional `regex` argument. If it's provided, then it creates a regular expression check. If no regex is provided, it returns a decorator that can be used to decorate a function-based check. This is how it works in two ways.
 
 ## 4. Other neat things
 
