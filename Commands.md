@@ -37,7 +37,7 @@ These commands can be executed by everyone.
 
 ## Privileged commands
 
-These commands require privileges.
+These commands require privileges. Note that some commands may be disabled in some rooms. You may talk to others to understand why.
 <!-- These were not in any order. Recommend most-used/useful up top. -->
 
 - `!!/report <post URL 1> [<post URL 2> [...]] ["custom reason"]` — Makes SmokeDetector scan and report a specific post/multiple specific posts in Charcoal HQ and other applicable rooms. Recommended over `!!/scan` if you're sure the post is spam. The originator of each post will be added to the blacklist if the post wouldn't have been caught otherwise. Maximum 5 posts at a time. An optional custom reason may be supplied so others are clearer why you're reporting it. Additionally, the post will be added to the database on Metasmoke, just like all other reported posts.
@@ -64,7 +64,7 @@ These commands require privileges.
 - `!!/standby <string>` - Places that instance into standby mode.
 - `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
 - `!!/pull` — Pulls new revisions from GitHub.
-- `!!/pull-sync` — For use when other methods of resolving git issues, particularly "HEAD isn't at tip of origin's master branch", fail. The command performs `git checkout -b temp origin/master; git branch -M master`, which replaces the SmokeDetector instance's local master branch with what's on GitHub. This should be used rarely, only after determining that other methods (commands) fail to resolve the issue.
+- `!!/pull-sync` — For use when other methods of resolving git issues, particularly "HEAD isn't at tip of origin's master branch", fail. The command performs `git checkout -b temp origin/master; git branch -M master`, which replaces the SmokeDetector instance's local master branch with what's on GitHub. This command is now **deprecated** because other solutions like `git reset --hard origin/master` are already in place, which should theoretically handle all potential issues that would have required this command to resolve. Use `!!/pull-sync-force` if you really need to.
 - `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `deploy` branch.
 - `!!/gitstatus` — Shows which git branch the SD instance is on and if it is behind origin/deploy.
 - `!!/errorlogs <N>` — Shows the last *N* lines of the error logs. (You can also use `!!/errorlog`, `!!/errlog` or `!!/errlogs`)
