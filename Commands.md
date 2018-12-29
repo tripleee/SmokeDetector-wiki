@@ -45,6 +45,42 @@ These commands require privileges. Note that some commands may be disabled in so
 - `!!/report <post URL 1> [<post URL 2> [...]] ["custom reason"]` — Makes SmokeDetector scan and report a specific post/multiple specific posts in Charcoal HQ and other applicable rooms. Recommended over `!!/scan` if you're sure the post is spam. The originator of each post will be added to the blacklist if the post wouldn't have been caught otherwise. Maximum 5 posts at a time. An optional custom reason may be supplied so others are clearer why you're reporting it. Additionally, the post will be added to the database on Metasmoke, just like all other reported posts.
 - `!!/scan <post URL 1> [<post URL 2> [...]] ["custom reason"]` — Forces SmokeDetector to scan a post. This is useful when you're not sure if a post is spam and don't want to report it. Smokey will go through all the usual processes of scanning a post and report it if it's spam, and will tell you that it's not spam otherwise. If you're sure it's spam but it isn't being caught, use `!!/report` instead. A custom scan reason may be supplied.
 - `!!/allspam <user URL>` — To be used if a spammer has many posts so you don't have to use `!!/report`. This command posts a message about the user in all applicable rooms.  Note that this command does NOT auto-TPU anything, for various reasons. Both individual site and network-wide user profiles are supported. It has an alias, `!!/reportuser <user URL>`.
+
+- `!!/feedback <post_URL> <feedback_type>` - Takes a valid SE post URL as input, and manually sends the given feedback to metasmoke. Note that this won't blacklist/whitelist users automatically.
+- `!!/reboot` — Reboots SmokeDetector.
+- `!!/stappit` — Stops all SmokeDetector instances.
+- `!!/stappit <string>` — Stops all SmokeDetector instances where `string` is included in the location (e.g. `!!/stappit undo` would stop `Undo/EC2` and `Undo/DO`, but not `teward/aroura`
+- `!!/standby <string>` - Places that instance into standby mode.
+- `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
+- `!!/pull` — Pulls new revisions from GitHub.
+- `!!/pull-sync-force` — For use when other methods of resolving git issues, particularly "HEAD isn't at tip of origin's master branch", fail. The command performs `git checkout -b temp origin/master; git branch -M master`, which replaces the SmokeDetector instance's local master branch with what's on GitHub. This command is now **deprecated** because other solutions like `git reset --hard origin/master` are already in place, which should theoretically handle all potential issues that would have required this command to resolve. Use `!!/pull-sync-force` if you really need to.
+- `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `deploy` branch.
+- `!!/gitstatus` — Shows which git branch the SD instance is on and if it is behind origin/deploy.
+- `!!/errorlogs <N>` — Shows lines of the error logs for the last *N* exceptions. (You can also use `!!/errorlog`, `!!/errlog` or `!!/errlogs`)
+- `!!/block <N>` — Blocks SmokeDetector globally for *N* seconds; no alerts will be posted. Example: `!!/block 600` blocks globally for 10 minutes.
+- `!!/block <N> <room_id>` — Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
+- `!!/unblock` — Unblock SmokeDetector manually, resetting global block only.
+- `!!/unblock <room_id>` — Unblock SmokeDetector manually in the specific room.
+- `!!/invite <room_id> <roles separated by commas...>` - Temporarily invites SmokeDetector to the given room on the current site. Roles are the same as in `rooms.yml`.
+- `!!/stopflagging` - An emergency measure to immediately disable all autoflagging. Once disabled, autoflagging can only be re-enabled by an Admin.
+
+### Blacklists, watchlist, and whitelist
+#### User-blacklist and user-whitelist
+These lists are maintained *per SmokeDetector instance*. The SmokeDetector instances do not share these lists between themselves.
+##### User-blacklist
+The user-blacklist is a list of users which have all of their posts reported by SmokeDetector. The user-blacklist is quite dynamic. Users are primarily added to the user-blacklist when someone gives <code>tp<b>u</b></code> feedback to a post the user has authored. Users are automatically removed from the user-blacklist when `fp` feedback is given for a post they have authored. Users can also be explicitly added or removed with the following commands:
+- `!!/addblu` (same syntax as `!!/addwlu`) — Adds a user to the blacklist (this means that any post of this user will be reported).
+- `!!/rmblu` (same syntax as `!!/rmwlu`) — Removes a user from the blacklist.
+##### User-whitelist
+The user-whitelist is a list of users for which detections are ignored which would normally trigger on the user's name. Users are added to the list if their post receives <code>fp<b>u</b></code> feedback. Users can also be explicitly added or removed with the following commands:
+- `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` — Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
+- `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` — Removes a user from the whitelist.
+
+#### Detection Blacklists and watchlist
+The blacklists and watchlist detections are lists of regular expressions (regexes) that are used to test posts. The exceptions to this are the watched_numbers and blacklisted_numbers lists, which are lists of numbers that are tested against posts as text both verbatim and "normalized" (with everything but numbers removed).
+
+The regexes for the blacklist-keyword and watchlist have `\b` prepended and appended to them prior to testing against post bodies, titles, and usernames. For both of those lists the `i` and `s` flags are set (case insensitive and `.` matches anything). The other lists do not bookend the regexes with `\b` and only have the case insensitive flag, `i`, set.
+
 - `!!/blacklist` — **This command is deprecated.** Use one of the four specialized blacklist commands instead, which are shown below. If run, this command will print a help.
 - `!!/blacklist-keyword <regex>` — Adds a regular expression pattern to the [list of bad keywords](https://github.com/Charcoal-SE/SmokeDetector/blob/master/bad_keywords.txt). Make sure regex special characters are escaped (in particular, `.` characters should be escaped as `\.`). Prior to being used, all regexes on this list automatically have `\b` added to the start and end of the regex. Any exact match in the watchlists to what you are adding to the blacklist will be automatically removed from the watchlists. As with all `!!/blacklist-*` and `!!/watch*` commands, if you are a code admin on metasmoke, your change will apply immediately, once CI passes; otherwise, a pull request will be created for your changes so that it can be reviewed.
 - `!!/blacklist-number <number text>` — Adds a number to the [number blacklist](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_numbers.txt). The text may contain non-number characters and is tested verbatim against potential spam. In addition, it's tested "normalized", which is with both the blacklisted number text and the post reduced to numbers. Any exact match in the watchlists to what you are adding to the blacklist will be automatically removed from the watchlists. As with all `!!/blacklist-*` and `!!/watch*` commands, if you are a code admin on metasmoke, your change will apply immediately, once CI passes; otherwise, a pull request will be created for your changes so that it can be reviewed.
@@ -55,27 +91,7 @@ These commands require privileges. Note that some commands may be disabled in so
 - `!!/unwatch <regex>` or `!!/unwatch <number text>` - Removes a previously-added regular expression from the watchlist and/or a number from the number watchlist. Only code admins can use this command; it will only accept an exact match to a regular expression in the watchlist and/or an exact match to a number in the number watchlist.
 - `!!/unblacklist <regex>` or `!!/unblacklist <number text>` - Similar to `unwatch`, removes a previously-added regular expression from the blacklists and/or a number from the number blacklist. Only code admins can use this command; it will only accept an exact match to a regular expression in the blacklists and/or an exact match to a number in the number blacklist.
 - `!!/approve <PR number>` - Only code admins can use this command; It allows you to approve watches/blacklists created by non code admin users without leaving the chat.
-- `!!/feedback <post_URL> <feedback_type>` - Takes a valid SE post URL as input, and manually sends the given feedback to metasmoke. Note that this won't blacklist/whitelist users automatically.
-- `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` — Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
-- `!!/rmwlu <profile_URL>` or `!!/rmwlu <user_ID> <site_name>` — Removes a user from the whitelist.
-- `!!/addblu` (same syntax as `!!/addwlu`) — Adds a user to the blacklist (this means that any post of this user will be reported).
-- `!!/rmblu` (same syntax as `!!/rmwlu`) — Removes a user from the blacklist.
-- `!!/reboot` — Reboots SmokeDetector.
-- `!!/stappit` — Stops all SmokeDetector instances.
-- `!!/stappit <string>` — Stops all SmokeDetector instances where `string` is included in the location (e.g. `!!/stappit undo` would stop `Undo/EC2` and `Undo/DO`, but not `teward/aroura`
-- `!!/standby <string>` - Places that instance into standby mode.
-- `!!/standby-except <string>` <string> - Places all other instances into standby mode, use if multiple instances are running.
-- `!!/pull` — Pulls new revisions from GitHub.
-- `!!/pull-sync` — For use when other methods of resolving git issues, particularly "HEAD isn't at tip of origin's master branch", fail. The command performs `git checkout -b temp origin/master; git branch -M master`, which replaces the SmokeDetector instance's local master branch with what's on GitHub. This command is now **deprecated** because other solutions like `git reset --hard origin/master` are already in place, which should theoretically handle all potential issues that would have required this command to resolve. Use `!!/pull-sync-force` if you really need to.
-- `!!/master` — When SmokeDetector enters reverted mode, use this command to go back to the `deploy` branch.
-- `!!/gitstatus` — Shows which git branch the SD instance is on and if it is behind origin/deploy.
-- `!!/errorlogs <N>` — Shows the last *N* lines of the error logs. (You can also use `!!/errorlog`, `!!/errlog` or `!!/errlogs`)
-- `!!/block <N>` — Blocks SmokeDetector globally for *N* seconds; no alerts will be posted. Example: `!!/block 600` blocks globally for 10 minutes.
-- `!!/block <N> <room_id>` — Blocks SmokeDetector in the specific room for *N* seconds; no alerts will be posted there. Example: `!!/block 3600 89` blocks alerts in the Tavern for one hour.
-- `!!/unblock` — Unblock SmokeDetector manually, resetting global block only.
-- `!!/unblock <room_id>` — Unblock SmokeDetector manually in the specific room.
-- `!!/invite <room_id> <roles separated by commas...>` - Temporarily invites SmokeDetector to the given room on the current site. Roles are the same as in `rooms.yml`.
-- `!!/stopflagging` - An emergency measure to immediately disable all autoflagging. Once disabled, autoflagging can only be re-enabled by an Admin.
+- `!!/bisect <text>` - Test the text against all of the blacklist and watchlist entries and report which entries match.
 
 ## Privileged commands as reply
 
