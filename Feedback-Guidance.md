@@ -23,6 +23,11 @@ If all of those conditions are true, then self-promotion is not spam and therefo
 ## Self-vandalism
 Self-vandalism is where a user vandalises their own post by replacing all its useful content with something like "xxxxxxxxxxxxxxxxxxxxxxxx", or "deleted deleted deleted". For self-vandalism, use [`tp-`](Commands#privileged-commands-as-reply) (or one of its aliases, such as `v`, `vand` or `vandalism`). At a system level, we'd want to catch and block people doing this, but it's not worth blacklisting the user because it's usually a one-time incident. Most users, when warned, don't do it again.
 
+## Posts containing only garbage
+For posts containing no understandable content (e.g. "dfajiojaifojadiofjadhiga"), these should be given `tp` or `tpu` feedback, because we would want a system-level block of this content.
+
+However, if you choose to raise a flag, you want to be a bit more nuanced in which flag you use. [Shog9's answer on MSE](https://meta.stackexchange.com/a/234035) indicates that, in the vast majority of cases, almost any flag works, but that he's partial to "rude or abusive", as those flags get the post deleted faster. For users with more than a very small amount of reputation, you [should stay away from red-flags (spam or R/A)](https://chat.stackoverflow.com/transcript/41570?m=26705146) ([MSE](https://meta.stackexchange.com/a/58035)). Give those users the benefit of doubt and raise an NAA flag. In addition, be aware that which flags are acceptable for this type of content are different on *some* individual sites. On some sites, flags other than "rude or abusive" and NAA may be declined (e.g. some sites will decline spam flags on this type of content: [physics](https://physics.meta.stackexchange.com/q/10875)).
+
 ## Foreign-language posts on English sites (or vice versa)
 Treat these as you would an English post. If it's spam, offensive, etc., then mark it as `k`; otherwise use `f` or `n`. Particularly, answers in the wrong language for the target site are NAA, so `n`. Being in the wrong language for the site *alone* doesn't make a post `k`-able.
 
