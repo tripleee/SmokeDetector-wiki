@@ -1,5 +1,3 @@
-# Setting Up and Running SmokeDetector
-
 ## Setting Up SmokeDetector
 ### Basic setup
 
@@ -53,11 +51,11 @@ To set-up a t2.micro instance for SD you can do the following:
     * Copy-&-paste the example ssh line in the popup into a command line running in the directory where you stored the .pem file with the private key (created or selected earlier).
 * Execute the following commands (you can copy-&-paste all of them at one time):
 
-        sudo yum -y update
-        sudo yum -y install gcc
-        sudo yum -y install git
-        sudo yum -y install python36
-        sudo yum -y install python36-devel
+        sudo apt-get -y update
+        sudo apt-get -y install gcc
+        sudo apt-get -y install git
+        sudo apt-get -y install python36
+        sudo apt-get -y install python36-devel
         sudo python3 -m pip install pip --upgrade
 
         git clone https://github.com/Charcoal-SE/SmokeDetector.git
@@ -79,9 +77,9 @@ when running from `nocrash.py`, `ws.py` will automatically be restarted.
 (This is to be sure that closed WebSockets, if any, are reopened.)
 
 #### `nocrash.py`
-`nocrash.py` is the controlling Python code for SmokeDetector. It runs `ws.py`, which is the SD instance, in a sub process and restarts the SD instance when it stops. `ws.py` may stop as the result of various chat `!!/` commands, or do to errors. The syntax for `nocrash.py` is:
+`nocrash.py` is the controlling Python code for SmokeDetector. It runs `ws.py`, which is the SD instance, in a subprocess and restarts the SD instance when it stops. `ws.py` may stop as the result of various chat `!!/` commands, or do to errors. The syntax for `nocrash.py` is:
 
-    nocrash.py [standby]
+    nocrash.py [standby] [--loglevel=(debug|info|warning|error)]
 
 The `standby` option starts the SD instance in [standby mode](https://github.com/Charcoal-SE/SmokeDetector/wiki/SmokeDetector-Statuses#standby-mode).
 
