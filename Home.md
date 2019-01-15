@@ -36,3 +36,5 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
  - If you wish to **integrate with Smokey** and metasmoke via our API, see [the API docs](https://charcoal-se.org/ms/API-Documentation).
 
  - For information on our **build process**, see [Build Infrastructure](Build-Infrastructure).
+
+ - For instructions on **setting up and running Smoke Detector**, see [set up and run SmokeDetector](Set-Up-and-Run-SmokeDetector)
