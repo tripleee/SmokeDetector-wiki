@@ -1,6 +1,7 @@
-# Setting up SmokeDetector
+# Setting Up and Running SmokeDetector
 
-## Basic setup
+## Setting Up SmokeDetector
+### Basic setup
 
 To set up SmokeDetector (SD), please execute the following commands:
 
@@ -18,10 +19,10 @@ Next, copy `config.sample` to a new file called `config`, and edit the values re
 
 You should now be able to [run SmokeDetector](#user-content-running-smokedetector).
 
-## Running SmokeDetector with metasmoke
+### Running SmokeDetector with metasmoke
 You will need a [keybase](https://keybase.io/) account. You will also need to have the "smoke detector runner" role on metasmoke (MS). Contact an MS admin to request the role. When given the role, you should separately be added to the "charcoal" channel on keybase.
 
-### The "config" file with MS
+#### The "config" file with MS
 In the files section for the keybase "charcoal" channel, there is a "config" file. You should use that config file as a basis for the "config" file you use in your "SmokeDetector" directory. 
 * Set `location` to the name you choose for your SD instance. This should be your username, followed by a slash and an identifier that's unique among all your Smokey instances. This is the name that your instance will display in messages in chat and what will be displayed on MS for status.
 * Set `metasmoke_key`  
@@ -30,10 +31,10 @@ In the files section for the keybase "charcoal" channel, there is a "config" fil
   * Once you complete the dialog, your SD instance will be listed and you can copy the "Key" to `metasmoke_key`.
 * Save the "config" file, as those are the only changes you need.
 
-### Run SmokeDetector
+#### Run SmokeDetector
 At this point, you should be able to [run SmokeDetector using the instructions below](#user-content-running-smokedetector).
 
-## Setting up an AWS EC2 linux instance for SmokeDetector
+### Setting up an AWS EC2 linux instance for SmokeDetector
 Using a AWS EC2 instance can be a quick way to get an SD instance up and running. Based on reports from @iBug in chat, a t2.micro instance, what's available from the AWS Free Tier for 12 months, doesn't have enough CPU credits for the instance to be the active SD instance full-time. It's expected that a t3.micro, which actually costs less than a t2.micro, once past the free period, should be sufficient for a full-time active SD instance. However, a t2.micro instance does appear to be enough for SD to run as a standby instance to fill in on an irregular basis.
 
 To set-up a t2.micro instance for SD you can do the following:
@@ -71,14 +72,14 @@ To set-up a t2.micro instance for SD you can do the following:
   * See [The "config" file with MS](#user-content-the-config-file) above if you are going to use this SD instance with metasmoke.
   * If you are not going to run this SD instance with metasmoke, then copy `config.sample` to a new file called `config`, and edit the values required.
 
-# Running SmokeDetector
+## Running SmokeDetector
 To run, use `python3 nocrash.py`, or `python3 nocrash.py standby` (preferably in a daemon-able mode, like a `screen` session).
 You can also use `python3 ws.py`, but then SmokeDetector will be shut down after 6 hours;
 when running from `nocrash.py`, `ws.py` will automatically be restarted.
 (This is to be sure that closed WebSockets, if any, are reopened.)
 
 #### `nocrash.py`
-`nocrash.py` is the controlling Python code for SmokeDetector. It runs `ws.py`, which is the SD instance, in a sub process and restarts it when it stops. `ws.py` may stop as the result of `!!/` commands given to SD in chat, or do to errors. The syntax for `nocrash.py` is:
+`nocrash.py` is the controlling Python code for SmokeDetector. It runs `ws.py`, which is the SD instance, in a sub process and restarts the SD instance when it stops. `ws.py` may stop as the result of various chat `!!/` commands, or do to errors. The syntax for `nocrash.py` is:
 
     nocrash.py [standby]
 
