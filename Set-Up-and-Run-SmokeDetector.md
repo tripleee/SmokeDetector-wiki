@@ -40,6 +40,7 @@ To set-up a t2.micro instance for SD you can do the following:
   * Create an AWS account (address, verifiable phone number, and credit card required) and Sign-in to the AWS console.
   * Click "Launch Instance ->"
   * Click "Select" for "Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-0cd3dfa4e37921605" (the first one in the list)
+    * You can pick any flavour of Linux you're familiar with, just remember to substitute installation commands for the correct package manager.
   * Click "Review and Launch"
   * Click "Launch"
   * Create a public key pair, or use one you've previously created.
