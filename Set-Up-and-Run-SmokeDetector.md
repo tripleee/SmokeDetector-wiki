@@ -85,4 +85,4 @@ when running from `nocrash.py`, `ws.py` will automatically be restarted.
 The `standby` option starts the SD instance in [standby mode](https://github.com/Charcoal-SE/SmokeDetector/wiki/SmokeDetector-Statuses#standby-mode).
 
 
-
+<sub>Portions of this page were taken from [README.md](https://github.com/Charcoal-SE/SmokeDetector/blob/master/README.md)</sub>
