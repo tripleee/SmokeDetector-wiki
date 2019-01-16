@@ -39,8 +39,8 @@ To set-up a t2.micro instance for SD you can do the following:
 * Create the EC2 instance ([launch a AWS instance tutorial](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/))
   * Create an AWS account (address, verifiable phone number, and credit card required) and Sign-in to the AWS console.
   * Click "Launch Instance ->"
-  * Click "Select" for "Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-0cd3dfa4e37921605" (the first one in the list)
-    * You can pick any flavour of Linux you're familiar with, just remember to substitute installation commands for the correct package manager.
+  * Click "Select" for "Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-0cd3dfa4e37921605" (the first one in the Amazon Machine Image (AMI) list)
+    * You can pick any flavor of Linux you're familiar with, just remember to substitute installation commands for the correct package manager. For example, the above version of Linux uses `yum`. Other versions may use `apt-get`, `rpm`, etc. In addition, other versions of Linux may already have versions of some of the packages installed in the commands below, or may be missing yet other packages. The commands listed below were only tested in the AMI mentioned above. <!-- Other than being the first AMI in the list and a very basic Linux install, there's really nothing special about the AMI selected above. It is the one with which the commands below have been tested, so if you change this choice, then please test and/or change the commands listed below. If you do change the AMI mentioned above, it's a good idea to keep it to one that's eligible for the AWS Free Tier and one that permits per-second billing, rather than per-hour billing.-->
   * Click "Review and Launch"
   * Click "Launch"
   * Create a public key pair, or use one you've previously created.
@@ -50,22 +50,23 @@ To set-up a t2.micro instance for SD you can do the following:
   * Click "Connect"
   * Use ssh to connect to EC2 instance:
     * Copy-&-paste the example ssh line in the popup into a command line running in the directory where you stored the .pem file with the private key (created or selected earlier).
-* Execute the following commands (you can copy-&-paste all of them at one time):
+* Execute the following commands. You can copy-&-paste all of them at one time. The commands above the blank line get your EC2 instance to where SmokeDetector can be installed (only tested in the AMI mentioned above). The commands below the blank line clone SmokeDetector from GitHub and install its Python dependencies (the commands below the blank line are a duplicate of those at the top of this page, but are included below to make copy-&-pasting easier):
+  <!--If you change the following commands, please *test* them in the AMI (the Linux version) that's mentioned in the instructions above. We're literally telling people that they can copy-&-paste these, so we should be sure they just work. -->
 
-        sudo apt-get -y update
-        sudo apt-get -y install gcc
-        sudo apt-get -y install git
-        sudo apt-get -y install python36
-        sudo apt-get -y install python36-devel
-        sudo python3 -m pip install pip --upgrade
-
-        git clone https://github.com/Charcoal-SE/SmokeDetector.git
-        cd SmokeDetector
-        git config user.email "smokey@erwaysoftware.com"
-        git config user.name "SmokeDetector"
-        git checkout deploy
-        sudo /usr/local/bin/pip3 install -r requirements.txt --upgrade
-        pip3 install --user -r user_requirements.txt --upgrade
+      sudo yum -y update
+      sudo yum -y install gcc
+      sudo yum -y install git
+      sudo yum -y install python36
+      sudo yum -y install python36-devel
+      sudo python3 -m pip install pip --upgrade
+      
+      git clone https://github.com/Charcoal-SE/SmokeDetector.git
+      cd SmokeDetector
+      git config user.email "smokey@erwaysoftware.com"
+      git config user.name "SmokeDetector"
+      git checkout deploy
+      sudo /usr/local/bin/pip3 install -r requirements.txt --upgrade
+      pip3 install --user -r user_requirements.txt --upgrade
 
 * Create the "config" file
   * See [The "config" file with MS](#user-content-the-config-file) above if you are going to use this SD instance with metasmoke.
