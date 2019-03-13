@@ -21,6 +21,8 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 
  - If you want to know **when it is appropriate to blacklist or watch something,** check out [the guidance for blacklisting and watching](Guidance-for-Blacklisting-and-Watching).
 
+ - If you want to know **why a website was blacklisted**, you can check out [this explanatory document](https://charcoal-se.org/why-blacklisted)
+
  - If you've noticed that your website is on our blacklist and you want it removed, have a look at our [blacklist removal policy](Process-for-blacklist-removal).
 
 ### Developer information
