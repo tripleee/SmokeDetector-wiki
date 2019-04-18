@@ -27,7 +27,7 @@ Moderators can also see additional information on their [site dashboard](https:/
 
 There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
 
-(SD) refers to privileges set in the code of SmokeDetector [here](https://github.com/Charcoal-SE/SmokeDetector/blob/master/globalvars.py#L98), (MS) refers to privileges set from within metasmoke (the admin would then add you using the form on [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
+(SD) refers to privileges set in the code of SmokeDetector in [`users.yml`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/users.yml) and [`rooms.yml`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/rooms.yml), (MS) refers to privileges set from within metasmoke (the admin would then add you using the form on [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
 
 ### SmokeDetector privileges (SD)
 The process for acquiring these privileges is listed above. Depending on where you get privileges, your privileges may apply to one or to multiple rooms: if you acquire them in SOCVR, your privileges will apply only to SOCVR; if you acquire them in Charcoal HQ, you will also be automatically privileged in Charcoal Test and Tavern on the Meta.
