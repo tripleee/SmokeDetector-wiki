@@ -16,4 +16,4 @@ Some general notes:
 3. Charcoal will decide whether to intiate the removal process. If the removal of the site is directly contrary to our project goal or harms our spam checks in terms of functionality/performance, we may deny the request.
 4. If the blacklisted item has not been caught in any confirmed spam post on SE in the last 6 months, it will be demoted to the watchlist.
 5. If the item is not caught for another two months, it will be removed from the watchlist.
-6. If the item is caught again during or after the removal, our standard blacklisting procedures still applies.
+6. If the item is caught again during or after the removal, our standard blacklisting procedures will still apply.
