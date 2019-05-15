@@ -113,14 +113,17 @@ They can:
 * De-authorize a rogue SmokeDetector instance
 * Kill all SmokeDetector instances
 * Remove 'skip' reviews
+* Manage Spam Wave settings
 
 ### MS Developer (MS)
 
-Only available to our benevolent dictators Art, thesecretmaster and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
+Only available to our benevolent dictators Art, thesecretmaster, and Undo. Only Undo can grant this privilege level, by editing the database directly from the console.
 
 * Can see production logs
 * Can deploy metasmoke
 * Can refresh the site list cache
 * Can refresh the per-post feedback cache
+* Can destroy metasmoke post records
+* Can destroy metasmoke users
 * Can send messages down metasmoke's websockets for testing and development purposes
 * Has access to a user details page and associated tooling (including refreshing chat IDs and mod sites, and sending password reset emails manually)
