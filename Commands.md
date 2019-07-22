@@ -25,7 +25,8 @@ These commands can be executed by everyone.
 - `!!/amicodeprivileged` — Lets you know whether or not you have code privileges (i.e. you can blacklist without approval)
 - `!!/notify <chatroom_ID_number> <site_domain>` — Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
   Example:  `!!/notify- 89 parenting.stackexchange.com`  
-  Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.
+  Note: Please use the squelch suffix (`-`) and avoid spamming the chat room with too many requests. See [this chat message](http://chat.meta.stackexchange.com/transcript/message/4157790#4157790) and the surrounding context.  
+  Note 2: The list of who to notify is maintained separately by each SmokeDetector instance. This means that if the active instance is switched to a different one, you will need to run a `!!/notify-` command again, if you haven't previously done so for the newly active SmokeDetector instance.
 - `!!/unnotify <chatroom_ID_number> <site_domain>` — Cancels the previously set notification.  Also, accepts the silent mode suffix&nbsp;(`-`).
 - `!!/unnotify-all` - Removes all notifications.
 - `!!/willbenotified <chatroom_ID_number> <site_domain>` — Reports whether you will be pinged, in the given room, about spam on the given site.
@@ -39,7 +40,7 @@ These commands can be executed by everyone.
 
 ## Privileged commands
 
-These commands require privileges. Note that some commands may be disabled in some rooms. You may talk to others to understand why.
+These commands require [privileges](https://charcoal-se.org/smokey/Privileges#smokedetector-privileges-sd). Note that some commands may be disabled in some rooms. You may talk to others to understand why.
 <!-- These were not in any order. Recommend most-used/useful up top. -->
 
 - `!!/report <post URL 1> [<post URL 2> [...]] ["custom reason"]` — Makes SmokeDetector scan and report a specific post/multiple specific posts in Charcoal HQ and other applicable rooms. Recommended over `!!/scan` if you're sure the post is spam. The originator of each post will be added to the blacklist if the post wouldn't have been caught otherwise. Maximum 5 posts at a time. An optional custom reason may be supplied so others are clearer why you're reporting it. Additionally, the post will be added to the database on Metasmoke, just like all other reported posts.
@@ -68,7 +69,7 @@ These commands require privileges. Note that some commands may be disabled in so
 #### User-blacklist and user-whitelist
 These lists are maintained *per SmokeDetector instance*. The SmokeDetector instances do not share these lists between themselves.
 ##### User-blacklist
-The user-blacklist is a list of users which have all of their posts reported by SmokeDetector. The user-blacklist is quite dynamic. Users are primarily added to the user-blacklist when someone gives <code>tp<b>u</b></code> feedback to a post the user has authored. Users are automatically removed from the user-blacklist when `fp` feedback is given for a post they have authored. Users can also be explicitly added or removed with the following commands:
+The user-blacklist is a dynamic list of users which have all of their posts reported by SmokeDetector. Users are primarily added to the user-blacklist when someone gives <code>tp<b>u</b></code> feedback to a post the user has authored. Users are automatically removed from the user-blacklist when `fp` feedback is given for a post they have authored. Users can also be explicitly added or removed with the following commands:
 - `!!/addblu` (same syntax as `!!/addwlu`) — Adds a user to the blacklist (this means that any post of this user will be reported).
 - `!!/rmblu` (same syntax as `!!/rmwlu`) — Removes a user from the blacklist.
 ##### User-whitelist
@@ -85,7 +86,7 @@ Other than the `-number` lists, what you are providing is a regular expression. 
 
 When adding to the blacklists, any exact match in the watchlists to what you are adding to the blacklist will be automatically removed from the watchlists.
 
-For all `!!/blacklist-*` and `!!/watch*` commands, if you are a code admin on metasmoke, your change will apply immediately, once CI passes; otherwise, a pull request will be created for your changes so that it can be reviewed.
+For all `!!/blacklist-*` and `!!/watch*` commands, if you are a [code admin](https://charcoal-se.org/smokey/Privileges#code-admin-aka-blacklister-ms) on metasmoke, your change will apply immediately, once CI passes. If you are not a code admin, a pull request will be created for your changes, so they can be reviewed.
 
 - `!!/blacklist` — **This command is deprecated.** Use one of the four specialized blacklist commands instead, which are shown below. If run, this command will print a help.
 - `!!/blacklist-keyword <regex>` — Adds a regular expression pattern to the [list of bad keywords](https://github.com/Charcoal-SE/SmokeDetector/blob/master/bad_keywords.txt). Prior to being used, all regexes on this list automatically have `\b` added to the start and end of the regex.
