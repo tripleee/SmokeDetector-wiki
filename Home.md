@@ -4,7 +4,7 @@ It uses [ChatExchange](https://github.com/Manishearth/ChatExchange) and takes qu
 ***
 
 ### So you want to help? Great!
- - We have some brief pages, which give [an introduction to participating](https://charcoal-se.org/training/).
+ - We have some brief pages which give [an introduction to participating](https://charcoal-se.org/training/).
 
 ### User information
 
