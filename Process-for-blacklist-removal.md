@@ -6,6 +6,7 @@ Some general notes:
 * Please don't be hostile when requesting the removal of your site. It will only increase the likelihood that we deny your request.
 * This process can only happen once. If the website appears in a confirmed spam post whilst the process is taking place, we will revert the term to its original state. If the website is removed, then later added to our blacklist, you cannot request for it to be removed again.
 * To see the decisions behind the design of this process, see [this GitHub issue](https://github.com/Charcoal-SE/metasmoke/issues/304).
+* For more on why blacklisting happens and what it means, see [Why is this domain blacklisted?](why-blacklisted.html)
 
 ## Blacklist removal process
 
