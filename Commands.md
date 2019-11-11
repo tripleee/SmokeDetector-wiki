@@ -20,7 +20,7 @@ These commands can be executed by everyone.
 - `!!/isblu`, `!!/iswlu` — Checks if a user is blacklisted/whitelisted. Two formats are accepted: `<profile_URL>` or `<user_ID> <site_name>`
 - `!!/whoami` — Replies with the bot's user id for that site
 - `!!/whois admin` — Replies with a list of admins (and who's currently in the room).
-- `!!/whois code_admin` — Replies with a list of code admins (and who's currently in the room).
+- `!!/whois blacklister` — Replies with a list of blacklisters (and who's currently in the room). Aliases for `blacklister` include: `blacklist_manger`, `blacklisters`, `code_admin`, and `codeadmins`.
 - `!!/amiprivileged` — Lets you know if you are in the list of privileged users
 - `!!/amicodeprivileged` — Lets you know whether or not you have code privileges (i.e. you can blacklist without approval)
 - `!!/notify <chatroom_ID_number> <site_domain>` — Tells SmokeDetector to ping you, in the given chatroom, when a post is reported on the given site.  
@@ -88,7 +88,7 @@ Other than the `-number` lists, what you are providing is a regular expression. 
 
 When adding to the blacklists, any exact match in the watchlists to what you are adding to the blacklist will be automatically removed from the watchlists.
 
-For all `!!/blacklist-*` and `!!/watch*` commands, if you are a [code admin](https://charcoal-se.org/smokey/Privileges#code-admin-aka-blacklister-ms) on metasmoke, your change will apply immediately, once CI passes. If you are not a code admin, a pull request will be created for your changes, so they can be reviewed.
+For all `!!/blacklist-*` and `!!/watch*` commands, if you are a [blacklister](https://charcoal-se.org/smokey/Privileges#code-admin-aka-blacklister-ms) on metasmoke, your change will apply immediately, once CI passes. If you are not a blacklister, a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) will be created for your changes, so the changes can be reviewed.
 
 - `!!/blacklist` — **This command is deprecated.** Use one of the four specialized blacklist commands instead, which are shown below. If run, this command will print a help.
 - `!!/blacklist-keyword <regex>` — Adds a regular expression pattern to the [list of bad keywords](https://github.com/Charcoal-SE/SmokeDetector/blob/master/bad_keywords.txt). Prior to being used, all regexes on this list automatically have `\b` added to the start and end of the regex.
@@ -97,9 +97,9 @@ For all `!!/blacklist-*` and `!!/watch*` commands, if you are a [code admin](htt
 - `!!/blacklist-website <regex>` — Adds a regular expression pattern to the [website blacklist](https://github.com/Charcoal-SE/SmokeDetector/blob/master/blacklisted_websites.txt). Make sure regex special characters are escaped (in particular, `.` characters should be escaped as `\.`; e.g. `!!/blacklist-website example\.com`). Regexes on this list do *not* have `\b` added to the start and end of the regex.
 - `!!/watch <regex>` - Adds a regular expression pattern to the [watchlist](https://github.com/Charcoal-SE/SmokeDetector/blob/master/watched_keywords.txt) which is similar to the list of bad keywords (see `!!/blacklist-keyword` above), but with less strict criteria for what you can list.  The intent is that you can set up SmokeDetector to watch for something and be alerted when it actually happens.  Typical phrases to watch include domain names and phrases which occur in spam, but which have not been seen by metasmoke enough to actually blacklist (yet) or which don't meet the high spam-detection-accuracy criteria required of blacklisted items. The long version of this command is `!!/watch-keyword <regex>`. Prior to being used by SmokeDetector to test posts, all regexes on this list automatically have `\b` added to the start and end of the regex.
 - `!!/watch-number <number text>` - Adds a number to the [watched number list](https://github.com/Charcoal-SE/SmokeDetector/blob/master/watched_numbers.txt). The text may contain non-number characters and is tested verbatim against potential spam. In addition, it's tested "normalized", which is with both the watched number text and the post reduced to numbers.
-- `!!/unwatch <regex>` or `!!/unwatch <number text>` - Removes a previously-added regular expression from the watchlist and/or a number from the number watchlist. Only code admins can use this command; it will only accept an exact match to a regular expression in the watchlist and/or an exact match to a number in the number watchlist.
-- `!!/unblacklist <regex>` or `!!/unblacklist <number text>` - Similar to `unwatch`, removes a previously-added regular expression from the blacklists and/or a number from the number blacklist. Only code admins can use this command. It will only accept an exact match to a regular expression in the blacklists and/or an exact match to a number in the number blacklist.
-- `!!/approve <PR number>` - Only code admins can use this command. It allows you to approve pull requests automatically created for watches/blacklists by non-code admin users without leaving the chat.
+- `!!/unwatch <regex>` or `!!/unwatch <number text>` - Removes a previously-added regular expression from the watchlist and/or a number from the number watchlist. Only blacklisters can use this command; it will only accept an exact match to a regular expression in the watchlist and/or an exact match to a number in the number watchlist.
+- `!!/unblacklist <regex>` or `!!/unblacklist <number text>` - Similar to `unwatch`, removes a previously-added regular expression from the blacklists and/or a number from the number blacklist. Only blacklisters can use this command. It will only accept an exact match to a regular expression in the blacklists and/or an exact match to a number in the number blacklist.
+- `!!/approve <PR number>` - Only blacklisters can use this command. It allows you to approve pull requests automatically created for watches/blacklists by non-blacklisters users without leaving the chat.
 - `!!/bisect <text>` - Test the text against all of the blacklist and watchlist entries and report which entries match.
 
 ## Privileged commands as reply
