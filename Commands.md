@@ -74,6 +74,7 @@ These lists are maintained *per SmokeDetector instance*. The SmokeDetector insta
 The user-blacklist is a dynamic list of users which have all of their posts reported by SmokeDetector. Users are primarily added to the user-blacklist when someone gives <code>tp<b>u</b></code> feedback to a post the user has authored. Users are automatically removed from the user-blacklist when `fp` feedback is given for a post they have authored. Users can also be explicitly added or removed with the following commands:
 - `!!/addblu` (same syntax as `!!/addwlu`) — Adds a user to the blacklist (this means that any post of this user will be reported).
 - `!!/rmblu` (same syntax as `!!/rmwlu`) — Removes a user from the blacklist.
+
 ##### User-whitelist
 The user-whitelist is a list of users for which posts will not be reported if the only detections are on the user's username. If there are other detections, then the post will be reported with the username detections included. Users are added to the list if their post receives <code>fp<b>u</b></code> feedback. Users can also be explicitly added or removed with the following commands:
 - `!!/addwlu <profile_URL>` or `!!/addwlu <user_ID> <site_name>` — Adds a user to the whitelist (this means that if the username for that user matches one of the regexes, this will be ignored).
