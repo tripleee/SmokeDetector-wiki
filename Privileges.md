@@ -2,6 +2,10 @@ SmokeDetector operates a privilege system. That is, before you are able to use a
 
 Please review this page before getting in touch with someone with a request; once you know what you need, see [whom to ping.](https://charcoal-se.org/pings/)
 
+For broader background, please also review the [training section.](https://charcoal-se.org/training/)
+
+For guidance on reviewing possible spam posts, please review [Feedback Guidance.](https://charcoal-se.org/smokey/Feedback-Guidance)
+
 ## Getting reviewer privileges with SmokeDetector
 In theory, anyone can be added to the privilege list. In practice, this doesn't always work out, so *as a general guideline*, we look for a few things to indicate how qualified you are.
 
