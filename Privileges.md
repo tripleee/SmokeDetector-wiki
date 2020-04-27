@@ -31,6 +31,10 @@ Moderators can also see additional information on their [site dashboard](https:/
 
 There are multiple privilege levels on SmokeDetector and metasmoke, each giving you access to different commands, tools, etc. There isn't any exact threshold that you have to meet in order to be eligible for many of these privileges; rather the admins will grant them to you at their own discretion. If you think that you should have some of these privileges but you don't, please contact [an admin](https://charcoal-se.org/people#admins).
 
+This is not a strict hierarchy; if you have special needs, you might need a specific privilege.
+This exposition roughly outlines a typical progression from newcomer to trusted project admin.
+(Obviously, most users never want or need to become project administrators.)
+
 (SD) refers to privileges set in the code of SmokeDetector in [`users.yml`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/users.yml) and [`rooms.yml`](https://github.com/Charcoal-SE/SmokeDetector/blob/master/rooms.yml), (MS) refers to privileges set from within metasmoke (the admin would then add you using the form on [this page](https://metasmoke.erwaysoftware.com/admin/permissions)), and (GH) refers to privileges set on GitHub.
 
 ### SmokeDetector privileges (SD)
@@ -59,6 +63,16 @@ This allows you to:
 Everyone who signs up to metasmoke gets this by default (unless that's turned off, which it usually isn't).
 * Allows you to set up your account so that it will be used for autoflagging
 
+
+### Blacklist manager a.k.a. code admin or blacklister (MS)
+
+* Can `!!/watch` and `!!/blacklist` without approval. Please make sure that you read the [blacklisting guidelines](https://charcoal-se.org/smokey/Guidance-for-Blacklisting-and-Watching) before using these commands.
+* Can approve other users' watches and blacklists on GitHub. Simply use the [`!!/approve <PR number>`](https://github.com/Charcoal-SE/SmokeDetector/wiki/Commands#user-content-detection-blacklists-and-watchlist) command from chat and Smokey will handle the rest. You should also be able to approve such watch and blacklist PRs, but not other PRs, by adding a comment on the auto-generated PR containing the text `!!/approve`, and metasmoke will handle the rest. However, merging PRs with such comments is not working at this time. In order for the GitHub-commenting method of approving other user's `!!/watch` and `!!/blacklist-*` PRs to work, you will need a GitHub account that is known to us. Ping an admin and they will set you up.
+* Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 3 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [troubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
+
+*[**Note to admins adding a Blacklister:** In addition to adding the Blacklist Manager role to the user's MS account, the user's GitHub account must be added to the [Other Awesome People (OAPs) team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members) (only visible to Charcoal-SE members). If the user is not already a member of the [Charcoal-SE GitHub organization](https://github.com/Charcoal-SE), they will need to be invited to join Charcoal-SE and accept the invitation; hint: you can [invite them to Charcoal-SE and add them to OAPs at the same time](https://github.com/orgs/Charcoal-SE/teams/oaps/members). Only after they are a member of Charcoal-SE, they need to be added to the [.pullapprove.yml](https://github.com/Charcoal-SE/SmokeDetector/blob/master/.pullapprove.yml) file. Once they've been added to the .pullapprove.yml file, you need to press the 'sync everything' button [on this PullApprove page](https://pullapprove.com/Charcoal-SE/SmokeDetector/settings/) (near the bottom of the page). After clicking on PullApprove's 'sync everything' button, the error that shows at the top of the PullApprove page should go away. After all that is done, or at least the after the Blacklist Manager role is granted on MS, the user (or someone) will need to run `!!/amicodeprivileged` to have SD update its cached list of Blacklisters.]*
+
+
 ### Core (MS)
 Given to people who have contributed to Charcoal in a significant way. This signals that you are a core member of our team.
 
@@ -71,15 +85,6 @@ Benefits include:
 * Can create abuse reports & contacts and change their statuses
 
 <sup>* Although downloading database dumps is restricted to core users, you're welcome to distribute them onwards to other people who ask for them too.</sup>
-
-### Blacklist manager a.k.a. code admin or blacklister (MS)
-
-* Can `!!/watch` and `!!/blacklist` without approval. Please make sure that you read the [blacklisting guidelines](https://charcoal-se.org/smokey/Guidance-for-Blacklisting-and-Watching) before using these commands.
-* Can approve other users' watches and blacklists on GitHub. Simply use the [`!!/approve <PR number>`](https://github.com/Charcoal-SE/SmokeDetector/wiki/Commands#user-content-detection-blacklists-and-watchlist) command from chat and Smokey will handle the rest. You should also be able to approve such watch and blacklist PRs, but not other PRs, by adding a comment on the auto-generated PR containing the text `!!/approve`, and metasmoke will handle the rest. However, merging PRs with such comments is not working at this time. In order for the GitHub-commenting method of approving other user's `!!/watch` and `!!/blacklist-*` PRs to work, you will need a GitHub account that is known to us. Ping an admin and they will set you up.
-* Can failover standby instances from the [status](https://metasmoke.erwaysoftware.com/status) page. Normally metasmoke handles this automatically if an instance goes down for more than 3 minutes, but you can use this if Smokey isn't working properly. Make sure that you follow the [troubleshooting guidelines](https://charcoal-se.org/pings/#dead) first.
-
-*[**Note to admins adding a Blacklister:** In addition to adding the Blacklist Manager role to the user's MS account, the user's GitHub account must be added to the [Other Awesome People (OAPs) team on GitHub](https://github.com/orgs/Charcoal-SE/teams/oaps/members) (only visible to Charcoal-SE members). If the user is not already a member of the [Charcoal-SE GitHub organization](https://github.com/Charcoal-SE), they will need to be invited to join Charcoal-SE and accept the invitation; hint: you can [invite them to Charcoal-SE and add them to OAPs at the same time](https://github.com/orgs/Charcoal-SE/teams/oaps/members). Only after they are a member of Charcoal-SE, they need to be added to the [.pullapprove.yml](https://github.com/Charcoal-SE/SmokeDetector/blob/master/.pullapprove.yml) file. Once they've been added to the .pullapprove.yml file, you need to press the 'sync everything' button [on this PullApprove page](https://pullapprove.com/Charcoal-SE/SmokeDetector/settings/) (near the bottom of the page). After clicking on PullApprove's 'sync everything' button, the error that shows at the top of the PullApprove page should go away. After all that is done, or at least the after the Blacklist Manager role is granted on MS, the user (or someone) will need to run `!!/amicodeprivileged` to have SD update its cached list of Blacklisters.]*
-
 
 ### GitHub push privileges a.k.a. proper code admin (GH)
 
